@@ -164,7 +164,6 @@ a {
 
 a:hover {
   color: #424242;
-  font-weight: bolder;
 }
 
 a:active {
@@ -234,7 +233,7 @@ label {
   margin-bottom: 0.5rem;
 }
 
-button {
+/* button {
   border-radius: 0;
 }
 
@@ -262,22 +261,22 @@ input {
 button,
 select {
   text-transform: none;
-}
+} */
 
-button,
+/* button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
-}
+} */
 
-button::-moz-focus-inner,
+/* button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
   padding: 0;
   border-style: none;
-}
+} */
 
 input[type="radio"],
 input[type="checkbox"] {
@@ -2438,7 +2437,7 @@ textarea.form-control {
 }
 
 .btn:focus, .btn.focus {
-  outline: 0;
+  outline: none;
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
@@ -3354,6 +3353,7 @@ input[type="button"].btn-block {
 .btn-group-vertical > .btn:active,
 .btn-group-vertical > .btn.active {
   z-index: 1;
+  outline: none;
 }
 
 .btn-toolbar {
@@ -6148,6 +6148,8 @@ a.close.disabled {
 .carousel-inner::after {
   display: block;
   clear: both;
+  width: 100%;
+  overflow: hidden;
   content: "";
 }
 
@@ -6159,9 +6161,9 @@ a.close.disabled {
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  transition: -webkit-transform 0.6s ease-in-out;
-  transition: transform 0.6s ease-in-out;
-  transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
@@ -6287,8 +6289,8 @@ a.close.disabled {
   -ms-flex-pack: center;
   justify-content: center;
   padding-left: 0;
-  margin-right: 15%;
-  margin-left: 15%;
+  /* margin-right: 15%;
+  margin-left: 15%; */
   list-style: none;
 }
 
@@ -6296,13 +6298,13 @@ a.close.disabled {
   box-sizing: content-box;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  width: 30px;
+  width: 12px;
   height: 3px;
-  margin-right: 3px;
-  margin-left: 3px;
+  margin-right: 8px;
+  margin-left: 8px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #322db5;
   background-clip: padding-box;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
