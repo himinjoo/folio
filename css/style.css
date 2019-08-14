@@ -3,7 +3,7 @@
 *:after {
 	margin: 0;
 	padding: 0;
-	font-family: 'Maven Pro', sans-serif;
+	font-family: 'avenir', sans-serif;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -139,6 +139,7 @@ Info.css
 	/* background-color: #f5f5f5; */
 	position: relative;
 	padding-left: 7.5%;
+	padding-right: 7.5%;
 	padding-top: 250px;
 }
 .sns-link{
