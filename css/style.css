@@ -7,6 +7,7 @@
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
+	transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
 }
 
 html {
@@ -43,6 +44,34 @@ h3{
 .caption {
 	font-size: 12px;
 }
+
+
+.header-arrow{
+ margin-top: 150px;
+}
+.remove{
+	visibility: hidden;
+}
+.arrow{
+	width: 200px;
+}
+.scroll_down{
+	font-size: 16px;
+	font-weight: 500;
+	color: #424242;
+}
+.scroll_down:hover {
+	color:#322db5;
+}
+
+.material-icons{
+	color: #424242;
+}
+
+.material-icons:hover{
+	color: #322db5;
+}
+
 
 /*
 Navigation
