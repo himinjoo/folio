@@ -24,14 +24,18 @@ h1{
 h2{
   font-size: 32px;
   font-weight: 500;
+	color: #757575;
 }
 h3{
   font-size: 24px;
   font-weight: normal;
+	color: #bdbdbd;
+
 }
 .h3{
 	font-size: 24px;
 	font-weight: 500;
+	color: #424242;
 }
 .bodycopy1{
 	font-size: 16px;
@@ -44,7 +48,13 @@ h3{
 .caption {
 	font-size: 12px;
 }
-
+.bulleted-list{
+	display: list-item;
+	list-style-type: disc;
+	list-style-position: inside;
+	font-size: 14px;
+	color: #757575;
+}
 
 .header-arrow{
  margin-top: 150px;
@@ -71,8 +81,6 @@ h3{
 .material-icons:hover{
 	color: #322db5;
 }
-
-
 /*
 Navigation
 */
@@ -116,7 +124,7 @@ Navigation
 }
 
 .logo {
-  color: #424242;
+  color: #bdbdbd;
   font-size: 72px;;
   font-weight: lighter;
   text-decoration: none;
@@ -316,6 +324,7 @@ footer{
 	padding-bottom: 150px;
 	font-size: 14px;
 	display: inline-block;
+	color: #757575;
 }
 
 .hyperlink{

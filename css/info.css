@@ -81,7 +81,7 @@ Navigation
 }
 
 .logo {
-  color: #424242;
+  color: #bdbdbd;
   font-size: 72px;;
   font-weight: lighter;
   text-decoration: none;
@@ -138,12 +138,12 @@ Info.css
   display: block;
   font-size: 16px;
   line-height: 2.4;
-  font-weight: 700;
+  font-weight: 500;
 	color: #9e9e9e;
 }
 
 .sns-link:hover{
-	color:#322db5;
+	color:#000000;
 }
 .links{
 	padding-top: 8px;
