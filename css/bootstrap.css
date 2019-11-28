@@ -106,6 +106,10 @@ ul,
 dl {
   margin-top: 0;
   margin-bottom: 1rem;
+  display: flex;
+  margin-left: 7.5%
+  margin-left: 7.5%
+
 }
 
 ol ol,
@@ -153,22 +157,6 @@ sup {
   top: -.5em;
 }
 
-a {
-  color: #9E9E9E;
-  /* font-size: 2em; */
-  text-decoration: none;
-  background-color: transparent;
-
-  transition: ease 0.3s;
-}
-
-a:hover {
-  color: #424242;
-}
-
-a:active {
-  color: #424242;
-}
 
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -4108,15 +4096,11 @@ input[type="button"].btn-block {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  /* padding-left: 0; */
+  padding-left: 0;
   margin-bottom: 0;
   list-style: none;
 }
 
-.nav-link {
-  display: block;
-  padding: 0.5rem 1rem;
-}
 
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
@@ -4181,7 +4165,7 @@ input[type="button"].btn-block {
   text-align: center;
 }
 
-.nav-justified .nav-item {
+/* .nav-justified .nav-item {
   -ms-flex-preferred-size: 0;
   flex-basis: 0;
   -ms-flex-positive: 1;
@@ -4195,9 +4179,9 @@ input[type="button"].btn-block {
 
 .tab-content > .active {
   display: block;
-}
+} */
 
-.navbar {
+/* .navbar {
   position: relative;
   display: -ms-flexbox;
   display: flex;
@@ -4208,9 +4192,9 @@ input[type="button"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
-}
+} */
 
-.navbar > .container,
+/* .navbar > .container,
 .navbar > .container-fluid {
   display: -ms-flexbox;
   display: flex;
@@ -4230,7 +4214,7 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
-}
+} */
 
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;

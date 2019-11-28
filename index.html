@@ -7,122 +7,168 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 
 
-    <title>Minjoo Product Designer UI/UX</title>
+    <title>Minjoo UX Design Portfolio</title>
 
   </head>
 
   <body>
+
     <!-- Nagigation begins from here -->
-    <div class="nav large li">
-      <div class="logo">
-        <a class="logo large" href="index.html">MINJOO</a>
+    <div class="overlay" id="smallMenu">
+      <div class="sm-menu-content-wrapper" id="menu">
+        <ul>
+          <li>
+            <a href="index.html">PROJECTS</a>
+          </li>
+          <li>
+            <a class="nav-link" href="assets/minjoo_resume.pdf" target="_blank">RESUME<i class="material-icons md-24">open_in_new</i></a>
+          </li>
+          <li>
+            <a class="nav-link nav-info" href="https://www.linkedin.com/in/mjmjyun/" target="_blank">LINKEDIN<i class="material-icons md-24">open_in_new</i></a>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="sm-menu-close-btn" id="btn-menu-close" onclick="closeNav()">CLOSE &times;</a>
+          </li>
+        </ul>
       </div>
-      <div>
-        <li class="nav-btn-left li">
-          <a class="nav-link nav-work" href="index.html">Projects</a>
-        </li>
-        <li>
-          <a class="nav-link nav-info" href="https://www.linkedin.com/in/mjmjyun/" target="_blank">Linkedin</a>
-        </li>
+    </div>
+
+    <div id="nav-wrapper">
+      <div class="nav large li"  id="navbar">
+        <div class="logo">
+          <a class="logo" href="index.html">
+            <span class="span" id="span-name">MINJOO YUN</span>
+            <span class="span span-title" id="spantitle">UX DESIGNER</span>
+          </a>
+        </div>
+        <div class="nav-li">
+          <li class="nav-btn-left li">
+            <a class="nav-work" href="index.html">PROJECTS</a>
+          </li>
+          <li class="nav-btn-left li">
+            <a class="nav-link" href="assets/minjoo_resume.pdf" target="_blank">RESUME</a>
+          </li>
+          <li>
+            <a class="nav-link nav-info" href="https://www.linkedin.com/in/mjmjyun/" target="_blank">LINKEDIN</a>
+          </li>
+        </div>
+        <div class="sm-menu" id="openMenu">
+          <span id="ic-sm-menu" onclick="openNav()"><i class="material-icons">menu</i></span>
+        </div>
       </div>
     </div>
     <!-- Top navigation ends here -->
-    <div class="responsive-img info-img">
-      <div class="">
-         <h2>Product Designer (UI/UX)</h2>
-         <h3>Strives for purpose and story</h3>
-      </div>
-      <div class="header-arrow">
-        <!-- <div class="arrow">
-          <a href="#works"><span>
-            <p class="scroll_down">
-              More Projects
-            </p>
-            <i class="material-icons arrow_down">
-              arrow_drop_down
-            </i>
-          </span></a>
-        </div> -->
-      </div>
-        </div>
+<div class="project-container">
+    <div class="info" id="greet">
+        <p class="metadata bodycopy">Hi, I'm glad you're here! :D </p><br>
+         <h3>Designer and lifelong learner based in SF Bay Area</h3>
+         <h3>Currently at Verily(formerly Google Life Sciences)</h3>
+    </div>
+
     <!-- Information -->
-    <div class="work-wrapper info" id="works">
-      <div class="links col-3">
-        <p class="metadata">Case Study</p>
-        <p class="work-title h3">Food & Blood Glucose</p>
-        <p class="work-preview bodycopy2">ow </p>
-        <a href="https://www.onduo.com/study" type="submit" class="btn" target="_blank">View case study</a>
-      </div>
-      <div class="">
-          <a href="#">
-            <img src="assets/spc/cover.png" width="100%" height="auto">
+    <div class="work-wrapper info project" id="work1">
+          <a href="verily.html">
+            <div class="bg bodycopy2" id="verily-text-hover">
+                <span>My Role</span>
+                <span><b>UI/UX Designer</b></span><br>
+                <span>Duration</span>
+                <span><b>2018-Present</b></span>
+            </div>
+            <div class="work-thumbnail" id="work-verily"></div>
           </a>
-      </div>
     </div>
+    <!-- <div class="work-wrapper info project" id="work1">
+          <a href="#">
+            <div class="work-thumbnail" id="work-system"></div>
+          </a>
+    </div> -->
 
-    <div class="work-wrapper info">
-      <div class="links col-3">
-        <p class="metadata">Design System</p>
-        <p class="work-title h3">Onduo App Refresh</p>
-        <p class="work-preview bodycopy2">devices and platforms. I also enjoy creating playful and whimsical illustrations and I also enjoy creating playful and whimsical illustrations and</p>
-        <a href="https://www.onduo.com/study" type="submit" class="btn" target="_blank">View case study</a>
-      </div>
-      <div class="" width="100%">
-          <!-- <a href="#"> -->
-            <img src="assets/work-rec.png" width="100%" height="auto">
-          <!-- </a> -->
-
-      </div>
-    </div>
-
-    <div class="work-wrapper info">
-        <div class="links col-3">
-          <p class="metadata">Responsive Web Design</p>
-          <p class="work-title h3">Registry Redesign</p>
-          <p class="work-preview bodycopy2">Designed website, enrollment & informed consent flows</p>
-        <a href="pb-registry.html" type="submit" class="btn">View this project</a>
-        </div>
-        <div class="">
+    <div class="flexbox info" id="flexbox1">
+      <div class="work-wrapper info project-left" id="work3">
             <a href="#">
-              <img src="assets/work-rec.png" width="100%" height="auto">
+              <div class="bg hover bodycopy2" id="onduo-text-hover">
+                  <span>Work</span>
+                  <span><b>Challenge Framework UX</b></span><br>
+                  <span>My Role</span>
+                  <span><b>UI/UX Designer</b></span><br>
+                  <span>Year</span>
+                  <span><b>2019</b></span>
+              </div>
+              <div class="work-thumbnail" id="work-onduo"></div>
             </a>
-        </div>
-        <div class="work-page hidden">
+      </div>
+
+      <div class="work-wrapper info project-right" id="work2">
+            <a href="#">
+              <div class="bg hover bodycopy2" id="system-text-hover">
+                  <span>Work</span>
+                  <span><b>Onduo Design Language</b></span><br>
+                  <span>My Role</span>
+                  <span><b>UI/UX Designer</b></span><br>
+                  <span>Year</span>
+                  <span><b>2018</b></span>
+              </div>
+              <div class="work-thumbnail" id="work-system"></div>
+            </a>
       </div>
     </div>
 
-    <div class="work-wrapper info">
-      <div class="links col-3">
-        <p class="metadata bodycopy">Responsive Web Design</p>
-        <p class="work-title h3"> Onduo Marketing & Enrollment</p>
-        <p class="work-preview bodycopy2">As a sole designer, I created a set of marketing materials (poster, flyer and single page website) to recruit people for a clinical trial study.</p>
-        <!-- <ul>
-          <li class="bulleted-list">Clarified business goals and users' motivations</li>
-          <li class="bulleted-list">Brainstormed and communicated with stakeholders</li>
-          <li class="bulleted-list">Collaborated with 1 product manager and 1 UX engineer</li>
-          <li class="bulleted-list">Advised the content provider on user-friendly wording</li>
-          <li class="bulleted-list">Provided final specs and redline for engineer</li><br>
-        </ul> -->
-        <a href="https://www.onduo.com/study" type="submit" class="btn" target="_blank">Visit this site</a>
+    <div class="flexbox info" id="flexbox2">
+      <div class="work-wrapper info project-left" id="work4">
+            <a href="#">
+              <div class="bg hover bodycopy2" id="pbr-text-hover">
+                  <span>Work</span>
+                  <span><b>Registry UX</b></span><br>
+                  <span>My Role</span>
+                  <span><b>UI/UX Designer</b></span><br>
+                  <span>Year</span>
+                  <span><b>2018</b></span>
+              </div>
+              <div class="work-thumbnail" id="work-pbr"></div>
+            </a>
       </div>
-      <div class="">
-          <a href="#">
-            <img src="assets/work-rec.png" width="100%" height="auto">
-          </a>
+      <div class="work-wrapper info project-right" id="work5">
+            <a href="#">
+              <div class="bg hover bodycopy2" id="epro-text-hover">
+                  <span>Work</span>
+                  <span><b>Clincase ePRO UX</b></span><br>
+                  <span>My Role</span>
+                  <span><b>UX Design Intern</b></span><br>
+                  <span>Year</span>
+                  <span><b>2017</b></span>
+              </div>
+              <div class="work-thumbnail" id="work-epro"></div>
+            </a>
       </div>
     </div>
 
+    <!-- <div class="work-wrapper info project" id="about">
+            <div class="work-thumbnail" id="work-me"></div>
+    </div> -->
+</div>
+
+  <div class="footer-div">
     <footer>
-      <div>
-        <p>© 2019 Minjoo Yun. Designed & coded with love.
-        </p>
+      <img src="assets/hero/thumbnail-me3.png" alt="" width="100%">
+
+      <div id="footer-wrapper">
+        <div>
+          <p id="footer-text"> © 2019 Minjoo Yun.<br> Designed & coded with love ♥️
+          </p>
+        </div>
+        <div>
+          icon back to top
+        </div>
       </div>
     </footer>
+  </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="js/index.js"></script>
