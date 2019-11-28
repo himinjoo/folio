@@ -218,6 +218,8 @@ Navigation
 		overflow-x: hidden;
 		transition: 0.4s ease;
 		display: none;
+		position: -webkit-fixed;
+		top:0;
 	}
 	.sm-menu-content-wrapper{
 		width: 100%;
