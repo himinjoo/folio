@@ -5,13 +5,13 @@ while (testV < 3) {
 if (!pass1)
 history.go(-1);
 if (pass1.toLowerCase() == "himinjoo") {
-alert("You got it righ! I'm glad you're here");
+alert("You got it right! I'm glad you're here");
 window.open('index.html');
 break;
 }
 testV+=1;
 var pass1 =
-prompt("Uh oh..It wasn't correct one. Please double check and try again.",'');
+prompt("Uh oh..It's not correct. Please double check and try again.",'');
 }
 if (pass1.toLowerCase()!="password" & testV ==3)
 history.go(-1);
