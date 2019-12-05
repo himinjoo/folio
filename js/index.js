@@ -6,7 +6,7 @@ if (!pass1)
 history.go(-1);
 if (pass1.toLowerCase() == "himinjoo") {
 alert("You got it righ! I'm glad you're here");
-window.open('index.html');
+window.open('https://himinjoo.github.io/folio');
 break;
 }
 testV+=1;
