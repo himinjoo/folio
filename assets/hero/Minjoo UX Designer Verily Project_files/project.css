@@ -1,8 +1,6 @@
 * {
 	margin: 0;
 	padding: 0;
-
-	transition: cubic-bezier(0.77, 0, 0.175, 1);
 }
 
 html,
@@ -21,26 +19,21 @@ body {
 Navigation
 */
 .nav{
+  position: fixed;
 	position: -webkit-fixed;
   align-items:baseline;
+	margin: auto;
 	top: 0;
   justify-content: space-between;
 	width: 100%;
 	z-index: 20000;
 	align-items: center;
+	height: 179px;
 	border-bottom: 1px solid #f1f1f1;
 	background-color: white;
 	max-width: 1200px;
 	transition: ease 0.3s;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	padding-left: 0;
-	margin-bottom: 0;
-	list-style: none;
 }
-
 .sm-menu{
 	display:none;
 }
@@ -52,12 +45,7 @@ Navigation
 	justify-content: center;
 	margin-top:none;
 	top: 0;
-	height: 179px;
-	position: fixed;
-	padding-left: 7.5%;
-	padding-right: 7.5%;
-	transition: ease 0.3s;
-	z-index: 20000;
+	height: 45px;
 
 }
 .nav-btn{
@@ -132,11 +120,11 @@ Navigation
 }
 
 .nav-work{
-	color:#4433ff;
+	color:#FA4F64;
 	}
 
 .nav-link{
-	color: #424242;
+	color: #9e9e9e;
 }
 
 /* header small */
@@ -226,7 +214,7 @@ h3{
 }
 .hyperlink{
   font-size: 16px;
-  color: #4433ff;
+  color: #ED174B;
   font-weight: 400;
 }
 
@@ -241,7 +229,7 @@ progress {
 	border: none;
 	background-color: transparent;
 	color: #315FF8;
-	z-index: 25000;
+	z-index: 31000;
 }
 
 progress::-webkit-progress-bar {
@@ -324,8 +312,6 @@ progress::-moz-progress-bar {
 	padding-top: 179px;
 	display: flex;
 	justify-content: center;
-
-	transition: ease 0.2s;
 }
 .project-wrapper{
 	width: 100%;
@@ -352,15 +338,13 @@ progress::-moz-progress-bar {
 #project-others{
   margin-top: 80px;
   width: 100%;
+  height: 369px;
   background-color: #F4F7F8;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	overflow-x: hidden;
-	padding-left: 7.5%;
-	padding-right:7.5%;
-	padding-top: 56px;
-	padding-bottom: 56px;
+
 }
 
 /* .other-project{
@@ -370,50 +354,29 @@ progress::-moz-progress-bar {
 } */
 .grid-container {
   display: grid;
-  grid-template-columns: 33.3% 33.3% auto;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
 	overflow: hidden;
 	max-width:1200px;
-	width: 100%;
+	min-width: 900px;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
 }
 .grid-item {
   background-color: #fff;
-  /* padding: 20px; */
+  padding: 20px;
   font-size: 30px;
   text-align: center;
-	margin: 16px;
+	margin: 8px;
 	height: 300px;
 	border-radius: 8px;
 }
 
-#other-project-title1{
-	    padding-top: 16px;
-	    text-align: left;
-	    padding-left: 16px;
-	    color: white;
-}
-
 #other-project-img1{
-background-image: url("../assets/other-onduo-thumbnail.png");
-transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
-width: 100%;
-height:100%;
-min-height: 200px;
-background-repeat: no-repeat;
-background-size: auto 100%;
-background-position: center;
-border-radius: 8px;
-box-shadow: 0px 1px 24px #e0e0e0;
-}
-
-.other-project-text{
-	position: absolute;
-	border: 1px solid red;
-	z-index: 3;
-
+	width: 100%;
+	height: 200px;
 }
 /*other project section ends here*/
-
-
 
 
 /*footer begins here*/
@@ -433,10 +396,10 @@ box-shadow: 0px 1px 24px #e0e0e0;
 }
 #top-arrow{
 	font-size: 32px;
-	color: #000;
+	color: #ED174B;
 }
 #top-arrow:hover{
-	color: #4433ff;
+	color: #000;
 }
 #back2Top {
     width: 36px;
@@ -499,7 +462,7 @@ box-shadow: 0px 1px 24px #e0e0e0;
   }
   .hyperlink{
     font-size: 16px;
-    color: #4433ff;
+    color: #ED174B;
     font-weight: 400;
   }
 	.material-icons.md-18 {
@@ -554,16 +517,14 @@ box-shadow: 0px 1px 24px #e0e0e0;
 	.grid-container{
 		display: inline-block;
 	}
+	.grid-item{
+		max-width:320px;
+	}
 	#project-others{
 		display: block;
 		justify-content: center;
 		align-items: center;
 		height: auto;
-	}
-	.project-story {
-    padding-top: 120px;
-
-		transition: ease 0.2s;
 	}
 }
 

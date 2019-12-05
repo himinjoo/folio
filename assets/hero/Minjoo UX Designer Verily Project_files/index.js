@@ -1,22 +1,3 @@
-function passWord() {
-var testV = 1;
-var pass1 = prompt('Please Enter Your Password',' ');
-while (testV < 3) {
-if (!pass1)
-history.go(-1);
-if (pass1.toLowerCase() == "himinjoo") {
-alert('You Got it Right!');
-window.open('index.html');
-break;
-}
-testV+=1;
-var pass1 =
-prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
-}
-if (pass1.toLowerCase()!="password" & testV ==3)
-history.go(-1);
-return " ";
-}
 
 function openNav() {
   document.getElementById("smallMenu").style.display = "block";
@@ -46,12 +27,12 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("nav-wrapper").style.height = "48px";
+    document.getElementById("navbar").style.height = "48px";
     document.getElementById("spantitle").style.marginTop = "-21px";
     document.getElementById("logo").style.position = "absolute";
 
   } else {
-    document.getElementById("nav-wrapper").style.height = "179px";
+    document.getElementById("navbar").style.height = "179px";
     document.getElementById("spantitle").style.marginTop = "0px";
     document.getElementById("logo").style.fontSize = "absolute";
   }
@@ -75,20 +56,3 @@ $(document).ready(function() {
 
 });
  /*Scroll to top when arrow up clicked END*/
-
-
- $(document).on('ready', function() {
-   var winHeight = $(window).height(),
-       docHeight = $(document).height(),
-       progressBar = $('progress'),
-       max, value;
-
-   /* Set the max scrollable area */
-   max = docHeight - winHeight;
-   progressBar.attr('max', max);
-
-   $(document).on('scroll', function(){
-      value = $(window).scrollTop();
-      progressBar.attr('value', value);
-   });
- });

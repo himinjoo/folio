@@ -12,14 +12,12 @@
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+    <link rel="icon" href="../assets/favicon.png" type="image/png" sizes="16x16">
 
-
-    <title>Minjoo UX Design Portfolio</title>
-
+    <title>Minjoo UX Designer</title>
   </head>
 
-  <body>
-
+  <body onload="passWord()">
     <!-- Nagigation begins from here -->
     <div class="overlay" id="smallMenu">
       <div class="sm-menu-content-wrapper" id="menu">
@@ -67,7 +65,7 @@
     <!-- Top navigation ends here -->
 <div class="project-container">
     <div class="info" id="greet">
-        <p class="metadata bodycopy">Hi, I'm glad you're here! :D </p><br>
+        <p class="metadata bodycopy">Hiya, I'm glad you're here! :D </p><br>
          <h3>Designer and lifelong learner based in SF Bay Area</h3>
          <h3>Currently at Verily(formerly Google Life Sciences)</h3>
     </div>
@@ -75,7 +73,7 @@
     <!-- Information -->
     <div class="work-wrapper info project" id="work1">
           <a href="verily.html">
-            <div class="bg bodycopy2" id="verily-text-hover">
+            <div class="bg hover bodycopy2" id="verily-text-hover">
                 <span>My Role</span>
                 <span><b>UI/UX Designer</b></span><br>
                 <span>Duration</span>
@@ -148,23 +146,36 @@
             </a>
       </div>
     </div>
-
-    <!-- <div class="work-wrapper info project" id="about">
-            <div class="work-thumbnail" id="work-me"></div>
-    </div> -->
 </div>
+<!--
+About Me begins here
+-->
+<div class="about-wrapper" id="about-me">
+  <div class="profile-pic">
+<img src="assets/profile pic.png" alt="" width="120px">
+  </div>
+  <div id="about-text">
+    <p>Hi! If you don’t know already, my name is Minjoo. I started off as a visual designer for websites and mobile apps, but I found myself more and more engaged with the whole process of creating a product. I love collaborating with cross functional teams, iterating through research and testing, and being involved in the growth of a product from ideation to launch.</p>
+  </div>
+  <a href="mailto:hi@minjoodesign.com?subject=Hi Minjoo!">
+    <button type="button" name="primary" class="primary-btn" id="about-cta"><i class="material-icons" style="font-size: 20px; color: #fff; vertical-align:middle; padding-bottom: 4px;"> email</i> Email Minjoo</button>
+  </a>
+
+</div>
+<!--
+About Me ends here
+-->
 
   <div class="footer-div">
     <footer>
-      <img src="assets/hero/thumbnail-me3.png" alt="" width="100%">
-
       <div id="footer-wrapper">
         <div>
           <p id="footer-text"> © 2019 Minjoo Yun.<br> Designed & coded with love ♥️
           </p>
         </div>
         <div>
-          icon back to top
+          <!-- <a href="#" class="top-arrow-fixed" ><i class="material-icons" id="top-arrow">arrow_right_alt</i></a> -->
+          <a id="back2Top" title="Back to top" href="#"><i class="material-icons" id="top-arrow">arrow_right_alt</i></a>
         </div>
       </div>
     </footer>
@@ -172,6 +183,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/project.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>

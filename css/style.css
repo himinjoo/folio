@@ -83,39 +83,70 @@ h3{
 .material-icons:hover{
 	color: #fa4f64;
 }
+
+/*
+Buttons
+*/
+
+.primary-btn{
+	padding: 16px 56px;
+	background-color: #4433ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+	text-decoration: none;
+  border-radius: 56px;
+	border: none;
+  cursor: pointer;
+	display: inline-block;
+
+	transition: ease 0.3s;
+}
+.primary-btn:hover{
+	background-color: #230FFF;
+}
 /*
 Navigation
 */
 
 .nav{
-  position: fixed;
 	position: -webkit-fixed;
   align-items:baseline;
-	margin: auto;
 	top: 0;
   justify-content: space-between;
-	width: 85%;
-	z-index: 20000;
+	width: 100%;
 	align-items: center;
-	height: 179px;
 	border-bottom: 1px solid #f1f1f1;
 	background-color: white;
 	max-width: 1200px;
 	transition: ease 0.3s;
-
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
 }
+
 .sm-menu{
 	display:none;
 }
 #nav-wrapper{
-	/* padding-left: 7.5%;
-	padding-right: 7.5%; */
+	background-color: white;
 	margin-top: 0;
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	margin-top:none;
 	top: 0;
+	height: 179px;
+	position: fixed;
+	padding-left: 7.5%;
+	padding-right: 7.5%;
+	transition: ease 0.3s;
+	z-index: 20000;
+
 }
 .nav-btn{
   padding-bottom: 0px;
@@ -188,11 +219,11 @@ Navigation
 }
 
 .nav-work{
-	color:#FA4F64;
+	color:#4433ff;
 	}
 
 .nav-link{
-	color: #9e9e9e;
+	color: #424242;
 }
 
 /* header small */
@@ -323,6 +354,8 @@ Info.css
 	margin-top: 300px;
 	margin-bottom: 100px;
 	display: block;
+
+	transition: ease 0.2s;
 }
 
 .sns-link{
@@ -361,7 +394,7 @@ Info.css
 .info div:nth-of-type(2) {flex-grow: 2.5;}
 
 a.btn{
-	background-color: #ed174b;
+	background-color: #4433ff;
 	color: white;
 	padding-left: 24px;
 	padding-right: 24px;
@@ -370,7 +403,7 @@ a.btn{
 }
 
 a.btn:hover{
-	background-color: #ed174b;
+	background-color: #4433ff;
 	color: white;
 }
 
@@ -570,6 +603,25 @@ a.btn:active {
 	background-color: #fafafa;
 }
 
+#about-me{
+	padding: 100px 7.5% 150px 7.5%;
+	margin-top: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #fafafa;
+}
+#about-text{
+	margin-top: 32px;
+	max-width: 600px;
+	color: #323232;
+}
+
+#about-cta{
+	margin-top: 56px;
+}
+
 footer{
 	width: 100%;
 	max-width: 1200px;
@@ -614,6 +666,34 @@ footer{
 	font-weight: bold;
 }
 
+#top-arrow{
+	font-size: 32px;
+	color: #000;
+}
+#top-arrow:hover{
+	color: #4433ff;
+}
+#back2Top {
+    width: 36px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 56px;
+    /* right: 7.5%; */
+    background-color: transparent;
+    color: #555;
+    text-align: center;
+    font-size: 32px;
+    text-decoration: none;
+}
+
 @media (max-width: 800px) {
 	.flexbox{
 		display: block;
@@ -636,5 +716,24 @@ footer{
 	}
 	#openMenu{
 		cursor: pointer;
+	}
+	#greet {
+	    margin-top: 250px;
+	    margin-bottom: 100px;
+	    display: block;
+
+			transition: ease 0.2s;
+	}
+	.hover{
+		opacity: 100%;
+	}
+	#about-me{
+		padding: 20% 7.5% 20% 7.5%;
+		margin-top: 80px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: #fff;
 	}
 }
