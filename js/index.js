@@ -4,7 +4,7 @@ var pass1 = prompt('Please Enter Your Password',' ');
 while (testV < 3) {
 if (!pass1)
 history.go(-1);
-if (pass1.toLowerCase() == "himinjoo") {
+if (pass1.toLowerCase() === "hi") {
 alert("You got it right! I'm glad you're here");
 window.open('indexpw.html');
 break;
@@ -13,7 +13,7 @@ testV+=1;
 var pass1 =
 prompt("Uh oh..It's not correct. Please double check and try again.",'');
 }
-if (pass1.toLowerCase()!="password" & testV ==3)
+if (pass1.toLowerCase()!=" " & testV ===3)
 history.go(-1);
 return " ";
 }
