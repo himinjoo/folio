@@ -5,7 +5,7 @@ while (testV < 3) {
 if (!pass1)
 history.go(-1);
 if (pass1.toLowerCase() == "himinjoo") {
-alert('You Got it Right!');
+alert("Welcome! I'm glad you're here");
 window.open('index.html');
 break;
 }
