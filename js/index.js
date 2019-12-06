@@ -5,7 +5,7 @@ while (testV < 3) {
 if (!pass1)
 history.go(-1);
 if (pass1.toLowerCase() == "behappy") {
-window.open('index.html','_self');
+window.open('https://himinjoo.github.io/folio/indexnopw.html','_self');
 break;
 }
 testV+=1;
