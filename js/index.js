@@ -4,16 +4,15 @@ var pass1 = prompt('Please Enter Your Password',' ');
 while (testV < 3) {
 if (!pass1)
 history.go(-1);
-if (pass1.toLowerCase() == "hi") {
-alert("You got it right! I'm glad you're here");
-window.open('https://himinjoo.github.io/folio/indexnopw.html');
+if (pass1.toLowerCase() == "behappy") {
+window.open('https://himinjoo.github.io/folio/indexnopw.html','_self');
 break;
 }
 testV+=1;
 var pass1 =
 prompt("Uh oh..It's not correct. Please double check and try again.",'');
 }
-if (pass1.toLowerCase()!=" " & testV ==3)
+if (pass1.toLowerCase()!=" " & testV ==10)
 history.go(-1);
 return " ";
 }
