@@ -259,14 +259,13 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
-  background-image: linear-gradient(to right, #315ff8 , #ed174b);
-	background-color: #315FF8;
+	background-color: #4433ff;
 	z-index: 10;
 }
 
 progress::-moz-progress-bar {
   background-image: linear-gradient(to right, #315ff8 , #ed174b);
-	background-color: #315FF8;
+	background-color: #4433ff;
 	z-index: 10;
 }
 
