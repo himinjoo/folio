@@ -233,12 +233,21 @@ h3{
   color: #4433ff;
   font-weight: 400;
 }
+#short-sentence{
+	width: 100%;
+	justify-content: flex-start;
+	display: block;
+	align-items: flex-start;
+}
 .italic{
 	font-style: italic;
 	font-weight: 300;
 	color: #a2a7b0;
 }
-
+.caption{
+	font-family: 'roboto', sans-serif;
+	font-size: 12px;
+}
 progress {
 	position: fixed;
 	left: 0;
@@ -356,11 +365,14 @@ progress::-moz-progress-bar {
   max-width: 700px;
   margin-top: 80px;
 }
+.bodycopy1 li{
+	margin-top: 12px;
+}
 .text-1line{
 	min-width: 700px;
 }
 .description{
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 	display: block;
 }
 .img{
@@ -370,7 +382,7 @@ progress::-moz-progress-bar {
 #project-others{
   /* margin-top: 80px; */
   width: 100%;
-  background-color: #e9eef0;
+  /* background-color: #E6EEF1; */
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -382,7 +394,7 @@ progress::-moz-progress-bar {
 }
 #reflect{
 	width: 100%;
-  background-color: #F4F7F8;
+  background-color: #F3F9FB;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -392,6 +404,12 @@ progress::-moz-progress-bar {
 	padding-top: 100px;
 	padding-bottom: 100px;
 	margin-top: 80px;
+}
+
+#nda{
+	background-color: #f5f5fa;
+  border-radius: 16px;
+  padding: 16px;
 }
 #reflect-text{
 	margin-top: 0;
@@ -618,5 +636,5 @@ footer{
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	margin-top: 56px;
+	/* margin-top: 56px; */
 }

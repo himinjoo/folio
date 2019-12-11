@@ -239,6 +239,10 @@ h3{
 	color: #a2a7b0;
 }
 
+#last-project{
+	margin-bottom: 80px;
+}
+
 progress {
 	position: fixed;
 	left: 0;
@@ -619,5 +623,5 @@ footer{
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	margin-top: 56px;
+	/* margin-top: 56px; */
 }
