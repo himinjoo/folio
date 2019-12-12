@@ -112,6 +112,14 @@
          <p class="italic"><i class="material-icons">notification_important</i><br> To comply with my non-disclosure agreement, I have omitted and obfuscated confidential information in this case study. All information in this case study is my own and does not necessarily reflect the views of Verily or Walgreens.</p>
         </div>
       </div>
+
+      <div class="textarea">
+        <h2>Background</h2>
+        <p class="bodycopy1">
+        Veily is building a hardware device, an app, and a console at the pharmacy. The project is still in early development stage that requires rapid explorations and validation process through research and testing to deliver the app for a trial with Walgreens. While Walgreens was planning on doing usability testing, we were in charge of helping them design the app’s UX for the planned UX study.
+        </p>
+      </div>
+
       <div class="textarea">
         <h2>The Team</h2>
         <p class="bodycopy1">
@@ -126,13 +134,6 @@
             <li>Collaborated with the partner’s ux team to use and expand the component library and brand usage</li>
             <li>Provided specs and assets for the implementation</li>
           </ul>
-      </div>
-
-      <div class="textarea">
-        <h2>Background</h2>
-        <p class="bodycopy1">
-        Veily is building a hardware device, an app, and a console at the pharmacy. The project is still in early development stage that requires rapid explorations and validation process through research and testing to deliver the app for a trial with Walgreens. While Walgreens was planning on doing usability testing, we were in charge of helping them design the app’s UX for the planned UX study.
-        </p>
       </div>
 
       <div class="textarea">
@@ -197,19 +198,19 @@
       </div>
 
       <div class="textarea">
-        <h2>Research</h2>
+        <h2>Service Flow | Program Touchpoint</h2>
         <p class="bodycopy1">
-          Before diving into the actual work, I first started off with research to get better understanding of the problem space. From this process, I could acknowledge main obstacles and problems of paper-based PRO trials. Knowing the problems and our potential users’ needs enabled me to have the proper mindset towards the problem space.
+          To understand Walgreens Pill Reminder app’s ecosystem, I walked through the flow from onboarding to get a sense of how the app works and users’ expectations toward the product. Also, I could identify where might be the best place within the flow to insert the new paring flow. Also I learned the fundamental design language that set up in the interface.
         </p>
         <img src="assets/epro/img-research.png" alt="vux-team-photos" class="img" width="100%">
       </div>
 
       <div class="textarea">
-        <h2>Market Research</h2>
+        <h2>Research</h2>
         <p class="bodycopy1">
-          We also performed competitor/comparator analysis on a variety of health management tools in order to gain a better understanding of the competitive landscape.
+          Before diving into the actual work, I first started off with research to get better understanding of the problem space. From this process, I could acknowledge main obstacles and problems of paper-based PRO trials. Knowing the problems and our potential users’ needs enabled me to have the proper mindset towards the problem space.
         </p>
-        <img src="assets/epro/img-logo.png" alt="vux-team-photos" class="img" width="100%">
+        <img src="assets/medreminder/img-research.png" alt="vux-team-photos" class="img" width="100%">
         <p class="bodycopy1"><br>
           <span style="font-weight:500;">The top 5 takeaways from landscape analysis were:</span>
         </p><br>
@@ -223,21 +224,11 @@
       </div>
 
       <div class="textarea">
-        <h2>Patient’s Journey</h2>
+        <h2>Brainstorming with stakeholders</h2>
         <p class="bodycopy1">
-          My first official task for this project was mapping out the patient’s journey based off of the study protocol. Looking at the flow diagram, we could acknowledge the areas that required helps for our user to complete the 7-day journey sucessfully.
+          From the brainstorming session, we came up with several options for the history screen. Analyzing competitor’s UX patterns and research insights, we learned that people use dashboard to track todo lists and their health data. We wanted to make the home screen a place where users can create and track their medications, so we explored multiple versions that might be simple and straightforward for our end users to navigate through.
         </p>
-        <img src="assets/epro/img-flowchart.png" alt="vux-team-photos" class="img" width="100%">
-      </div>
-
-      <div class="textarea">
-        <h2>Ideation</h2>
-        <p class="bodycopy1">
-          During the brainstorming session, we asked our selves many questions like “How might we reduce burden on our user side” and “How might we better motivate our end users?” In the beginning, we came up with (very) broad range of potential ideas, but we narrowed down and prioritized listed items. Then, we started setting our goals for the MVP version. While we dicussed, I roughly sketched how potential interface could be like so that we could visualize and spark the ideas more.<br><br>
-
-          Initially, we imagined that the dashboard contains entrypoints to each day from day1 through the last day. However, this was not scalable solution for the future, becuase a clinical trial can lasts years while it could be a short study like this. Moving forward, we established the design principles to make sure that we were building a simple, scalable and functional product.
-        </p>
-        <img src="assets/epro/img-process.png" alt="vux-team-photos" class="img" width="100%">
+        <img src="assets/medreminder/img-ideation.png" alt="vux-team-photos" class="img" width="100%">
       </div>
 
       <div class="textarea">
@@ -248,67 +239,56 @@
       <img src="assets/epro/img-ia.png" alt="vux-team-photos" class="img" width="100%">
 
       <div class="textarea">
-        <h2>Interviews</h2>
+        <h2>Testing Round 1 & Iterations</h2>
         <p class="bodycopy1">
-          To better understand the mindset of potential users and observe their initial reactions on our concept mocks, we interviewed 6 people and also interviewed 2 clinicians to gauge industry’s concerns and recommendations.
+          People were NOT clear about the concept and value proposition. From the first-round testing, we found that we did not clearly convey why & how the new hardware device works for users. We decided to add an in-app tutorial to help patients understand set up & use of the hardware device.
         </p>
+        <img src="assets/medreminder/img-tutorial.png" alt="vux-team-photos" class="img" width="100%">
         <p class="bodycopy1"><br>
-          <span style="font-weight:500;">The top three potential users’ pain points were:</span>
-        </p><br>
+          <span style="font-weight:500;">Moving forward, the tutorial should include:</span>
+        </p>
         <ul class="description bodycopy1">
-          <li>Remembering daily tasks (i.e.  taking medications, taking ph level tests, recording data, etc.)</li>
-          <li>Unexpected events</li>
-          <li>Losing motivation</li>
+          <li>How the button works and when to press it to activate the hardware device</li>
+          <li>How to read the “hours since last dose”</li>
+          <li>How Bluetooth technology works & out of sync</li>
+          <li>How Bluetooth range affects usage</li>
+          <li>Why the hardware needs to be returned at every refill</li>
+          <li>What happens to personal data when cap is returned</li>
         </ul>
         <p class="bodycopy1"><br>
-          <span style="font-weight:500;">Key takeaways from interviews with clinicians were:</span>
-        </p><br>
+          <span style="font-weight:500;">History</span>
+        </p>
         <ul class="description bodycopy1">
-          <li>Patient’s privacy is crucial. We couldn’t ask patient’s personal data such as name and location</li>
-          <li>Vertical visual analogue scale(VAS) can create bias. Horizontal design is reconmmended to pass industry reviews</li>
-          <li>We must surface critical messages (i.e. “...contact your clinicial immediately...”)</li>
+          <li>Most liked seeing the detailed view for each day below the weekly view</li>
+          <li>Anticipated looking at it in the evening to see if they were on track, or midday to check if they missed doses</li>
+          <li>For most, Monthly View was a bit overwhelming and not as actionable as the weekly/daily view</li>
+        </ul>
+        <p class="bodycopy1"><br>
+          <span style="font-weight:500;">Iconography & Reminder Functionality</span>
+        </p>
+        <ul class="description bodycopy1">
+          <li>Green was a nice positive reinforcement that you’re on the right track</li>
+          <li>Many were unsure what the yellow icon represented. Once explained, it was unclear whether this state was useful</li>
+          <li>The pill icon wasn’t understood but people could assume that represent upcoming medications with the context</li>
+          <li>“Take” and “Skip” were most useful for meds to still have daya around whether or not the dose was taken</li>
         </ul>
       </div>
 
       <div class="textarea">
-        <h2>Personas</h2>
+        <h2>MVP Design</h2>
+        <span style="font-weight:500;">FTU Final flowchart</span>
+        <p class="bodycopy1">
+          After speaking with a broad spectrum of individuals on their experience with disease management, we were able to define their goals and needs. From there we narrowed down to three user personas:
+        </p>
+        <img src="assets/epro/img-personas.png" alt="vux-team-photos" class="img" width="100%"><br>
+        <span style="font-weight:500;">Existing User Final flowchart</span>
         <p class="bodycopy1">
           After speaking with a broad spectrum of individuals on their experience with disease management, we were able to define their goals and needs. From there we narrowed down to three user personas:
         </p>
         <img src="assets/epro/img-personas.png" alt="vux-team-photos" class="img" width="100%">
       </div>
+      <img src="assets/epro/img-ia.png" alt="vux-team-photos" class="img" width="100%">
 
-      <div class="textarea">
-        <h2>Design Iterations</h2>
-        <p class="bodycopy1">
-          <span style="font-weight:500;">Dashboard</span><br>
-          I explored a few iterations of a lo-fi prototype and tested with six users which we then presented to the clinicians. I initially thought that featuring day-to-day journey on dashboard would help users understand where they are and where to go next. However, l then ultimately decided to create a version that was focused on today’s view with chronologically stacked lists of todos, from one that required an immediate action to others that are upcoming for the day. Lastly, I created cards with navigation that provides weekly overviews that provided clear guidance how our users could track and record their heath data.<br><br>
-          I then narrowed in and selected those components that best solved for an intuitive dashboard experience to help guide users to complete assigned tasks for the day.
-        </p>
-        <img src="assets/epro/screens.png" alt="vux-team-photos" class="img" width="100%">
-      </div>
-
-      <div class="textarea">
-        <p class="bodycopy1">
-          <span style="font-weight:500;">Survey flow</span><br>
-          I initially wanted to chunk questions into a categories and lay them in single page, and then ultimately decided to create a version that was a more intuitive and focused with auto scroll interactions. Lastly, I created a page by page iteration that renders well on different devices and allows users to focus on a question at a time to reduce cognitive load.
-        </p>
-        <img src="assets/epro/screens.png" alt="vux-team-photos" class="img" width="100%">
-      </div>
-
-      <div class="textarea">
-        <h2>Final Screens</h2>
-        <p class="bodycopy1">
-          <span style="font-weight:500;">Onboarding flow</span><br>
-          The new design for the questionnaire flow is more intuitive and welcoming as it centers around a designed conversation between user and avatar. The page by page flow helps reduce cognitive load and is tablet optimized.
-        </p>
-        <img src="assets/epro/img-final-1.png" alt="vux-team-photos" class="img" width="100%">
-        <p class="bodycopy1" id="finalscreen-section2">
-          <span style="font-weight:500;">Logging pH measurement</span><br>
-          The new design for the questionnaire flow is more intuitive and welcoming as it centers around a designed conversation between user and avatar. The page by page flow helps reduce cognitive load and is tablet optimized.
-        </p>
-        <img src="assets/epro/img-final-1.png" alt="vux-team-photos" class="img" width="100%">
-      </div>
       <div class="textarea">
         <h2>Impact</h2>
         <p class="bodycopy1">

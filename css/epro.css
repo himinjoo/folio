@@ -242,7 +242,7 @@ h3{
 .italic{
 	font-style: italic;
 	font-weight: 300;
-	color: #a2a7b0;
+	color: #757575;
 }
 .caption{
 	font-family: 'roboto', sans-serif;
@@ -334,6 +334,10 @@ progress::-moz-progress-bar {
   flex-direction: column;
 }
 
+.textarea span{
+	color:#323232;
+}
+
 #project-hero-caption-line2{
   margin-top: 12px;
 }
@@ -407,7 +411,7 @@ progress::-moz-progress-bar {
 }
 
 #nda{
-	background-color: #f5f5fa;
+	background-color: #fafafa;
   border-radius: 16px;
   padding: 16px;
 }
