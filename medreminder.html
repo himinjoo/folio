@@ -15,6 +15,7 @@
       rel="stylesheet">
     <link rel="icon" href="assets/favicon.png" type="image/png" sizes="16x16">
 
+
     <title>Minjoo UX Designer Verily Project</title>
   </head>
   <body>
@@ -114,9 +115,18 @@
       </div>
 
       <div class="textarea">
+        <h2>The Problems</h2>
+        <ul class="description bodycopy1">
+          <li>75% of patients fail to take their medications as prescribed, which leads to 33% of prescriptions never being filled and $100 billion in avoidable hospitalizations.</li>
+          <li>Patients are unaware of missed doses.</li>
+          <li>Pharmacists are blind to what happens once medication leaves the store.</li>
+        </ul>
+      </div>
+
+      <div class="textarea">
         <h2>Background</h2>
         <p class="bodycopy1">
-        Veily is building a hardware device, an app, and a console at the pharmacy. The project is still in early development stage that requires rapid explorations and validation process through research and testing to deliver the app for a trial with Walgreens. While Walgreens was planning on doing usability testing, we were in charge of helping them design the app’s UX for the planned UX study.
+        Verily is building a hardware device, an app, and a console at the pharmacy to help patients track and improve their medication adherence. This project was still in the early development stage that required rapid design and validation through research and testing to deliver the app for a trial with Walgreens in early next year. Although the new flow will eventually be implemented to the Walgreens app, we needed to build a separate mobile app for this trial. While Walgreens was planning on doing first round usability testing, I was in charge of helping them design the app’s UX for the planned study.
         </p>
       </div>
 
@@ -130,19 +140,9 @@
           <h2>My Role as solo UX designer</h2>
           <ul class="description bodycopy1">
             <li>Collaborated with the cross functional team to create end-to-end experience including concept ideation, prototyping, and production-ready designs.</li>
-            <li>Conducted UX research (competitive analysis, secondary research, interviews)</li>
             <li>Collaborated with the partner’s ux team to use and expand the component library and brand usage</li>
             <li>Provided specs and assets for the implementation</li>
           </ul>
-      </div>
-
-      <div class="textarea">
-        <h2>The Problems</h2>
-        <ul class="description bodycopy1">
-          <li>75% of patients fail to take their medications as prescribed, which leads to 33% of prescriptions never being filled and $100 billion in avoidable hospitalizations.</li>
-          <li>Patients are unaware of missed doses.</li>
-          <li>Pharmacists are blind to what happens once medication leaves the store.</li>
-        </ul>
       </div>
 
       <div class="textarea">
@@ -151,8 +151,10 @@
         For patients that desire to take their medications at the right time and are open to personalized, continual support to help them stay on track.
         </p>
         <div class="project-img-wrapper">
-        <img class="project-img" src="assets/epro/img-solution.png" width="80%" alt="">
-      </div>
+        <img class="project-img" src="assets/medreminder/img-diagram.png" width="100%" alt="">
+      </div><br><br>
+      <span style="font-weight: 500;">Program Touchpoints</span>
+      <img class="project-img" src="assets/medreminder/img-program-touchpoint.png" width="100%" alt="">
       </div>
 
       <div class="textarea">
@@ -186,8 +188,8 @@
           <p class="bodycopy2">Retrieved from Shutterstock. Senior Group Friends Exercise Relax Concept By Rawpixel.com</p>
           </div>
       </div>
-      <div class="textarea" id="short-sentence">
-        <h2>Product Goals</h2>
+      <div class="textarea short-sentence">
+        <h2>MVP Goals</h2>
         <ul class="description bodycopy1">
           <li>Have user agree to study requirements</li>
           <li>Allow a user to setup and connect to the single or multiple smart hardware(s)</li>
@@ -198,29 +200,65 @@
       </div>
 
       <div class="textarea">
-        <h2>Audit: Existing Prescription Setup Flow</h2>
+        <h2>Research</h2>
         <p class="bodycopy1">
-          To understand Walgreens Pill Reminder app’s ecosystem, I walked through the flow from onboarding to get a sense of how the app works and users’ expectations toward the product. Also, I could identify where might be the best place within the flow to insert the new paring flow. Also I learned the fundamental design language that set up in the interface.
+          Before diving into mocking up the interface, I wanted to study the problem space and how our competitors are handling the features (baseline & bonus). Collaborating with the researchers, we could identify opportunities in medication adherence that are not being addressed by current solutions.
         </p>
-        <img src="assets/epro/img-research.png" alt="vux-team-photos" class="img" width="100%">
+        <img src="assets/medreminder/img-research.png" alt="vux-team-photos" class="img" width="100%">
+        <p class="med-subtitle bodycopy1"><br>
+          <span style="font-weight:500;">Key takeaways from landscape analysis were:</span>
+        </p>
+        <ul class="description bodycopy1">
+          <li>Most solutions address barriers to access, but <span style="font-weight: 500;">do NOT address underlying motivational or belief factors</span> that are the bulk of reasons for non-adherence. Additionally, most solutions only solve for one category of needs.</li>
+          <li>Nonadherence is more complicated than addressing forgetfulness. It involves: relationship(improve trust, communication, and relationship with care team), motivation(what is it for me?) and access (remove barriers, make it easy)</li>
+        </ul>
+        <div class="accordion-wrapper">
+          <button class="accordion">Baseline Features (10)</button>
+          <div class="panel panel-bottom-divline">
+            <ol class="description bodycopy1">
+              <li><span style="font-weight: 500;">Private notifications</span> that do not display medication names</li>
+              <li><span style="font-weight: 500;">Flexible scheduling</span> with “as needed”, days intervals, and fixed scheduling options</li>
+              <li><span style="font-weight: 500;">Ability to take, skip or snooze/postpone</span> medication reminder</li>
+              <li><span style="font-weight: 500;">Detailed history</span> of meds taken, skipped and/or missed, including overall adherence</li>
+              <li><span style="font-weight: 500;">Information storage</span> for personal health metrics, pharmacies and doctors</li>
+              <li><span style="font-weight: 500;">Multiple medication types</span> accepted for input, with option to customize size, shape & color</li>
+              <li><span style="font-weight: 500;">Drug database</span> that auto-populates a list of suggestions as you type</li>
+              <li><span style="font-weight: 500;">Detailed dosage and quantity</span></li>
+              <li><span style="font-weight: 500;">Refill tracking</span> and alert when medications are running low</li>
+              <li><span style="font-weight: 500;">Pin</span> protection option
+</li>
+            </ol>
+          </div>
+          <button class="accordion">Bonus Features (5)</button>
+          <div class="panel">
+            <ol class="description bodycopy1">
+              <li><span style="font-weight: 500;">Gamification</span> features such as earning points & rewards when adhering to medication schedule(Mango health)</li>
+              <li>Option to <span style="font-weight: 500;">take a real photo of medication</span></li>
+              <li><span style="font-weight: 500;">Take photo of prescription label to automatically import</span> all relevant information including refill date, dosage, doctor, etc.</li>
+              <li>Integrate into existing routines<span style="font-weight: 500;">; HERO pill dispenser can go on the counter next to your coffee maker!</span> medication reminder</li>
+              <li><span style="font-weight: 500;">Non-app reminders</span> such as the Adhere Tech smart bottle that lights up or chimes when you forget to take a med, and automatically sends data</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <div class="textarea short-sentence">
+        <h2>Design Principles</h2>
+        <ol class="description bodycopy1">
+          <li>People's belief and values</li>
+          <li>Demonstrating the value of taking medications</li>
+          <li>Giving patients confidence and peace of mind</li>
+          <li>A constellation of needs (not just one or two)</li>
+        </ol>
       </div>
 
       <div class="textarea">
-        <h2>Research</h2>
+        <h2>Audit: Existing Prescription Setup Flow</h2>
         <p class="bodycopy1">
-          Before diving into the actual work, I first started off with research to get better understanding of the problem space. From this process, I could acknowledge main obstacles and problems of paper-based PRO trials. Knowing the problems and our potential users’ needs enabled me to have the proper mindset towards the problem space.
+          To understand Walgreens Pill Reminder app’s ecosystem, I walked through the flow from onboarding to get a sense of how the app works and users’ expectations toward the product. Also, I could identify where might be the best place within the flow to insert the new paring flow. Likewise, I learned the fundamental design language that set up in the interface.
         </p>
-        <img src="assets/medreminder/img-research.png" alt="vux-team-photos" class="img" width="100%">
-        <p class="bodycopy1"><br>
-          <span style="font-weight:500;">The top 5 takeaways from landscape analysis were:</span>
-        </p><br>
-        <ul class="description bodycopy1">
-          <li>All products provide notifications and direct emailing (some text msg)</li>
-          <li>All apps display a list of logged events (logging and tracking)</li>
-          <li>Most apps use their dashboards as a central area to list items (i.e. todos and announcements)  </li>
-          <li>Most apps provide feedback on taken actions motivates users (i.e. insights, check mark, celebratory moment, etc)</li>
-          <li>Some products provide digital communication methods (i.e. live chat, messaging, voice call, video call, etc.)</li>
-        </ul>
+        <img src="assets/medreminder/existing-flow.png" alt="vux-team-photos" class="img" width="100%">
+        <p class="bodycopy2">Existing flow of creating a reminder in Walgreens app</p>
       </div>
 
       <div class="textarea">
@@ -275,7 +313,7 @@
       </div>
 
       <div class="textarea">
-        <h2>MVP Design</h2>
+        <h2>MVP Final Design</h2>
         <span style="font-weight:500;">FTU Final flowchart</span>
         <p class="bodycopy1">
           After speaking with a broad spectrum of individuals on their experience with disease management, we were able to define their goals and needs. From there we narrowed down to three user personas:
