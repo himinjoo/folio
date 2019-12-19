@@ -409,7 +409,7 @@ progress::-moz-progress-bar {
 .project-wrapper{
 	width: 100%;
   max-width: 1200px;
-	margin-top: 56px;
+	/* margin-top: 56px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
