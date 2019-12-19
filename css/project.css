@@ -220,13 +220,14 @@ h3{
 }
 .bodycopy1{
 	font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
 	color: #424242;
+	line-height: 1.7;
 }
 .bodycopy2{
 	font-size: 12px;
 	color: #757575;
-  font-weight: 300;
+  font-weight: 400;
 }
 .hyperlink{
   font-size: 16px;
