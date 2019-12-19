@@ -24,9 +24,9 @@ h1{
   font-weight: 500;
 }
 h2{
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
-	color: #9E9E9E;
+	color: #323232;
 }
 h3{
   font-size: 24px;
@@ -41,15 +41,25 @@ h3{
 }
 .bodycopy1{
 	font-size: 16px;
-	 color: #757575;
+	color: #424242;
+	line-height: 1.7;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 12px;
+	font-weight: 400;
+}
+.bodycopy2  span b{
+	font-family: 'Roboto', sans-serif;
 }
 .bodycopy2{
 	font-size: 12px;
-	color: #9e9e9e;
+	color: #757575;
 	font-weight: 400;
+	line-height: 1.7;
+	font-family: 'Roboto', sans-serif;
 }
 .caption {
 	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
 }
 .bulleted-list{
 	display: list-item;
@@ -89,21 +99,25 @@ Buttons
 */
 
 .primary-btn{
-	padding: 16px 56px;
-	background-color: #4433ff;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 500;
+	padding: 6px 16px;
+	margin-top: 24px;
+	margin-bottom: 24px;
+	background-color: #fff;
+  color: #323232;
+  font-size: 14px;
+  font-weight: bold;
 	text-decoration: none;
-  border-radius: 56px;
-	border: none;
+  border-radius: 4px;
+	border: 1px solid #323232;
   cursor: pointer;
 	display: inline-block;
+	letter-spacing: 0.2px;
 
-	transition: ease 0.3s;
+	transition: ease 0.2s;
 }
 .primary-btn:hover{
-	background-color: #230FFF;
+	background-color: #424242;
+	color: #fff;
 }
 /*
 Navigation
@@ -352,7 +366,7 @@ Info.css
 
 #greet{
 	margin-top: 300px;
-	margin-bottom: 100px;
+	margin-bottom: 250px;
 	display: block;
 
 	transition: ease 0.2s;
@@ -429,7 +443,7 @@ a.btn:active {
 .metadata{
 	font-weight: 600;
 	margin-bottom:8px;
-	font-size: 14px;
+	font-size: 12px;
 	color: #323232;
 	font-family: 'roboto', sans-serif
 }
@@ -437,7 +451,7 @@ a.btn:active {
 	margin-bottom: 24px;
 	color: #757575;
 }
-
+/*
 .info:hover #work-verily{
 	opacity: 0.2;
 }
@@ -471,7 +485,7 @@ a.btn:active {
 }
 #work5:hover #epro-text-hover{
 	opacity: 100;
-}
+} */
 
 
 .bg{
@@ -538,7 +552,7 @@ a.btn:active {
 }
 .project-left{
 	margin-right: 12px;
-	width: 48.8%;
+	width: 30%;
 }
 
 .project-right{
@@ -552,15 +566,14 @@ a.btn:active {
 	margin-top:24px;
 }
 #flexbox1{
-	margin-bottom:24px;
+	margin-bottom:180px;
 }
 .work-thumbnail{
 	width: 100%;
-	height: 396px;
+	height: 400px;
 	background-repeat: no-repeat;
 	background-size: auto 100%;
 	background-position: center;
-	border-radius: 8px;
 }
 
 #work-verily{
@@ -693,7 +706,7 @@ footer{
     text-decoration: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 960px) {
 	.flexbox{
 		display: block;
 	}
@@ -735,6 +748,19 @@ footer{
 	}
 	.work-thumbnail{
 		width: 100%;
-		height: 256px;
+		height: 356px;
+	}
+	#flexbox1{
+		margin-bottom:150px;
+	}
+}
+
+@media (max-width: 528px) {
+	.work-thumbnail{
+		width: 100%;
+		height: 230px;
+	}
+	#flexbox1{
+		margin-bottom:100px;
 	}
 }

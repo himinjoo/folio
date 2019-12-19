@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="icon" href="../assets/favicon.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="assets/favicon.png" type="image/png" sizes="16x16">
+
+    <title>Minjoo UX Designer</title>
+  </head>
+
+  <body>
+    <!-- Nagigation begins from here -->
+    <div class="overlay" id="smallMenu">
+      <div class="sm-menu-content-wrapper" id="menu">
+        <ul>
+          <li>
+            <a href="indexnopw.html">PROJECTS</a>
+          </li>
+          <li>
+            <a class="nav-link" href="assets/minjoo_resume.pdf" target="_blank">RESUME<i class="material-icons md-24">open_in_new</i></a>
+          </li>
+          <li>
+            <a class="nav-link nav-info" href="https://www.linkedin.com/in/mjmjyun/" target="_blank">LINKEDIN<i class="material-icons md-24">open_in_new</i></a>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="sm-menu-close-btn" id="btn-menu-close" onclick="closeNav()">CLOSE &times;</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="nav-wrapper">
+      <div class="nav large li"  id="navbar">
+        <div class="logo">
+          <a class="logo" href="indexnopw.html">
+            <span class="span" id="span-name">MINJOO YUN</span>
+            <span class="span span-title" id="spantitle">UX DESIGNER</span>
+          </a>
+        </div>
+        <div class="nav-li">
+          <li class="nav-btn-left li">
+            <a class="nav-work" href="indexnopw.html">PROJECTS</a>
+          </li>
+          <li class="nav-btn-left li">
+            <a class="nav-link" href="assets/minjoo_resume.pdf" target="_blank">RESUME</a>
+          </li>
+          <li>
+            <a class="nav-link nav-info" href="https://www.linkedin.com/in/mjmjyun/" target="_blank">LINKEDIN</a>
+          </li>
+        </div>
+        <div class="sm-menu" id="openMenu">
+          <span id="ic-sm-menu" onclick="openNav()"><i class="material-icons">menu</i></span>
+        </div>
+      </div>
+    </div>
+    <!-- Top navigation ends here -->
+<div class="project-container">
+    <div class="info" id="greet">
+        <!-- <p class="metadata bodycopy2">Hiya! </p><br> -->
+         <h3>Designer and lifelong learner based in Bay Area ☀</h3>
+         <h3>Currently at Verily(formerly Google Life Sciences)</h3>
+    </div>
+
+    <!-- Information -->
+
+    <div class="flexbox info" id="flexbox1">
+      <div class="work-wrapper bodycopy2 project-left" id="onduo-text-hover">
+        <h2>Verily</h2>
+        <span><b>My Role</b></span>
+        <span>UI/UX Designer</span><br>
+        <span><b>Year</b></span>
+        <span>2018-2019</span><br>
+        <a href="verily.html">
+          <div class="primary-btn">
+            See my story
+          </div>
+        </a>
+      </div>
+      <div class="work-wrapper info project-right" id="work3">
+            <a href="verily.html">
+              <div class="work-thumbnail" id="work-verily"></div>
+            </a>
+      </div>
+    </div>
+    <!-- <div class="work-wrapper info project" id="work1">
+          <a href="#">
+            <div class="work-thumbnail" id="work-system"></div>
+          </a>
+    </div> -->
+
+    <div class="flexbox info" id="flexbox1">
+      <div class="work-wrapper bodycopy2 project-left" id="onduo-text-hover">
+        <h2>Medication Reminder UX</h2>
+        <span><b>My Role</b></span>
+        <span>UI/UX Designer</span><br>
+        <span><b>Platform</b></span>
+        <span>iOS & Android</span><br>
+        <span><b>Year</b></span>
+        <span>2019</span><br>
+        <a href="medreminder.html">
+        <div class="primary-btn">
+          See case study
+        </div>
+        </a>
+      </div>
+      <div class="work-wrapper info project-right" id="work3">
+            <a href="medreminder.html">
+              <div class="work-thumbnail" id="work-onduo"></div>
+            </a>
+      </div>
+    </div>
+
+    <div class="flexbox info" id="flexbox1">
+      <div class="work-wrapper bodycopy2 project-left" id="onduo-text-hover">
+        <h2>Onduo Design Language</h2>
+        <span><b>My Role</b></span>
+        <span>UI/UX Designer</span><br>
+        <span><b>Platform</b></span>
+        <span>iOS & Android</span><br>
+        <span><b>Year</b></span>
+        <span>2019</span><br>
+        <div class="primary-btn">
+          See case study
+        </div>
+      </div>
+      <div class="work-wrapper info project-right" id="work3">
+            <a href="medreminder.html">
+              <div class="work-thumbnail" id="work-system"></div>
+            </a>
+      </div>
+    </div>
+    <div class="flexbox info" id="flexbox1">
+      <div class="work-wrapper bodycopy2 project-left" id="onduo-text-hover">
+        <h2>Registry UX</h2>
+        <span><b>My Role</b></span>
+        <span>UI/UX Designer</span><br>
+        <span><b>Platform</b></span>
+        <span>Responsive Website</span><br>
+        <span><b>Year</b></span>
+        <span>2019</span><br>
+        <div class="primary-btn">
+          See case study
+        </div>
+      </div>
+      <div class="work-wrapper info project-right" id="work3">
+            <a href="medreminder.html">
+              <div class="work-thumbnail" id="work-pbr"></div>
+            </a>
+      </div>
+    </div>
+    <div class="flexbox info" id="flexbox1">
+      <div class="work-wrapper bodycopy2 project-left" id="onduo-text-hover">
+        <h2>Survey</h2>
+        <span><b>My Role</b></span>
+        <span>UI/UX Designer</span><br>
+        <span><b>Platform</b></span>
+        <span>Responsive Website</span><br>
+        <span><b>Year</b></span>
+        <span>2019</span><br>
+        <div class="primary-btn">
+          See case study
+        </div>
+      </div>
+      <div class="work-wrapper info project-right" id="work3">
+            <a href="medreminder.html">
+              <div class="work-thumbnail" id="work-epro"></div>
+            </a>
+      </div>
+    </div>
+</div>
+<!--
+About Me begins here
+-->
+<!-- <div class="about-wrapper" id="about-me">
+  <div class="profile-pic">
+<img src="assets/profile pic.png" alt="" width="120px">
+  </div>
+  <div id="about-text">
+    <p>Hi! If you don’t know already, my name is Minjoo. I started off as a visual designer for websites and mobile apps, but I found myself more and more engaged with the whole process of creating a product. I love collaborating with cross functional teams, iterating through research and testing, and being involved in the growth of a product from ideation to launch.</p>
+  </div>
+  <a href="mailto:hi@minjoodesign.com?subject=Hi Minjoo!">
+    <button type="button" name="primary" class="primary-btn" id="about-cta"><i class="material-icons" style="font-size: 20px; color: #fff; vertical-align:middle; padding-bottom: 4px;"> email</i> hi@minjoodesign.com</button>
+  </a>
+
+</div> -->
+<!--
+About Me ends here
+-->
+
+  <div class="footer-div project-container">
+    <footer>
+      <div id="footer-wrapper">
+        <div>
+          <p id="footer-text"> © 2019 Minjoo Yun.<br> Designed & coded with love ♥️
+          </p>
+        </div>
+        <div>
+          <a id="back2Top" title="Back to top" href="#"><i class="material-icons" id="top-arrow">arrow_right_alt</i></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/project.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+  </body>
+</html>
