@@ -833,7 +833,9 @@ img {
 
 /* Add a transparency effect for thumnbail images */
 .demo {
-  opacity: 0.3;
+  opacity: 0.2;
+
+	transition: ease 0.3s;
 }
 
 .active,

@@ -244,6 +244,11 @@ h3{
 	margin-bottom: 80px;
 }
 
+#partner-logos{
+	margin-top: 56px;
+	margin-bottom: 56px;
+
+}
 progress {
 	position: fixed;
 	left: 0;
@@ -374,27 +379,20 @@ progress::-moz-progress-bar {
 }
 /*other project section begins here*/
 #project-others{
-  /* margin-top: 80px; */
   width: 100%;
-  background-color: #e9eef0;
 	display: flex;
-	align-items: center;
+	flex-direction: column;
 	justify-content: center;
 	overflow-x: hidden;
-	padding-left: 7.5%;
-	padding-right:7.5%;
 	padding-top: 56px;
 	padding-bottom: 56px;
 }
 #reflect{
 	width: 100%;
-  background-color: #F4F7F8;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	overflow-x: hidden;
-	padding-left: 7.5%;
-	padding-right:7.5%;
 	padding-top: 100px;
 	padding-bottom: 100px;
 	margin-top: 80px;
@@ -416,23 +414,25 @@ progress::-moz-progress-bar {
 }
 .grid-item {
   background-color: #fff;
-  /* padding: 20px; */
+  padding: 16px;
+	padding-top: 0px;
+	padding-bottom: 32px;
   font-size: 30px;
   text-align: center;
-	margin: 16px;
 	height: 300px;
-	border-radius: 8px;
 }
 
 #other-project-title1{
 	    padding-top: 16px;
 	    text-align: left;
 	    padding-left: 16px;
-	    color: white;
+	    color: #757575;
 }
 
+
+
 #other-project-img1{
-background-image: url("../assets/other-onduo-thumbnail.png");
+background-image: url("../assets/verily/thumbnail-medreminder.png");
 transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 width: 100%;
 height:100%;
@@ -441,14 +441,19 @@ background-repeat: no-repeat;
 background-size: auto 100%;
 background-position: center;
 border-radius: 8px;
-box-shadow: 0px 1px 24px #e0e0e0;
 }
 
 .other-project-text{
 	position: absolute;
 	border: 1px solid red;
 	z-index: 3;
+}
 
+.next-project{
+	width: 320px;
+}
+.next-text{
+	text-align: center;
 }
 /*other project section ends here*/
 
@@ -605,6 +610,10 @@ box-shadow: 0px 1px 24px #e0e0e0;
 
 		transition: ease 0.2s;
 	}
+
+	.next-project{
+		width: auto;
+	}
 }
 
 footer{
@@ -613,6 +622,7 @@ footer{
 }
 
 .footer-div{
+	background-color: #e9eef0;
 	padding-bottom: 56px;
 	padding-left: 7.5%;
 	padding-right: 7.5%;
