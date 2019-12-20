@@ -247,6 +247,14 @@ h3{
   font-weight: 400;
 	color: #DB005B;
 }
+.textarea p span{
+	font-size: 18px;
+	font-walked: 500;
+}
+.textarea span{
+	font-size: 18px;
+	font-weight: 500;
+}
 .bodycopy1{
 	font-size: 16px;
   font-weight: 400;
@@ -278,6 +286,10 @@ h3{
 	font-family: 'roboto', sans-serif;
 	font-size: 12px;
 }
+
+
+
+
 progress {
 	position: fixed;
 	left: 0;
@@ -434,14 +446,6 @@ progress::-moz-progress-bar {
   margin-top: 32px;
 }
 
-.textarea p span{
-	font-size: 20px;
-	font-walked: 500;
-}
-.textarea span{
-	font-size: 20px;
-	font-weight: 500;
-}
 .accordion-wrapper{
 	border: 1px solid #e0e0e0;
 	border-radius: 8px;

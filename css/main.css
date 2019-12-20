@@ -58,8 +58,19 @@ h3{
 	font-family: 'Roboto', sans-serif;
 }
 .caption {
-	font-size: 12px;
+	font-size: 14px;
 	font-family: 'Roboto', sans-serif;
+}
+#caption {
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+}
+.italic{
+	font-style: italic;
+	font-weight: 400;
+	color: #757575;
+	font-family: 'Roboto', sans-serif;
+
 }
 .bulleted-list{
 	display: list-item;
@@ -451,42 +462,6 @@ a.btn:active {
 	margin-bottom: 24px;
 	color: #757575;
 }
-/*
-.info:hover #work-verily{
-	opacity: 0.2;
-}
-#work1:hover .bg{
-	opacity: 100;
-}
-
-#work-system:hover{
-	opacity: 0.2;
-}
-#work2:hover #system-text-hover{
-	opacity: 100;
-}
-
-#work-onduo:hover{
-	opacity: 0.2;
-}
-#work3:hover #onduo-text-hover{
-	opacity: 100;
-}
-
-#work-pbr:hover{
-	opacity: 0.1;
-}
-#work4:hover #pbr-text-hover{
-	opacity: 100;
-}
-
-#work-epro:hover{
-	opacity: 0.1;
-}
-#work5:hover #epro-text-hover{
-	opacity: 100;
-} */
-
 
 .bg{
 	position: absolute;
@@ -771,4 +746,93 @@ footer{
 	#flexbox1{
 		margin-bottom:100px;
 	}
+}
+
+
+.caption-wrapper{
+	display: flex;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: relative;
+  width: auto;
+  color: white;
+  font-weight: bold;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.slideshow-nav{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 16px;
+	padding-right: 16px;
+
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #100b4a;
+  padding: 8px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.3;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
 }
