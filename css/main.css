@@ -735,6 +735,8 @@ footer{
 	}
 	#flexbox1{
 		margin-bottom:150px;
+		/* display: flex;
+		flex-direction: column-reverse; */
 	}
 }
 
@@ -745,6 +747,8 @@ footer{
 	}
 	#flexbox1{
 		margin-bottom:100px;
+		/* display: flex;
+		flex-direction: column-reverse; */
 	}
 }
 
@@ -810,9 +814,9 @@ img {
 /* Container for image text */
 .caption-container {
   text-align: center;
-  background-color: #100b4a;
-  padding: 8px 16px;
-  color: white;
+  background-color: #fafafa;
+  padding: 12px 16px;
+  color: #616161;
 }
 
 .row:after {
