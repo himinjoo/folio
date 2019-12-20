@@ -497,7 +497,6 @@ ol{
 /*other project section begins here*/
 #project-others{
   width: 100%;
-  background-color: #e9eef0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -553,11 +552,11 @@ ol{
 	    padding-top: 16px;
 	    text-align: left;
 	    padding-left: 16px;
-	    color: #757575;
+	    color: #424242;
 }
 
-#other-project-img1{
-background-image: url("../assets/verily/thumbnail-medreminder.png");
+#other-project-onduo{
+background-image: url("../assets/hero/onduo.png");
 transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 width: 100%;
 height:100%;
@@ -579,6 +578,8 @@ border-radius: 8px;
 }
 .next-text{
 	text-align: center;
+	font-size: 12px;
+	color: #424242;
 }
 /*other project section ends here*/
 
@@ -743,7 +744,7 @@ footer{
 }
 
 .footer-div{
-	background-color: #e9eef0;
+	background-color: #E3EEF0;
 	padding-bottom: 56px;
 	padding-left: 7.5%;
 	padding-right: 7.5%;
