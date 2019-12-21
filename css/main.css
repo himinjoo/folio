@@ -719,7 +719,9 @@ footer{
 
 			transition: ease 0.2s;
 	}
-
+	.info-epro{
+    margin-top: 200px;
+	}
 	#about-me{
 		padding: 20% 7.5% 20% 7.5%;
 		margin-top: 80px;
@@ -749,6 +751,9 @@ footer{
 		margin-bottom:100px;
 		/* display: flex;
 		flex-direction: column-reverse; */
+	}
+	.info-epro{
+    margin-top: 150px;
 	}
 }
 
