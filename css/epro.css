@@ -29,7 +29,6 @@ Navigation
 	z-index: 20000;
 	align-items: center;
 	border-bottom: 1px solid #f1f1f1;
-	background-color: white;
 	max-width: 1200px;
 	transition: ease 0.3s;
 	display: -ms-flexbox;
@@ -47,6 +46,7 @@ Navigation
 #nav-wrapper{
 	background-color: white;
 	margin-top: 0;
+	opacity: 0.96;
 	width: 100%;
 	display: flex;
 	justify-content: center;
