@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="jquery-3.3.1.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700&display=swap" rel="stylesheet">
@@ -18,9 +18,255 @@
     <title>Minjoo UX Designer</title>
   </head>
 
-  <body onload="passWord()">
+  <body>
     <!-- Nagigation begins from here -->
-  
+    <div class="overlay" id="smallMenu">
+      <div class="sm-menu-content-wrapper" id="menu">
+        <ul>
+          <li>
+            <a href="index.html">PROJECTS</a>
+          </li>
+          <li>
+            <a class="nav-link" href="assets/minjoo_resume.pdf" target="_blank">RESUME<i class="material-icons md-24">open_in_new</i></a>
+          </li>
+          <li>
+            <a class="nav-link nav-info" href="https://www.linkedin.com/in/mjmjyun/" target="_blank">LINKEDIN<i class="material-icons md-24">open_in_new</i></a>
+          </li>
+          <li>
+            <a href="javascript:void(0)" class="sm-menu-close-btn" id="btn-menu-close" onclick="closeNav()">CLOSE &times;</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="nav-wrapper">
+      <div class="nav large li"  id="navbar">
+        <div class="logo">
+          <a class="logo" href="index.html">
+            <span class="span" id="span-name">MINJOO YUN</span>
+            <span class="span span-title" id="spantitle">UX DESIGNER</span>
+          </a>
+        </div>
+        <div class="nav-li">
+          <li class="nav-btn-left li">
+            <a class="nav-work" href="index.html">PROJECTS</a>
+          </li>
+          <li class="nav-btn-left li">
+            <a class="nav-link" href="assets/minjoo_resume.pdf" target="_blank">RESUME</a>
+          </li>
+          <li>
+            <a class="nav-link nav-info" href="https://www.linkedin.com/in/mjmjyun/" target="_blank">LINKEDIN</a>
+          </li>
+        </div>
+        <div class="sm-menu" id="openMenu">
+          <span id="ic-sm-menu" onclick="openNav()"><i class="material-icons">menu</i></span>
+        </div>
+      </div>
+    </div>
+    <!-- Top navigation ends here -->
+<div class="project-container">
+    <div class="info" id="greet">
+        <!-- <p class="metadata bodycopy2">Hiya! </p><br> -->
+         <h3>Designer and lifelong learner based in Bay Area ☀</h3>
+         <h3>Currently at Verily(formerly Google Life Sciences)</h3>
+    </div>
+
+    <!-- Information -->
+
+    <div class="flexbox info" id="flexbox1">
+      <div class="work-wrapper bodycopy2 project-left" id="onduo-text-hover">
+        <h2>Verily</h2>
+        <p class="bodycopy1">Working on the Future of Health</p>
+        <span><b>My Role</b></span>
+        <span>UI/UX Designer</span><br>
+        <span><b>Year</b></span>
+        <span>2018-2019</span><br>
+        <a href="verily.html">
+          <div class="primary-btn">
+            See my story
+          </div>
+        </a>
+      </div>
+      <div class="work-wrapper info project-right" id="work3">
+            <a href="verily.html">
+              <div class="work-thumbnail" id="work-verily"></div>
+            </a>
+      </div>
+    </div>
+    <!-- <div class="work-wrapper info project" id="work1">
+          <a href="#">
+            <div class="work-thumbnail" id="work-system"></div>
+          </a>
+    </div> -->
+
+    <div class="flexbox info" id="flexbox1">
+      <div class="work-wrapper bodycopy2 project-left" id="onduo-text-hover">
+        <h2>Medication Reminder UX</h2>
+        <p class="bodycopy1">Improving Medication Adherence</p>
+        <p class="bodycopy2">
+        <b>My Role</b> UI/UX Designer <br>
+        <b>Platform</b> iOS<br>
+        <b>Year</b> 2019
+        </p>
+        <a href="medreminder.html">
+        <div class="primary-btn">
+          See case study
+        </div>
+        </a>
+      </div>
+      <div class="work-wrapper info project-right" id="work3">
+            <a href="medreminder.html">
+              <div class="work-thumbnail" id="work-onduo"></div>
+            </a>
+      </div>
+    </div>
+
+    <div class="flexbox info" id="flexbox1">
+      <div class="work-wrapper bodycopy2 project-left" id="onduo-text-hover">
+        <h2>Challenge Framework UX</h2>
+        <p class="bodycopy1">Building a New UI & UX Pattern for new feature</p>
+        <p class="bodycopy2">
+        <b>My Role</b> UI/UX Designer <br>
+        <b>Platform</b> iOS & Android<br>
+        <b>Year</b> 2019
+        </p>
+        <div class="primary-btn">
+          See case study
+        </div>
+      </div>
+      <div class="work-wrapper info project-right" id="work3">
+            <a href="medreminder.html">
+              <div class="work-thumbnail" id="work-system"></div>
+            </a>
+      </div>
+    </div>
+
+    <div class="flexbox info" id="flexbox1">
+      <div class="work-wrapper bodycopy2 project-left" id="onduo-text-hover">
+        <h2>Onduo Design Language</h2>
+        <p class="bodycopy1">Building an Assessible Visual Language</p>
+        <p class="bodycopy2">
+        <b>My Role</b> Designer <br>
+        <b>Platform</b> iOS & Android<br>
+        <b>Year</b> 2019
+        </p>
+        <div class="primary-btn">
+          See case study
+        </div>
+      </div>
+      <div class="work-wrapper info project-right" id="work3">
+            <a href="medreminder.html">
+              <div class="work-thumbnail" id="work-system"></div>
+            </a>
+      </div>
+    </div>
+
+    <div class="flexbox info" id="flexbox1">
+      <div class="work-wrapper bodycopy2 project-left" id="onduo-text-hover">
+        <h2>Registry UX</h2>
+        <p class="bodycopy1">Improving the Registration Experience</p>
+
+        <p class="bodycopy2">
+        <b>My Role</b> UI/UX Designer <br>
+        <b>Platform</b> Responsive Website<br>
+        <b>Year</b> 2018
+      </p><br>
+        <p class="italic">NOTE: Details can be shared upon request</p>
+
+        <a href="https://www.projectbaseline.com" target="_blank">
+          <div class="primary-btn">
+           Visit Website
+         </div>
+        </a>
+      </div>
+      <div class="work-wrapper info project-right" id="work3">
+        <div class="container-slideshow">
+              <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="assets/pb/website.png" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="assets/pb/enrollment.png" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="assets/pb/med-fi.png" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="assets/pb/pbr-hand-off.png" style="width:100%">
+              </div>
+              <div class="caption-wrapper">
+                <div class="caption-container">
+                    <div class="slideshow-nav">
+                      <a class="prev" onclick="plusSlides(-1)">❮</a>
+                      <p id="caption"></p>
+                      <a class="next" onclick="plusSlides(1)">❯</a>
+                    </div>
+                </div>
+
+              </div>
+
+
+              <div class="row-slideshow">
+                <div class="column">
+                  <img class="demo cursor" src="assets/pb/website.png" style="width:100%" onclick="currentSlide(1)" alt="Final Design Marketing Website">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="assets/pb/enrollment.png" style="width:100%" onclick="currentSlide(2)" alt="Enriollment Flow">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="assets/pb/med-fi.png" style="width:100%" onclick="currentSlide(3)" alt="Low Fidelity Wireframe">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="assets/pb/pbr-hand-off.png" style="width:100%" onclick="currentSlide(4)" alt="Specs & Assets Hand off">
+                </div>
+              </div>
+            </div>
+              <!-- <div class="work-thumbnail" id="work-pbr"></div> -->
+      </div>
+    </div>
+    <div class="flexbox info info-epro" id="flexbox1">
+      <div class="work-wrapper bodycopy2 project-left" id="onduo-text-hover">
+        <h2>Clincase ePRO</h2>
+        <p class="bodycopy1">Designing Patient's e-Diary</p>
+        <p class="bodycopy2">
+        <b>My Role</b> UX Design Intern <br>
+        <b>Platform</b> Android Tablet<br>
+        <b>Year</b> 2017
+      </p><br>
+        <p class="italic">NOTE: The detail page is coming soon</p>
+        <!-- <a href="epro.html">
+          <div class="primary-btn">
+            See case study
+          </div>
+        </a> -->
+      </div>
+      <div class="work-wrapper info project-right" id="work3">
+            <!-- <a href="epro.html"> -->
+              <div class="work-thumbnail" id="work-epro"></div>
+            <!-- </a> -->
+      </div>
+    </div>
+</div>
+
+  <div class="footer-div project-container">
+    <footer>
+      <div id="footer-wrapper">
+        <div>
+          <p id="footer-text"> © 2019 Minjoo Yun.<br> Designed & coded with love ♥️
+          </p>
+        </div>
+        <div>
+          <a id="back2Top" title="Back to top" href="#"><i class="material-icons" id="top-arrow">arrow_right_alt</i></a>
+        </div>
+      </div>
+    </footer>
+  </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="js/index.js"></script>
