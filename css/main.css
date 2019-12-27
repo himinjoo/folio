@@ -19,9 +19,17 @@ html {
 /*
 Typography
 */
+#hero-headline{
+	color: #323232;
+	font-weight: 400;
+	font-size: 24px;
+	font-family: 'roboto', sans-serif;
+
+}
 h1{
-  font-size: 48px;
-  font-weight: 500;
+	font-size: 24px;
+  font-weight: 600;
+	color: #323232;
 }
 h2{
   font-size: 20px;
@@ -142,7 +150,6 @@ Navigation
 	width: 100%;
 	align-items: center;
 	border-bottom: 1px solid #f1f1f1;
-	background-color: white;
 	max-width: 1200px;
 	transition: ease 0.3s;
 	display: -ms-flexbox;
@@ -159,6 +166,7 @@ Navigation
 }
 #nav-wrapper{
 	background-color: white;
+	opacity: 0.96;
 	margin-top: 0;
 	width: 100%;
 	display: flex;
@@ -374,10 +382,15 @@ li {
 /*
 Info.css
 */
+#first-project{
+	margin-top: 320px;
+	margin-bottom: 180px;
+}
+
 
 #greet{
+	margin-bottom: 180px;
 	margin-top: 300px;
-	margin-bottom: 250px;
 	display: block;
 
 	transition: ease 0.2s;
@@ -572,6 +585,10 @@ a.btn:active {
 	background-image: url("../assets/medreminder/img-cover.png");
 	transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 }
+/* #work-onduo{
+	background-image: url("../assets/medreminder/img-cover.png");
+	transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+} */
 #work-system{
 	background-image: url("../assets/hero/thumbnail-system.png");
 	transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
@@ -609,7 +626,6 @@ a.btn:active {
 	background-color: #fff;
 }
 #about-text{
-	margin-top: 32px;
 	max-width: 600px;
 	color: #323232;
 }
@@ -622,7 +638,9 @@ footer{
 	width: 100%;
 	max-width: 1200px;
 }
-
+#index-footer{
+	background-color: #fff;
+}
 .footer-div{
 	padding-bottom: 56px;
 	padding-left: 7.5%;
@@ -713,8 +731,7 @@ footer{
 		cursor: pointer;
 	}
 	#greet {
-	    margin-top: 250px;
-	    margin-bottom: 100px;
+	    margin-bottom: 120px;
 	    display: block;
 
 			transition: ease 0.2s;
@@ -754,6 +771,11 @@ footer{
 	}
 	.info-epro{
     margin-top: 150px;
+	}
+	#greet {
+			/* margin-top: 250px; */
+			margin-bottom: 120px;
+			padding-bottom: 0px;
 	}
 }
 
