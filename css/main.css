@@ -757,6 +757,11 @@ footer{
 		/* display: flex;
 		flex-direction: column-reverse; */
 	}
+	#first-project{
+		margin-bottom:150px;
+		/* display: flex;
+		flex-direction: column-reverse; */
+	}
 }
 
 @media (max-width: 528px) {
@@ -765,7 +770,12 @@ footer{
 		height: 230px;
 	}
 	#flexbox1{
-		margin-bottom:100px;
+		margin-bottom:120px;
+		/* display: flex;
+		flex-direction: column-reverse; */
+	}
+	#first-project{
+		margin-bottom:120px;
 		/* display: flex;
 		flex-direction: column-reverse; */
 	}
