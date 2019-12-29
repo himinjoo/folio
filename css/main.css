@@ -635,6 +635,9 @@ a.btn:active {
 	max-width: 600px;
 	color: #323232;
 }
+.bodycopy1 span{
+	font-family: "Roboto", sans-serif;
+}
 
 #about-cta{
 	margin-top: 56px;
