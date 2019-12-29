@@ -27,7 +27,7 @@ Typography
 
 }
 h1{
-	font-size: 24px;
+	font-size: 32px;
   font-weight: 600;
 	color: #323232;
 }
@@ -124,8 +124,9 @@ Buttons
 	background-color: #fff;
   color: #323232;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 500;
 	text-decoration: none;
+	font-family: "Roboto", sans-serif;
   border-radius: 4px;
 	border: 1px solid #323232;
   cursor: pointer;
@@ -253,6 +254,10 @@ Navigation
 
 .nav-work{
 	color:#4433ff;
+	text-decoration-line: none;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+
 	}
 
 .nav-link{
@@ -386,8 +391,10 @@ Info.css
 	margin-top: 320px;
 	margin-bottom: 180px;
 }
-
-
+#about{
+	margin-top: 300px;
+	margin-bottom: 100px;
+}
 #greet{
 	margin-bottom: 180px;
 	margin-top: 300px;
@@ -395,7 +402,9 @@ Info.css
 
 	transition: ease 0.2s;
 }
-
+#randomshots{
+	margin-bottom: 24px;
+}
 .sns-link{
   margin-left: 0;
   padding-left: 0;
@@ -549,9 +558,6 @@ a.btn:active {
 }
 #work1{
 	margin-bottom:24px;
-}
-#about{
-	margin-top:24px;
 }
 #flexbox1{
 	margin-bottom:180px;
@@ -707,6 +713,22 @@ footer{
     text-decoration: none;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% auto;
+	overflow: hidden;
+	max-width:1200px;
+	width: 100%;
+}
+.grid-item {
+  background-color: #fff;
+  padding: 8px;
+	padding-top: 0px;
+	padding-bottom: 32px;
+  font-size: 30px;
+  text-align: center;
+}
+
 @media (max-width: 960px) {
 	.flexbox{
 		display: block;
@@ -765,6 +787,7 @@ footer{
 }
 
 @media (max-width: 528px) {
+
 	.work-thumbnail{
 		width: 100%;
 		height: 230px;
@@ -786,6 +809,14 @@ footer{
 			/* margin-top: 250px; */
 			margin-bottom: 120px;
 			padding-bottom: 0px;
+	}
+
+	.grid-container {
+	  display: inline-block;
+	  grid-template-columns: 100% auto;
+		overflow: hidden;
+		max-width:1200px;
+		width: 100%;
 	}
 }
 
