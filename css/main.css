@@ -840,6 +840,10 @@ footer{
 		max-width:1200px;
 		width: 100%;
 	}
+
+	#scroll-down{
+		margin-top: 70vh;
+	}
 }
 
 
