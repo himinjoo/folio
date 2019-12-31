@@ -383,13 +383,37 @@ li {
 	-o-transition: .7s all;
 }
 
+.full-width-container{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+  justify-content: center;
+}
 
+#scroll-down{
+	width: 56px;
+	height: 40px;
+	margin-top: 90vh;
+	z-index: 2;
+	cursor: pointer;
+}
+#hero-illy{
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+	position: absolute;
+	z-index: -2;
+
+	background-image: url("../assets/hero/illy-hello-2.gif");
+}
 /*
 Info.css
 */
 #first-project{
-	margin-top: 320px;
-	margin-bottom: 180px;
+	padding-top: 180px;
+	margin-bottom: 140px;
 }
 #about{
 	margin-top: 300px;
@@ -778,12 +802,14 @@ footer{
 		height: 356px;
 	}
 	#flexbox1{
-		margin-bottom:150px;
+		margin-bottom:120px;
 		/* display: flex;
 		flex-direction: column-reverse; */
 	}
 	#first-project{
-		margin-bottom:150px;
+		margin-bottom:120px;
+		padding-top: 120px;
+
 		/* display: flex;
 		flex-direction: column-reverse; */
 	}
@@ -794,16 +820,6 @@ footer{
 	.work-thumbnail{
 		width: 100%;
 		height: 230px;
-	}
-	#flexbox1{
-		margin-bottom:120px;
-		/* display: flex;
-		flex-direction: column-reverse; */
-	}
-	#first-project{
-		margin-bottom:120px;
-		/* display: flex;
-		flex-direction: column-reverse; */
 	}
 	.info-epro{
     margin-top: 150px;

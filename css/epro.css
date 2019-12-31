@@ -624,7 +624,10 @@ border-radius: 8px;
 #onduo-footer{
 	margin-top: 100px;
 }
-
+#project-others-onduo{
+	background-color: #D2EFF3;
+	padding-top: 56px;
+}
 #footer-wrapper{
 	color: #757575;
 	width: 100%;
