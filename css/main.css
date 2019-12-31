@@ -408,6 +408,9 @@ li {
 
 	background-image: url("../assets/hero/illy-hello-2.gif");
 }
+#hero-info{
+	margin-top: 30vh;
+}
 /*
 Info.css
 */
