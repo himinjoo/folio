@@ -632,12 +632,12 @@ a.btn:active {
 }
 
 #work-verily{
-	background-image: url("../assets/hero/thumbnail-verily3.png");
+	background-image: url("../assets/hero/thumbnail-verily.png");
 	transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 }
 
 #work-pbr{
-	background-image: url("../assets/pb/thumbnail-pbr.png");
+	background-image: url("../assets/hero/thumbnail-pbr.png");
 	transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 }
 /* #work-onduo{
@@ -708,7 +708,7 @@ footer{
 	padding-left: 24px;
 }
 #index-footer{
-	background-color: #fff;
+	background-color: #fafafa;
 }
 .footer-div{
 	padding-bottom: 56px;
