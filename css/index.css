@@ -637,7 +637,7 @@ a.btn:active {
 }
 
 #work-pbr{
-	background-image: url("../assets/pb/website.png");
+	background-image: url("../assets/pb/thumbnail-pbr.png");
 	transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 }
 /* #work-onduo{
@@ -653,7 +653,7 @@ a.btn:active {
 	transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 }
 #work-illy{
-	background-image: url("../assets/illustrations/modular-illy.png");
+	background-image: url("../assets/illustrations/modular-illy2.png");
 	transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 }
 #work-epro{
