@@ -632,7 +632,7 @@ a.btn:active {
 }
 
 #work-verily{
-	background-image: url("../assets/hero/thumbnail-verily.png");
+	background-image: url("../assets/hero/thumbnail-verily3.png");
 	transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 }
 
@@ -668,7 +668,7 @@ a.btn:active {
 #contact{
 	background-image: url("../assets/hero/illy9.png");
 	transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
-	background-color: #E4A63E;
+	background-color: #f5d38d;
 	height: 395px;
 }
 
@@ -902,7 +902,10 @@ footer{
 		overflow: hidden;
 		width: 100%;
 	}
-
+	.project-container {
+	    padding-left: 6%;
+	    padding-right: 6%;
+		}
 	#scroll-down{
 		margin-top: 80vh;
 	}
