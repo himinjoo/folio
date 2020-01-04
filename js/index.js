@@ -45,16 +45,27 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("nav-wrapper").style.height = "48px";
+    document.getElementById("nav-wrapper").style.height = "60px";
+    document.getElementById("nav-wrapper").style.boxShadow = "0 0.125rem 0.3125rem rgba(0,0,0,.26)";
     document.getElementById("spantitle").style.marginTop = "-21px";
     document.getElementById("logo").style.position = "absolute";
-
   } else {
     document.getElementById("nav-wrapper").style.height = "179px";
+    document.getElementById("nav-wrapper").style.boxShadow = "none";
     document.getElementById("spantitle").style.marginTop = "0px";
     document.getElementById("logo").style.fontSize = "absolute";
   }
-}
+};
+
+$(window).scroll(function() {     
+  var scroll = $(window).scrollTop();
+  if (scroll > 0) {
+      $("#nav-wrapper").addClass("active");
+  }
+  else {
+      $("#nav-wrapper").removeClass("active");
+  }
+});
 
 /*Scroll to top when arrow up clicked BEGIN*/
 $(window).scroll(function() {

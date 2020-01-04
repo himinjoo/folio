@@ -24,7 +24,6 @@ Typography
 	font-weight: 400;
 	font-size: 24px;
 	font-family: 'roboto', sans-serif;
-
 }
 h1{
 	font-size: 32px;
@@ -32,14 +31,14 @@ h1{
 	color: #323232;
 }
 h2{
-  font-size: 20px;
-  font-weight: 600;
-	color: #323232;
+  font-size: 24px;
+  font-weight: 440;
+	color: #424242;
 }
 h3{
   font-size: 24px;
   font-weight: lighter;
-	color: #616161;
+	color: #424242;
 	font-family: 'roboto', sans-serif;
 }
 .h3{
@@ -59,6 +58,20 @@ h3{
 	font-family: 'Roboto', sans-serif;
 }
 .bodycopy2{
+	font-size: 14px;
+	color: #424242;
+	font-weight: 500;
+	line-height: 1.7;
+	font-family: 'Roboto', sans-serif;
+}
+.bodycopy3{
+	font-size: 14px;
+	color: #424242;
+	font-weight: 300;
+	line-height: 1.7;
+	font-family: 'Roboto', sans-serif;
+}
+.bodycopy4{
 	font-size: 12px;
 	color: #757575;
 	font-weight: 400;
@@ -69,10 +82,7 @@ h3{
 	font-size: 14px;
 	font-family: 'Roboto', sans-serif;
 }
-#caption {
-	font-size: 14px;
-	font-family: 'Roboto', sans-serif;
-}
+
 .italic{
 	font-style: italic;
 	font-weight: 400;
@@ -101,16 +111,9 @@ h3{
 	font-weight: 500;
 	color: #424242;
 }
-.scroll_down:hover {
-	color:#fa4f64;
-}
 
 .material-icons{
-	color: #424242;
-}
-
-.material-icons:hover{
-	color: #fa4f64;
+	color: #5f6368;
 }
 
 /*
@@ -122,14 +125,14 @@ Buttons
 	margin-top: 24px;
 	margin-bottom: 24px;
 	background-color: #fff;
-  color: #323232;
-  font-size: 14px;
-  font-weight: 500;
+  	color: #323232;
+  	font-size: 14px;
+  	font-weight: 500;
 	text-decoration: none;
 	font-family: "Roboto", sans-serif;
-  border-radius: 4px;
+  	border-radius: 4px;
 	border: 1px solid #323232;
-  cursor: pointer;
+  	cursor: pointer;
 	display: inline-block;
 	letter-spacing: 0.2px;
 
@@ -139,26 +142,46 @@ Buttons
 	background-color: #424242;
 	color: #fff;
 }
+.link-btn{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 14px;
+	color: #5f6368;
+	display: flex;
+	align-items: center;
+}
+
+.list-img{
+	margin-top: 32px;
+	display: flex;
+	align-items: center;
+}
+.list-img img{
+	margin-right: 16px;
+}
+a{
+	text-decoration: none;
+}
 /*
 Navigation
 */
 
 .nav{
 	position: -webkit-fixed;
+	padding-left: 24px;
+	padding-right: 24px;
+	margin-bottom: 0;
   align-items:baseline;
 	top: 0;
   justify-content: space-between;
 	width: 100%;
 	align-items: center;
-	border-bottom: 1px solid #f1f1f1;
-	max-width: 1200px;
+	/* border-bottom: 1px solid #f1f1f1; */
+	max-width: 1264px;
 	transition: ease 0.3s;
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	padding-left: 0;
-	margin-bottom: 0;
 	list-style: none;
 }
 
@@ -180,7 +203,12 @@ Navigation
 	padding-right: 7.5%;
 	transition: ease 0.3s;
 	z-index: 20000;
-
+	box-shadow: none;
+}
+.active{
+	-webkit-box-shadow: 0 0.125rem 0.3125rem rgba(0,0,0,.26);
+    -moz-box-shadow: 0 0.125rem 0.3125rem rgba(0,0,0,.26);
+	box-shadow: 0 0.125rem 0.3125rem rgba(0,0,0,.26);
 }
 .nav-btn{
   padding-bottom: 0px;
@@ -203,6 +231,7 @@ Navigation
 	font-family: 'Roboto', sans-serif;
 	text-decoration: none;
 }
+
 /* .active{
   color: #242424 !important;
 } */
@@ -398,7 +427,7 @@ li {
 	cursor: pointer;
 }
 #hero-illy{
-	max-width: 1200px;
+	max-width: 1264px;
 	width: 100%;
 	height: 100vh;
 	background-repeat: no-repeat;
@@ -420,15 +449,11 @@ Info.css
 	margin-bottom: 140px;
 }
 #about{
-	margin-top: 300px;
+	margin-top: 200px;
 	margin-bottom: 100px;
 }
 #greet{
-	margin-bottom: 180px;
-	margin-top: 300px;
-	display: block;
-
-	transition: ease 0.2s;
+	margin-left: 24px;
 }
 #randomshots{
 	margin-bottom: 24px;
@@ -454,7 +479,7 @@ Info.css
   /* display: -webkit-flex;
 	display: flex; */
 	margin: auto;
-	max-width: 1200px;
+	max-width: 1276px;
 
   /* bottom: 7.5%; deleted to make it scrollable*/
   /* overflow: hidden; */
@@ -592,7 +617,7 @@ a.btn:active {
 }
 .work-thumbnail{
 	width: 100%;
-	height: 400px;
+	height: 328px;
 	background-repeat: no-repeat;
 	background-size: auto 100%;
 	background-position: center;
@@ -612,7 +637,7 @@ a.btn:active {
 }
 
 #work-pbr{
-	background-image: url("../assets/hero/thumbnail-pbr.png");
+	background-image: url("../assets/pb/website.png");
 	transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 }
 /* #work-onduo{
@@ -639,6 +664,12 @@ a.btn:active {
 	background-image: url("../assets/hero/thumbnail-me3.png");
 	transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 	height: 495px;
+}
+#contact{
+	background-image: url("../assets/hero/illy9.png");
+	transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+	background-color: #E4A63E;
+	height: 395px;
 }
 
 #for-fun{
@@ -673,7 +704,8 @@ a.btn:active {
 
 footer{
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1264px;
+	padding-left: 24px;
 }
 #index-footer{
 	background-color: #fff;
@@ -705,14 +737,13 @@ footer{
 	color: #616161;
 	font-size: 12px;
 }
-
 .hyperlink{
-	color:#322db5;
+	color: #4433ff;
 	font-weight: bold;
 }
 
 .hyperlink:hover{
-	color:#322db5;
+	color: #4433ff;
 	font-weight: bold;
 }
 
@@ -743,21 +774,45 @@ footer{
     font-size: 32px;
     text-decoration: none;
 }
+.link{
+	text-decoration-line: none;
+	text-decoration: none;
+}
 
 .grid-container {
   display: grid;
   grid-template-columns: 50% auto;
 	overflow: hidden;
-	max-width:1200px;
+	max-width:1276px;
 	width: 100%;
 }
 .grid-item {
   background-color: #fff;
-  padding: 8px;
-	padding-top: 0px;
+  padding: 24px;
 	padding-bottom: 32px;
+	margin: 8px;
   font-size: 30px;
-  text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+#grid-item-about{
+	border-top: 4px solid #4433ff;
+	padding-top: 24px;
+}
+.grid-item:hover {
+	cursor: pointer;
+	box-shadow: 0px 0.125rem 0.3125rem rgba(0, 0, 0, 0.26);
+
+	transition: .15s cubic-bezier(.4,0,.2,1) ;
+}
+.grid-item-text{
+	text-align: left;
+	padding: 16px;
+	padding-left: 0px;
+	padding-top: 24px;
+}
+.grid-item-text p{
+	padding-top: 16px;
 }
 
 @media (max-width: 960px) {
@@ -820,7 +875,14 @@ footer{
 }
 
 @media (max-width: 528px) {
-
+	.nav{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.grid-item {
+		padding: 0px;
+		padding-bottom: 56px;
+	  }
 	.work-thumbnail{
 		width: 100%;
 		height: 230px;
@@ -838,7 +900,6 @@ footer{
 	  display: inline-block;
 	  grid-template-columns: 100% auto;
 		overflow: hidden;
-		max-width:1200px;
 		width: 100%;
 	}
 
