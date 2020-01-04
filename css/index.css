@@ -636,6 +636,11 @@ a.btn:active {
 	transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 }
 
+#work-med{
+	background-image: url("../assets/hero/thumbnail-med.png");
+	transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
 #work-pbr{
 	background-image: url("../assets/hero/thumbnail-pbr.png");
 	transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
