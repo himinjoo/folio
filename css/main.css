@@ -746,18 +746,16 @@ footer{
 
 .grid-container {
   display: grid;
-  grid-template-columns: 50% auto;
+  grid-template-columns: 33.3% 33.3% auto;
 	overflow: hidden;
 	max-width:1200px;
 	width: 100%;
 }
 .grid-item {
-  background-color: #fff;
-  padding: 8px;
+  	background-color: #fff;
 	padding-top: 0px;
-	padding-bottom: 32px;
-  font-size: 30px;
-  text-align: center;
+  	font-size: 30px;
+  	text-align: center;
 }
 
 @media (max-width: 960px) {
