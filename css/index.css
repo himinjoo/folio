@@ -910,6 +910,9 @@ footer{
 	#scroll-down{
 		margin-top: 80vh;
 	}
+	footer{
+		padding-left: 0px;
+	}
 }
 
 
