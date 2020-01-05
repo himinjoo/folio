@@ -23,21 +23,20 @@ Navigation
 */
 .nav{
 	position: -webkit-fixed;
+	padding-left: 32px;
+	padding-right: 32px;
+	margin-bottom: 0;
   align-items:baseline;
 	top: 0;
   justify-content: space-between;
 	width: 100%;
-	z-index: 20000;
 	align-items: center;
-	border-bottom: 1px solid #f1f1f1;
-	max-width: 1200px;
+	max-width: 1264px;
 	transition: ease 0.3s;
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	padding-left: 0;
-	margin-bottom: 0;
 	list-style: none;
 }
 
@@ -420,8 +419,9 @@ progress::-moz-progress-bar {
 }
 .project-wrapper{
 	width: 100%;
-  max-width: 1200px;
-	/* margin-top: 56px; */
+  max-width: 1264px;
+	padding-left: 32px;
+	padding-right: 32px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -672,7 +672,7 @@ border-radius: 8px;
 }
 /*footer ends here*/
 
-@media (max-width: 800px) {
+@media (max-width: 890px) {
   /*
   Typography
   */
@@ -782,10 +782,24 @@ border-radius: 8px;
 		width: auto;
 	}
 }
+@media (max-width: 528px) {
+	#next-project-wrapper{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.project-wrapper{
+		padding: 0px;
+	}
+	.nav{
+		padding: 0px;
+	}
+}
 
 footer{
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1264px;
+	padding-left: 32px;
+	padding-right: 32px;
 }
 
 .footer-div{

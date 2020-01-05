@@ -167,8 +167,8 @@ Navigation
 
 .nav{
 	position: -webkit-fixed;
-	padding-left: 24px;
-	padding-right: 24px;
+	padding-left: 32px;
+	padding-right: 32px;
 	margin-bottom: 0;
   align-items:baseline;
 	top: 0;
@@ -476,13 +476,8 @@ Info.css
 
 .info{
   margin-top: 100px;
-  /* display: -webkit-flex;
-	display: flex; */
 	margin: auto;
-	max-width: 1276px;
-
-  /* bottom: 7.5%; deleted to make it scrollable*/
-  /* overflow: hidden; */
+	max-width: 1264px;
 }
 
 .info div:nth-of-type(1) {-webkit-flex-grow: 1.5;}
@@ -710,7 +705,7 @@ a.btn:active {
 footer{
 	width: 100%;
 	max-width: 1264px;
-	padding-left: 24px;
+	padding-left: 32px;
 }
 #index-footer{
 	background-color: #fafafa;
@@ -886,6 +881,7 @@ footer{
 	}
 	.grid-item {
 		padding: 0px;
+		margin: 0px;
 		padding-bottom: 56px;
 	  }
 	.work-thumbnail{
@@ -908,8 +904,8 @@ footer{
 		width: 100%;
 	}
 	.project-container {
-	    padding-left: 6%;
-	    padding-right: 6%;
+	    padding-left: 7.5%;
+	    padding-right: 7.5%;
 		}
 	#scroll-down{
 		margin-top: 80vh;

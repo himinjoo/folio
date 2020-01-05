@@ -22,25 +22,23 @@ Navigation
 */
 .nav{
 	position: -webkit-fixed;
+	padding-left: 32px;
+	padding-right: 32px;
+	margin-bottom: 0;
   align-items:baseline;
 	top: 0;
   justify-content: space-between;
 	width: 100%;
-	z-index: 20000;
 	align-items: center;
-	border-bottom: 1px solid #f1f1f1;
-	background-color: white;
-	max-width: 1200px;
+	/* border-bottom: 1px solid #f1f1f1; */
+	max-width: 1264px;
 	transition: ease 0.3s;
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	padding-left: 0;
-	margin-bottom: 0;
 	list-style: none;
 }
-
 .sm-menu{
 	display:none;
 }
