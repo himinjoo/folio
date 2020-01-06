@@ -224,7 +224,11 @@ p{
 	font-weight: 600;
 	color: #323232;
 }
-
+.quotes{
+	font-size: 36px;
+	font-weight: 400;
+	color: #4689FF;
+}
 h1{
 	font-size: 32px;
   font-weight: 600;
@@ -252,7 +256,7 @@ h3{
 }
 .call-out p{
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 400;
 	color: #424242;
 }
 .subtitle{
@@ -388,7 +392,10 @@ progress::-moz-progress-bar {
 .project-img{
 	margin-top: 32px;
 }
-
+#reflect-text{
+	padding-left: 0px;
+	padding-right: 0px;
+}
 .progress-bar {
   background-image: linear-gradient(to right, #315ff8 , #ed174b);
 	background-color: #315FF8;
@@ -428,6 +435,23 @@ progress::-moz-progress-bar {
 /* .textarea span{
 	color:#323232;
 } */
+.quotes{
+	text-align: center;
+}
+.quotes-wrapper{
+	padding: 32px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.quotes-line{
+	height: 2px;
+	width: 100px;
+	background-color: #bdbdbd;
+	margin: 56px 0;
+}
 
 #project-hero-caption-line2{
   margin-top: 12px;
@@ -484,7 +508,7 @@ progress::-moz-progress-bar {
   align-items: center;
 }
 .call-out{
-	border-left: 4px solid #0ddbc3;
+	border-left: 4px solid #4689FF;
 	padding-left: 24px;
 }
 
@@ -850,6 +874,10 @@ border-radius: 8px;
 	.next-project{
 		width: auto;
 	}
+	#reflect-text{
+		padding-left: 32px;
+		padding-right: 32px;
+	}
 }
 
 @media (max-width: 528px) {
@@ -872,7 +900,10 @@ border-radius: 8px;
 	}
 	.grid-container-2-col .grid-item{
 		border: none;
-
+	}
+	#reflect-text{
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 }
 
