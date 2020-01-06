@@ -903,6 +903,12 @@ footer{
 		overflow: hidden;
 		width: 100%;
 	}
+	.grid-container-4-col{
+		display: inline-block;
+		grid-template-columns: 100% auto;
+		overflow: hidden;
+		width: 100%;
+	}
 	.project-container {
 	    padding-left: 7.5%;
 	    padding-right: 7.5%;
