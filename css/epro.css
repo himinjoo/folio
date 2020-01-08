@@ -227,7 +227,7 @@ p{
 .quotes{
 	font-size: 36px;
 	font-weight: 400;
-	color: #4689FF;
+	color: #4294A7;
 }
 h1{
 	font-size: 32px;
@@ -518,7 +518,7 @@ progress::-moz-progress-bar {
   align-items: center;
 }
 .call-out{
-	border-left: 4px solid #4689FF;
+	border-left: 4px solid #4294A7;
 	padding-left: 24px;
 }
 
