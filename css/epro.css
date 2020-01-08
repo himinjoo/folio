@@ -926,6 +926,9 @@ border-radius: 8px;
 		padding-left: 0px;
 		padding-right: 0px;
 	}
+	#video{
+		height: 396;
+	}
 }
 
 footer{
