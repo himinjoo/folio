@@ -856,6 +856,11 @@ footer{
 		padding: 0px;
 	}
 }
+@media (min-width: 1478px) {
+	#footer-text{
+		padding: 0px;
+	}
+}
 
 
 .caption-wrapper{

@@ -649,7 +649,11 @@ a.btn:active {
 	transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 }
 #work-system{
-	background-image: url("../assets/hero/thumbnail-system.png");
+	background-image: url("../assets/onduoapp/onduo-system.png");
+	transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+}
+#work-paired-check{
+	background-image: url("../assets/hero/thumbnail-paired-check.png");
 	transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 }
 #work-illy{
