@@ -750,13 +750,15 @@ footer{
 	color: #4433ff;
 	font-weight: bold;
 }
-
 #top-arrow{
 	font-size: 32px;
 	color: #000;
+	background-color: #e7e9ef;
+
 }
 #top-arrow:hover{
 	color: #4433ff;
+	background-color: #ebe9fd;
 }
 #back2Top {
     width: 36px;
