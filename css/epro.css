@@ -335,8 +335,13 @@ h3{
 }
 .italic{
 	font-style: italic;
-	font-weight: 300;
+	font-weight: 400;
 	color: #757575;
+	width: 100%;
+	text-align: center;
+	margin-top: 12px;
+	font-size: 12px;
+	margin-bottom: 32px;
 }
 .caption{
 	font-family: 'Roboto', sans-serif;
