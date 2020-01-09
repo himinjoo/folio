@@ -225,9 +225,9 @@ p{
 	color: #323232;
 }
 .quotes{
-	font-size: 36px;
+	font-size: 32px;
 	font-weight: 400;
-	color: #4294A7;
+	color: #EF435E;
 }
 h1{
 	font-size: 32px;
@@ -518,7 +518,7 @@ progress::-moz-progress-bar {
   align-items: center;
 }
 .call-out{
-	border-left: 4px solid #4294A7;
+	border-left: 4px solid #EF435E;
 	padding-left: 24px;
 }
 
@@ -928,6 +928,9 @@ border-radius: 8px;
 	}
 	#video{
 		height: 396pxs;
+	}
+	.quotes{
+		font-size: 28px;
 	}
 }
 
