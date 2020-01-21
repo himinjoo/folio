@@ -357,6 +357,15 @@ h3{
 	margin-right: 16px;
 }
 
+.list-img-2{
+	margin-top: 56px;
+	display: flex;
+	align-items: center;
+}
+
+.list-img-2 img{
+	margin-right: 36px;
+}
 
 progress {
 	position: fixed;
