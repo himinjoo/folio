@@ -1,21 +1,4 @@
-// function passWord() {
-// var testV = 1;
-// var pass1 = prompt('Please Enter Your Password',' ');
-// while (testV < 3) {
-// if (!pass1)
-// history.go(-1);
-// if (pass1.toLowerCase() == "behappy") {
-// window.open('https://himinjoo.github.io/folio/main.html','_self');
-// break;
-// }
-// testV+=1;
-// var pass1 =
-// prompt("Uh oh..It's not correct. Please double check and try again.",'');
-// }
-// if (pass1.toLowerCase()!=" " & testV ==10)
-// history.go(-1);
-// return " ";
-// }
+
 
 function openNav() {
   document.getElementById("smallMenu").style.display = "block";
@@ -44,20 +27,20 @@ e.preventDefault();
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("nav-wrapper").style.height = "60px";
-    document.getElementById("nav-wrapper").style.boxShadow = "0 0.125rem 0.3125rem rgba(0,0,0,.26)";
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("nav-wrapper").style.height = "40px";
+    document.getElementById("secondNavbar").style.top = "0";
     document.getElementById("spantitle").style.marginTop = "-21px";
     document.getElementById("logo").style.position = "absolute";
   } else {
     document.getElementById("nav-wrapper").style.height = "179px";
-    document.getElementById("nav-wrapper").style.boxShadow = "none";
+    document.getElementById("secondNavbar").style.top = "-60px";
     document.getElementById("spantitle").style.marginTop = "0px";
     document.getElementById("logo").style.fontSize = "absolute";
   }
 };
 
-$(window).scroll(function() {     
+$(window).scroll(function() {
   var scroll = $(window).scrollTop();
   if (scroll > 0) {
       $("#nav-wrapper").addClass("active");
@@ -102,36 +85,3 @@ $(document).ready(function() {
       progressBar.attr('value', value);
    });
  });
-
-
- /* Slideshow begins here*/
-
- var slideIndex = 1;
- showSlides(slideIndex);
-
- function plusSlides(n) {
-   showSlides(slideIndex += n);
- }
-
- function currentSlide(n) {
-   showSlides(slideIndex = n);
- }
-
- function showSlides(n) {
-   var i;
-   var slides = document.getElementsByClassName("mySlides");
-   var dots = document.getElementsByClassName("demo");
-   var captionText = document.getElementById("caption");
-   if (n > slides.length) {slideIndex = 1}
-   if (n < 1) {slideIndex = slides.length}
-   for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";
-   }
-   for (i = 0; i < dots.length; i++) {
-       dots[i].className = dots[i].className.replace(" active", "");
-   }
-   slides[slideIndex-1].style.display = "block";
-   dots[slideIndex-1].className += " active";
-   captionText.innerHTML = dots[slideIndex-1].alt;
- }
- /* Slideshow ends here */

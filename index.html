@@ -3,44 +3,51 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript" src="jquery-3.3.1.js"></script>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700&display=swap" rel="stylesheet">
     <link rel="icon" href="../assets/favicon.png" type="image/png" sizes="16x16">
     <link rel="icon" href="assets/favicon.png" type="image/png" sizes="16x16">
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155169628-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'UA-155169628-1');
-    </script>
     <title>Minjoo UX Designer</title>
   </head>
 
   <body>
     <!-- Nagigation begins from here -->
+    <div id="secondNavbar">
+      <div class="nav large li"  id="navbar">
+        <div class="logo">
+          <a class="logo" href="index.html">
+            MINJOO
+          </a>
+        </div>
+        <div class="nav-li" id="navA">
+          <li class="nav-btn-left li">
+            <a class="nav-work" href="index.html">PROJECTS</a>
+          </li>
+          <li>
+            <a class="nav-link nav-info" href="https://www.linkedin.com/in/mjmjyun/" target="_blank">LINKEDIN</a>
+          </li>
+        </div>
+        <div class="sm-menu" id="openMenu">
+          <span id="ic-sm-menu" class="sm-menu-dark" onclick="openNav()"><i class="material-icons">menu</i></span>
+        </div>
+      </div>
+    </div>
     <div class="overlay" id="smallMenu">
       <div class="sm-menu-content-wrapper" id="menu">
         <ul>
           <li>
             <a href="index.html">PROJECTS</a>
           </li>
-          <li>
+          <!-- <li>
             <a href="about.html">ABOUT</a>
-          </li>
-          <li>
-            <a class="nav-link" href="assets/minjoo_resume.pdf" target="_blank">RESUME<i class="material-icons md-24">open_in_new</i></a>
-          </li>
+          </li> -->
+
           <li>
             <a class="nav-link nav-info" href="https://www.linkedin.com/in/mjmjyun/" target="_blank">LINKEDIN<i class="material-icons md-24">open_in_new</i></a>
           </li>
@@ -55,19 +62,13 @@
       <div class="nav large li"  id="navbar">
         <div class="logo">
           <a class="logo" href="index.html">
-            <span class="span" id="span-name">MINJOO YUN</span>
-            <span class="span span-title" id="spantitle">UX DESIGNER</span>
+            <span class="span" id="span-name">MINJOO</span>
+            <span class="span span-title" id="spantitle">DESIGNER</span>
           </a>
         </div>
         <div class="nav-li">
           <li class="nav-btn-left li">
             <a class="nav-work" href="index.html">PROJECTS</a>
-          </li>
-          <li class="nav-btn-left li">
-            <a class="nav-link" href="about.html">ABOUT</a>
-          </li>
-          <li class="nav-btn-left li">
-            <a class="nav-link" href="assets/minjoo_resume.pdf" target="_blank">RESUME</a>
           </li>
           <li>
             <a class="nav-link nav-info" href="https://www.linkedin.com/in/mjmjyun/" target="_blank">LINKEDIN</a>
@@ -78,37 +79,20 @@
         </div>
       </div>
     </div>
-    <!-- Top navigation ends here -->
-    <!-- <img src="assets/hero/main.png" style="width:100%" alt="hero-image" id="hero-img"> -->
+
 
 <div class="project-container">
-  <div class="flexbox info info-epro" id="about">
     <div class="info">
-        <div class="grid-container" id="about-flexbox">
+      <div class="headline-wrapper">
+        <div class="headline">
+          <h1 id="hero-headline">Design for Good</h1>
+          <h3 id="hero-sub">My mission is to bridge the gaps between business, technology and people through accessible, useful and enjoyable design solutions.</h3>
+        </div>
+      </div>
 
-          <a href="assets/minjoo_resume.pdf" class="link" target="_blank">
-            <div class="grid-item" id="about-flexbox">
-              <div id="grid-item-about">
-                <h2>Designer and Lifelong Learner</h2>
-                <p class="bodycopy1">
-                   "I love collaborating with cross functional teams, iterating through research and testing, and being involved in the growth of a product from ideation to launch."
-                </p>
-                <div class="list-img">
-                  <img src="assets/profile-pic.png" style="width:56px" onclick="currentSlide(1)" alt="Final Design Marketing Website">
-                  <div>
-                    <p class="bodycopy2">Minjoo Yun</p>
-                    <p class="bodycopy3">San Francisco Bay Area</p>
-                  </div>
-                </div>
-                <div class="link-btn" style="padding-top:32px" >
-                  <p class="link-btn"><i class="material-icons md-18">open_in_new</i> &nbsp; Resume</p>
-                </div>
-              </div>
-            </div>
-          </a>
-
+      <div class="grid-container" id="about-flexbox">
           <a href="verily.html">
-            <div class="grid-item" id="about-flexbox">
+            <div class="grid-item grid-item-left" id="about-flexbox">
               <div class="work-thumbnail" id="work-verily"></div>
               <div class="grid-item-text">
                 <h2>Verily (formerly Google Life Sciences)</h2>
@@ -144,7 +128,7 @@
         </a>
 
         <a href="paired-check.html">
-          <div class="grid-item" id="about-flexbox">
+          <div class="grid-item grid-item-right" id="about-flexbox">
             <div class="work-thumbnail" id="work-paired-check"></div>
             <div class="grid-item-text">
               <h2>Blood Sugar Monitoring Exercise</h2>
@@ -160,60 +144,61 @@
               </div>
           </div>
         </a>
-
-            <a href="medreminder.html">
-                  <div class="grid-item" id="about-flexbox">
-                    <div class="work-thumbnail" id="work-med"></div>
-                    <div class="grid-item-text">
-                      <h2>Medication Reminder UX</h2>
-                      <p class="bodycopy1">Continual support to help people stay on track.</p>
-                    </div>
-                      <div class="link-btn">
-                        <p class="link-btn">
-                          See case study
-                        </p>
-                        <i class="material-icons">
-                          arrow_forward
-                          </i>
-                      </div>
-                  </div>
-            </a>
-
-
-        <a href="https://www.projectbaseline.com/" target="_blank">
-          <div class="grid-item" id="about-flexbox">
-            <div class="work-thumbnail" id="work-pbr"></div>
-            <div class="grid-item-text">
-              <h2>Baseline Registry UX</h2>
-              <p class="bodycopy1">Improving the registration experience for Project Baseline by Verily.</p>
-            </div>
-              <div class="link-btn">
-                <p class="link-btn"><i class="material-icons md-18">open_in_new</i> &nbsp; projectbaseline.com</p>
-
-                <!-- <p class="link-btn">
-                  See case study (coming soon)
-                </p>
-                <i class="material-icons">
-                  arrow_forward
-                  </i> -->
-              </div>
-          </div>
-        </a>
-
       </div><br>
+    </div>
+  </div>
+</div>
 
-      <a href="mailto:heyheyminjoo@gmail.com?subject=himinjoo!">
-        <div class="grid-item" id="about-flexbox">
-        <div class="work-thumbnail" id="contact"></div>
-        <div class="grid-item-text">
-          <h2>Any questions? Let's talk!</h2>
-          <p class="bodycopy1">I'm always up for quality conversation with caffeine ☕</p>
-        </div>
-          <div class="link-btn">
-                <p class="link-btn"><i class="material-icons md-18">open_in_new</i> &nbsp; heyheyminjoo@gmail.com</p>
-          </div>
-        </div>
+<div class="full-banner-wrapper">
+  <div class="full-banner-content-wrapper">
+    <div class="full-banner-content">
+      <h3>title</h3>
+    </div>
+  </div>
+</div>
+
+<div class="project-container">
+  <div class="info">
+    <div class="grid-container-col-2" id="about-flexbox">
+      <a href="medreminder.html">
+            <div class="grid-item grid-item-left" id="about-flexbox">
+              <div class="work-thumbnail" id="work-med"></div>
+              <div class="grid-item-text">
+                <h2>Medication Reminder UX</h2>
+                <p class="bodycopy1">Continual support to help people stay on track.</p>
+              </div>
+                <div class="link-btn">
+                  <p class="link-btn">
+                    See case study
+                  </p>
+                  <i class="material-icons">
+                    arrow_forward
+                    </i>
+                </div>
+            </div>
       </a>
+
+      <a href="https://www.projectbaseline.com/" target="_blank">
+      <div class="grid-item grid-item-right" id="about-flexbox">
+      <div class="work-thumbnail" id="work-pbr"></div>
+      <div class="grid-item-text">
+        <h2>Baseline Registry UX</h2>
+        <p class="bodycopy1">Improving the registration experience for Project Baseline by Verily.</p>
+      </div>
+        <div class="link-btn">
+          <p class="link-btn">projectbaseline.com&nbsp; <i class="material-icons md-18">open_in_new</i> </p>
+
+        </div>
+      </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="full-banner-wrapper">
+  <div class="full-banner-content-wrapper">
+    <div class="full-banner-content-left">
+      <h3>title</h3>
     </div>
   </div>
 </div>
@@ -222,23 +207,17 @@
     <footer>
       <div id="footer-wrapper">
         <div>
-          <p id="footer-text"> © 2019 Minjoo Yun.<br> Designed & coded with love ♥️
+          <p id="footer-text"> © 2019 Minjoo Yun.<br> Designed & coded with love
           </p>
-        </div>
-        <div>
-          <a id="back2Top" title="Back to top" href="#"><i class="material-icons" id="top-arrow">arrow_right_alt</i></a>
         </div>
       </div>
     </footer>
   </div>
 
-    <script> document.body.className += 'fade-out';</script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="js/index.js"></script>
     <script src="js/project.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
   </body>
 </html>

@@ -3,10 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript" src="jquery-3.3.1.js"></script>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/epro.css">
-    <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
@@ -25,35 +23,41 @@
     <title>Minjoo UX Designer Project</title>
   </head>
   <body>
-    <!--
-            The progress bar
-                - Value is 0 so it doesn't have any size to start with
-                - Max is set to 1 in case of an older browser that doesn't support progress bars.
-            -->
-    <progress value="0" max="1">
-                <!-- Older browsers look to the old div style of progress bars -->
-                <!-- Newer browsers ignore this stuff but it allows older browsers to
-                        still have a progress bar. -->
-                <div class="progress-container">
-                    <span id="progress-bar"></span>
-                </div>
-            </progress>
-            <div class="project-hero" id="verily-hero">
-            </div>
 
 
   <!-- Nagigation begins from here -->
+  <div id="secondNavbar">
+    <div class="nav large li"  id="navbar">
+      <div class="logo">
+        <a class="logo" href="index.html">
+          MINJOO
+        </a>
+      </div>
+      <div class="nav-li" id="navA">
+        <li class="nav-btn-left li">
+          <a class="nav-work" href="index.html">PROJECTS</a>
+        </li>
+        <li>
+          <a class="nav-link nav-info" href="https://www.linkedin.com/in/mjmjyun/" target="_blank">LINKEDIN</a>
+        </li>
+      </div>
+      <div class="sm-menu" id="openMenu">
+        <span id="ic-sm-menu" class="sm-menu-dark" onclick="openNav()"><i class="material-icons">menu</i></span>
+      </div>
+    </div>
+    <progress value="0" max="1">
+          <div class="progress-container">
+            <span id="progress-bar"></span>
+          </div>
+        </progress>
+      <div class="project-hero" id="verily-hero">
+    </div>
+  </div>
       <div class="overlay" id="smallMenu">
               <div class="sm-menu-content-wrapper" id="menu">
                 <ul>
                   <li>
                     <a href="index.html">PROJECTS</a>
-                  </li>
-                  <li class="nav-btn-left li">
-                    <a class="nav-link" href="about.html">ABOUT</a>
-                  </li>
-                  <li>
-                    <a class="nav-link" href="assets/minjoo_resume.pdf" target="_blank">RESUME<i class="material-icons md-24">open_in_new</i></a>
                   </li>
                   <li>
                     <a class="nav-link nav-info" href="https://www.linkedin.com/in/mjmjyun/" target="_blank">LINKEDIN<i class="material-icons md-24">open_in_new</i></a>
@@ -69,19 +73,13 @@
               <div class="nav large li"  id="navbar">
                 <div class="logo">
                   <a class="logo" href="index.html">
-                    <span class="span" id="span-name">MINJOO YUN</span>
-                    <span class="span span-title" id="spantitle">UX DESIGNER</span>
+                    <span class="span" id="span-name">MINJOO</span>
+                    <span class="span span-title" id="spantitle">DESIGNER</span>
                   </a>
                 </div>
                 <div class="nav-li">
                   <li class="nav-btn-left li">
                     <a class="nav-work" href="index.html">PROJECTS</a>
-                  </li>
-                  <li class="nav-btn-left li">
-                    <a class="nav-link" href="about.html">ABOUT</a>
-                  </li>
-                  <li class="nav-btn-left li">
-                    <a class="nav-link" href="assets/minjoo_resume.pdf" target="_blank">RESUME</a>
                   </li>
                   <li>
                     <a class="nav-link nav-info" href="https://www.linkedin.com/in/mjmjyun/" target="_blank">LINKEDIN</a>
@@ -135,7 +133,7 @@
         <div class="textarea short-sentence">
           <h2>The Team</h2>
           <p class="bodycopy1">
-            7 designers, 2 product managers, 4 engineers, 1 behavioral scientists, 2 UX researchers, 1UX writer
+            4 designers, 2 product managers, 4 engineers, 1 behavioral scientists, 2 UX researchers, 1UX writer
           </p>
         </div>
 
@@ -150,7 +148,7 @@
 
         <div class="textarea short-sentence">
           <h2>Understanding Our Targeted Audience</h2>
-          <p class="body">
+          <p class="body bodycopy1">
           To design the right thing and design it right, I must understand who I am designing for. More than 30 million Americans have diabetes (about 1 in 10), and <span style="font-weight:700;">90% to 95%</span> of them have <span style="font-weight:700;">type 2 diabetes</span>, and people with diabetes have multiple symptoms which vary in individuals' health condition. The example of <span style="font-weight:700;">common symptoms</span> are:
           </p>
           <div class="list-img">
@@ -276,8 +274,9 @@
             <li>Illustration is more flexible and easily modifiable</li>
             <li>We can use illustrations to re-enforce our brand</li>
           </ul><br>
+          <p class="bodycopy1">
           I was in charge of creating illustrations. To make it more effective and scalable, I proposed creating modular illustrations. Since I created the initial set of 100+, the illustration library has naturally evolved as the product grows and with other designers' contributions.
-
+        </p>
           <img src="assets/onduoapp/illy-process.png" alt="onduo-app-design-system" class="img" width="100%">
           <img src="assets/onduoapp/illy.png" alt="onduo-app-design-system" class="img" width="100%">
           <img src="assets/onduoapp/illy-onduo-coaches.png" alt="onduo-app-design-system" class="img" width="100%">
@@ -354,54 +353,6 @@
                 </p>
               </div>
           </div>
-          <!-- <div class="grid-item">
-              <div class="grid-item-number">
-                <p class="display">
-                  -28%
-                </p>
-              </div>
-              <div class="grid-item-number">
-                <p class="caption">
-                  Expiration went down from 69% to 41%
-                </p>
-              </div>
-          </div>
-          <div class="grid-item">
-              <div class="grid-item-number">
-                <p class="display">
-                  -3%
-                </p>
-              </div>
-              <div class="grid-item-number">
-                <p class="caption">
-                  Cancellation went down from 8% to 5%
-                </p>
-              </div>
-          </div>
-          <div class="grid-item">
-              <div class="grid-item-number">
-                <p class="display">
-                  +28%
-                </p>
-              </div>
-              <div class="grid-item-number">
-                <p class="caption">
-                  Competion rate went up from 22% to 54%
-                </p>
-              </div>
-          </div>
-          <div class="grid-item">
-              <div class="grid-item-number">
-                <p class="display">
-                  -5.2 d
-                </p>
-              </div>
-              <div class="grid-item-number">
-                <p class="caption">
-                  Time to completion went from avg of 6.2 days to 1 day.
-                </p>
-              </div>
-          </div> -->
         </div>
       </div>
     </div>

@@ -21,10 +21,45 @@ body {
 /*
 Navigation
 */
+#secondNavbar {
+  background-color: #111111;
+  position: fixed;
+  top: -60px;
+	height: 40px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+	z-index: 20002;
+	display: flex;
+	justify-content: center;
+	margin-top:none;
+	padding-left: 7.5%;
+	padding-right: 7.5%;
+
+	transition-delay: 0.2s;
+	transition-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+#secondNavbar a {
+  display: block;
+  color: #f2f2f2;
+  text-align: right;
+  text-decoration: none;
+}
+
+#navA{
+	-webkit-animation: fadein 0.5s ease; /* Safari, Chrome and Opera > 12.1 */
+	 -moz-animation: fadein 0.5s ease; /* Firefox < 16 */
+		-ms-animation: fadein 1s ease; /* Internet Explorer */
+		 -o-animation: fadein 0.5s ease; /* Opera < 12.1 */
+				animation: fadein 0.5s ease;
+}
+
+#secondNavbar a:hover {
+  color: #bdbdbd;
+}
 .nav{
 	position: -webkit-fixed;
-	padding-left: 32px;
-	padding-right: 32px;
 	margin-bottom: 0;
   align-items:baseline;
 	top: 0;
@@ -100,7 +135,6 @@ Navigation
   text-decoration: none;
 	color: #323232;
   background-color: transparent;
-	font-family: 'avenir', sans-serif;
 
 	/* transition: height 0.6s
 	cubic-bezier(0.77, 0, 0.175, 1);
@@ -227,21 +261,21 @@ p{
 .quotes{
 	font-size: 32px;
 	font-weight: 400;
-	color: #EF435E;
+	color: #4d4d6d;
 }
 h1{
 	font-size: 32px;
   font-weight: 600;
 	color: #323232;
-	font-family: 'avenir', sans-serif;
 	padding-bottom: 8px;
 }
 h2{
 	padding-bottom: 16px;
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 28px;
+  font-weight: 700;
 	color: #424242;
-	font-family: 'avenir', sans-serif;
+	font-family: 'DM Sans', sans-serif;
+
 }
 
 h3{
@@ -260,28 +294,28 @@ h3{
 	color: #424242;
 }
 .subtitle{
-  font-size: 16px;
-  font-weight: 400;
-	color: #DB005B;
+  font-size: 18px;
+  font-weight: 600;
+	color: #323232;
 }
 .textarea p span{
-	font-size: 16px;
+	font-size: 18px;
 	font-walked: 500;
 }
 .textarea span{
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 500;
 }
 .bodycopy1{
-	font-size: 16px;
+	font-size: 18px;
 	color: #424242;
 	line-height: 1.7;
 	font-family: 'Roboto', sans-serif;
 	margin-bottom: 12px;
-	font-weight: 400;
+	font-weight: 300;
 }
 .bodycopy1-b{
-	font-size: 16px;
+	font-size: 18px;
 	color: #424242;
 	line-height: 1.7;
 	font-family: 'Roboto', sans-serif;
@@ -313,7 +347,6 @@ h3{
 }
 
 .hyperlink{
-  font-size: 16px;
   color: #4433ff;
   font-weight: 400;
 	text-decoration: none;
@@ -371,13 +404,14 @@ progress {
 	position: fixed;
 	left: 0;
  	width: 100%;
-	height: 3px;
+	height: 4px;
+	margin-top: 40px;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
 	border: none;
 	background-color: transparent;
-	color: #315FF8;
+	color: hotpink;
 	z-index: 25000;
 }
 
@@ -387,13 +421,13 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
-	background-color: #4433ff;
+	background-color: hotpink;
 	z-index: 10;
 }
 
 progress::-moz-progress-bar {
-  background-image: linear-gradient(to right, #315ff8 , #ed174b);
-	background-color: #4433ff;
+  background-image: linear-gradient(to right, hotpink , #ed174b);
+	background-color: hotpink;
 	z-index: 10;
 }
 
@@ -401,9 +435,9 @@ progress::-moz-progress-bar {
 	width: 100%;
 	background-color: transparent;
 	position: fixed;
-	top: 0;
+	top: 40;
 	left: 0;
-	height: 5px;
+	height: 10px;
 	display: block;
 	z-index: 10;
 }
@@ -524,16 +558,14 @@ progress::-moz-progress-bar {
 .project-wrapper{
 	width: 100%;
   max-width: 1264px;
-	padding-left: 32px;
-	padding-right: 32px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .call-out{
-	border-left: 4px solid #EF435E;
-	padding-left: 24px;
+    border-left: 8px solid #e0e0e0;
+		padding-left: 24px;
 }
 
 .textarea{
@@ -894,6 +926,9 @@ border-radius: 8px;
 	.nav-li{
 		display: none;
 	}
+	.sm-menu-dark i{
+		color:white;
+	}
 	#openMenu{
 		cursor: pointer;
 	}
@@ -956,8 +991,6 @@ border-radius: 8px;
 footer{
 	width: 100%;
 	max-width: 1264px;
-	padding-left: 32px;
-	padding-right: 32px;
 }
 
 .footer-div{
