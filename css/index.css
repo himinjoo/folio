@@ -908,7 +908,12 @@ footer{
 .grid-item-right{
 	padding-right: 0;
 }
-@media (max-width: 960px) {
+
+
+@media (max-width: 1024px) {
+	.full-banner-wrapper {
+		height: 600px;
+	}
 	.flexbox{
 		display: block;
 	}
@@ -952,7 +957,7 @@ footer{
 	}
 	.work-thumbnail{
 		width: 100%;
-		height: 356px;
+		height: 240px;
 	}
 	#flexbox1{
 		margin-bottom:120px;
