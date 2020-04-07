@@ -956,10 +956,6 @@ border-radius: 8px;
 	.next-project{
 		width: auto;
 	}
-	#reflect-text{
-		padding-left: 32px;
-		padding-right: 32px;
-	}
 }
 
 @media (max-width: 528px) {
