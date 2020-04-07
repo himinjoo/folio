@@ -845,16 +845,20 @@ border-radius: 8px;
 }
 #top-arrow{
 	font-size: 32px;
-	color: #000;
-	background-color: #e7e9ef;
+	color: #fff;
+	background-color: #424242;
+	border-radius: 100px;
+	padding: 4px;
+
+	transition: 0.2s ease;
 
 }
 #top-arrow:hover{
-	color: #4433ff;
-	background-color: #ebe9fd;
+	color: #fff;
+	background-color: #000;
 }
 #back2Top {
-    width: 36px;
+    /* width: 36px; */
     overflow: hidden;
     z-index: 999;
     display: none;
