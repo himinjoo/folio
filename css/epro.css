@@ -165,7 +165,7 @@ Navigation
 }
 
 .nav-work{
-	color:#4433ff;
+	color:#424242;
 	}
 
 .nav-link{
@@ -261,7 +261,7 @@ p{
 .quotes{
 	font-size: 32px;
 	font-weight: 400;
-	color: #4d4d6d;
+	color: #424242;
 }
 h1{
 	font-size: 32px;
@@ -505,9 +505,9 @@ progress::-moz-progress-bar {
 }
 
 .quotes-line{
-	height: 2px;
+	height: 4px;
 	width: 100px;
-	background-color: #bdbdbd;
+	background-color: #0c9dad;
 	margin: 56px 0;
 }
 
@@ -564,7 +564,7 @@ progress::-moz-progress-bar {
   align-items: center;
 }
 .call-out{
-    border-left: 8px solid #e0e0e0;
+    border-left: 4px solid #0c9dad;
 		padding-left: 24px;
 }
 
@@ -637,6 +637,9 @@ ol{
 ul{
 	padding-left: 16px;
 	line-height: 1.7;
+	font-size: 18px;
+	font-weight: 300;
+	color: #424242;
 }
 
 /*other project section begins here*/
