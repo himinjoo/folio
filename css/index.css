@@ -924,6 +924,7 @@ footer{
 	}
 	.sm-menu{
 		display:block;
+		padding-top: 4px;
 	}
 	.nav-li{
 		display: none;
