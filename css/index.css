@@ -1052,14 +1052,15 @@ footer{
 		padding-left: 0px;
 	}
 	#hero-headline {
-    font-weight: 600;
-    font-size: 40px;
+    font-weight: 500;
+    font-size: 42px;
     text-align: left;
 		width: 100%;
 		}
 	#hero-sub {
     font-size: 16px;
     text-align: left;
+		font-weight: 400;
 	}
 	.headline-wrapper {
     padding-left: 0%;
