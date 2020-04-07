@@ -971,6 +971,9 @@ footer{
 		/* display: flex;
 		flex-direction: column-reverse; */
 	}
+	#hero-headline {
+		font-size: 56px;
+		}
 }
 
 @media (max-width: 768px) {
@@ -1009,6 +1012,9 @@ footer{
     padding-left: 7.5%;
 		margin-top: 0px;
 	}
+	#hero-headline {
+		font-size: 44px;
+		}
 }
 @media (max-width: 560px) {
 	.headline{
