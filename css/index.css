@@ -1012,6 +1012,11 @@ footer{
 		height: 400px;
 	}
 
+	#work-pbr{
+		background-image: url("../assets/hero/thumbnail-pbr-sm.png");
+		transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+	}
+
 	.grid-container {
 	  display: inline-block;
 	  grid-template-columns: 100% auto;
