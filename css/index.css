@@ -19,6 +19,7 @@ html {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 56px;
 }
 
 @-webkit-keyframes fadein {
@@ -361,7 +362,8 @@ Navigation
 .small-li{
 	font-size: 14px;
 }
-.full-banner-wrapper{
+
+.full-banner-wrapper-first{
 	height: 800px;
 	width: 100%;
 	margin-top: 96px;
@@ -371,13 +373,32 @@ Navigation
 	padding-left: 7.5%;
 	background-position: center;
 	background-repeat: no-repeat;
-  background-size: cover;
-	background-color: #bdbdbd;
-	/* background-image: url("../assets/hero/illy8.png"); */
+	background-size: cover;
+	background-color: #E9F2F2;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	/* background-image: url("../assets/hero/banner-first.jpg"); */
 }
+
+.full-banner-wrapper-second{
+	height: 800px;
+	width: 100%;
+	margin-top: 96px;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	padding-right: 7.5%;
+	padding-left: 7.5%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #bdbdbd;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("../assets/hero/banner-second.png");
+}
+
 .full-banner-content-wrapper{
 	max-width: 1300px;
 	width: 100%;
@@ -703,7 +724,12 @@ a.btn:active {
 	background-repeat: no-repeat;
 	background-size: auto 100%;
 	background-position: center;
+
+	transition: 0.3s;
 }
+.work-thumbnail:hover {
+    background-size: auto 110%;
+	}
 .work-thumbnail-sm{
 	width: 100%;
 	height: 350px;
@@ -719,12 +745,12 @@ a.btn:active {
 }
 
 #work-med{
-	/* background-image: url("../assets/hero/thumbnail-med.png"); */
+	background-image: url("../assets/hero/thumbnail-med-sm.png");
 	transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 }
 
 #work-pbr{
-	/* background-image: url("../assets/hero/thumbnail-pbr.png"); */
+	background-image: url("../assets/hero/thumbnail-pbr-wide.png");
 	transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 }
 /* #work-onduo{
@@ -881,6 +907,7 @@ footer{
 	max-width:1300px;
 	width: 100%;
 }
+
 .grid-item {
   background-color: #fff;
   padding: 24px;
@@ -911,7 +938,10 @@ footer{
 
 
 @media (max-width: 1024px) {
-	.full-banner-wrapper {
+	.full-banner-wrapper-first {
+		height: 600px;
+	}
+	.full-banner-wrapper-second {
 		height: 600px;
 	}
 	.flexbox{
@@ -1004,12 +1034,20 @@ footer{
 	.full-banner-content-left {
     width: 100%;
 	}
-	.full-banner-wrapper {
+	.full-banner-wrapper-first {
     height: 400px;
     padding-top: 7.5%;
     padding-bottom: 7.5%;
     padding-right: 7.5%;
     padding-left: 7.5%;
+		margin-top: 0px;
+	}
+	.full-banner-wrapper-second {
+		height: 400px;
+		padding-top: 7.5%;
+		padding-bottom: 7.5%;
+		padding-right: 7.5%;
+		padding-left: 7.5%;
 		margin-top: 0px;
 	}
 	#hero-headline {

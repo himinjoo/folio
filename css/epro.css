@@ -846,7 +846,7 @@ border-radius: 8px;
 #top-arrow{
 	font-size: 32px;
 	color: #fff;
-	background-color: #424242;
+	background-color: #242424;
 	border-radius: 100px;
 	padding: 4px;
 
@@ -855,7 +855,7 @@ border-radius: 8px;
 }
 #top-arrow:hover{
 	color: #fff;
-	background-color: #000;
+	background-color: #51585c;
 }
 #back2Top {
     /* width: 36px; */
