@@ -390,7 +390,6 @@ Navigation
 }
 
 .full-banner-wrapper-first{
-	height: 800px;
 	width: 100%;
 	margin-top: 96px;
 	padding-top: 150px;
@@ -765,7 +764,6 @@ a.btn:active {
 	}
 .work-thumbnail-sm{
 	width: 100%;
-	height: 350px;
 	margin: 8px;
 	background-repeat: no-repeat;
 	background-size: auto 100%;
@@ -948,6 +946,7 @@ footer{
 	display: flex;
 	flex-direction: column;
 }
+
 #grid-item-about{
 	border-top: 4px solid #4433ff;
 	padding-top: 24px;
@@ -1070,7 +1069,6 @@ footer{
     width: 100%;
 	}
 	.full-banner-wrapper-first {
-    height: 532px;
     padding-top: 7.5%;
     padding-bottom: 7.5%;
     padding-right: 7.5%;
@@ -1100,8 +1098,11 @@ footer{
 	.grid-item {
 		padding: 0px;
 		margin: 0px;
-		padding-bottom: 96px;
+		margin-bottom: 96px;
 	  }
+	.banner-grid-item{
+			margin-bottom: 0;
+		}
 	.work-thumbnail{
 		width: 100%;
 		height: 300px;
