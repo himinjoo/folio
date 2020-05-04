@@ -651,6 +651,7 @@ ul{
 	overflow-x: hidden;
 	padding-top: 56px;
 	padding-bottom: 56px;
+	/* border-top: solid 1px #333333; */
 }
 #reflect{
 	width: 100%;
@@ -700,7 +701,6 @@ ul{
 .grid-container-2-col .grid-item{
 	height: auto;
 	border-radius: 16px;
-	border: 1px solid #e0e0e0;
 	padding: 16px;
 	padding-top: 8px;
 	margin: 8px;

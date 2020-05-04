@@ -68,20 +68,39 @@ h1{
 }
 h2{
   font-size: 28px;
-  font-weight: 600;
-	color: #424242;
+  font-weight: 500;
+	color: #323232;
 	font-family: 'DM Sans', sans-serif;
+	line-height: 1.3;
 }
 h3{
   font-size: 24px;
   font-weight: lighter;
-	color: #424242;
-	font-weight: 400;
+	color: #323232;
+	font-weight: 500;
+	font-family: 'DM Sans', sans-serif;
 }
 .h3{
 	font-size: 24px;
-	font-weight: 500;
-	color: #424242;
+  font-weight: lighter;
+	color: #323232;
+	font-weight: 400;
+}
+h4{
+	padding-bottom: 12px;
+  font-size: 14px;
+  font-weight: 500;
+	color: #767676;
+	letter-spacing: 1.7px;
+}
+.h4{
+  font-size: 14px;
+  font-weight: 500;
+	color: #323232;
+	letter-spacing: 1.7px;
+}
+.h4 p{
+padding-top: 0;
 }
 .bodycopy1{
 	font-size: 16px;
@@ -92,8 +111,8 @@ h3{
 }
 
 .bodycopy2{
-	font-size: 14px;
-	color: #424242;
+	font-size: 16px;
+	color: #767676;
 	font-weight: 400;
 	line-height: 1.7;
 }
@@ -166,6 +185,8 @@ Buttons
 	letter-spacing: 0.2px;
 
 	transition: ease 0.2s;
+	transition-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+
 }
 .primary-btn:hover{
 	background-color: #424242;
@@ -210,6 +231,12 @@ Navigation
 
 	transition-delay: 0.2s;
 	transition-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+#navText{
+	opacity: 0;
+
+	transition-delay: 0.5s;
 }
 
 #secondNavbar a {
@@ -405,9 +432,9 @@ Navigation
 }
 .full-banner-content{
 	background-color: white;
-	height: 100%;
 	width: 50%;
 	float: right;
+	padding: 24px;
 }
 .full-banner-content-left{
 	background-color: white;
@@ -596,17 +623,24 @@ Info.css
 .info div:nth-of-type(2) {flex-grow: 2.5;}
 
 a.btn{
-	background-color: #4433ff;
-	color: white;
+	margin-top: 32px;
+	color: #323232;
+	border: solid 1px #e0e0e0;
 	padding-left: 24px;
 	padding-right: 24px;
-	padding-top: 8px;
-	padding-bottom: 8px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	width: 144px;
+	text-align: center;
+	border-radius: 0;
+
+	transition: ease 0.2s;
+	transition-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
 }
 
 a.btn:hover{
-	background-color: #4433ff;
-	color: white;
+	background-color: #efefef;
+	color: #323232;
 }
 
 a.btn:focus, a.btn:active{
@@ -908,7 +942,6 @@ footer{
 }
 
 .grid-item {
-  background-color: #fff;
   padding: 24px;
 	padding-bottom: 32px;
   font-size: 30px;
@@ -937,9 +970,7 @@ footer{
 
 
 @media (max-width: 1024px) {
-	.full-banner-wrapper-first {
-		height: 600px;
-	}
+
 	.full-banner-wrapper-second {
 		height: 600px;
 	}
@@ -1039,7 +1070,7 @@ footer{
     width: 100%;
 	}
 	.full-banner-wrapper-first {
-    height: 400px;
+    height: 532px;
     padding-top: 7.5%;
     padding-bottom: 7.5%;
     padding-right: 7.5%;
