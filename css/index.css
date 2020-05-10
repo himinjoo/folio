@@ -8,7 +8,9 @@
 	-webkit-box-sizing: border-box;
 	font-family: 'roboto', sans-serif;
 }
-
+body{
+	background-color: #f7f7f6;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -18,8 +20,6 @@ html {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
-	margin-bottom: 56px;
 }
 
 @-webkit-keyframes fadein {
@@ -32,8 +32,7 @@ html {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-left: 15%;
-	padding-right: 15%;
+	padding-right: 40%;
 	margin-top: 150px;
 
 	-webkit-animation: fadein 0.3s ease; /* Safari, Chrome and Opera > 12.1 */
@@ -47,17 +46,16 @@ Typography
 */
 #hero-headline{
 	color: #323232;
-	font-weight: 500;
-	font-size: 80px;
-	text-align: center;
-	font-family: 'DM Sans', sans-serif;
+	font-weight: 400;
+	font-size: 48px;
+	font-family: 'Karma', serif;
+;
 
 }
 #hero-sub{
 	font-size: 24px;
   font-weight: lighter;
 	color: #424242;
-	text-align: center;
 }
 
 
@@ -70,7 +68,7 @@ h2{
   font-size: 28px;
   font-weight: 500;
 	color: #323232;
-	font-family: 'DM Sans', sans-serif;
+	font-family: 'Karma', serif;
 	line-height: 1.3;
 }
 h3{
@@ -78,7 +76,7 @@ h3{
   font-weight: lighter;
 	color: #323232;
 	font-weight: 500;
-	font-family: 'DM Sans', sans-serif;
+	font-family: 'Karma', serif;
 }
 .h3{
 	font-size: 24px;
@@ -215,10 +213,10 @@ a{
 Navigation
 */
 #secondNavbar {
-  background-color: #111111;
+  background-color: #F0F0EF;
   position: fixed;
   top: -60px;
-	height: 40px;
+	height: 39px;
   width: 100%;
   display: block;
   transition: top 0.3s;
@@ -241,7 +239,7 @@ Navigation
 
 #secondNavbar a {
   display: block;
-  color: #f2f2f2;
+  color: #323232;
   text-align: right;
   text-decoration: none;
 }
@@ -278,7 +276,8 @@ Navigation
 	display:none;
 }
 #nav-wrapper{
-	background-color: white;
+	border-bottom: 1px solid #d5d5d5;
+	background-color: #f7f7f6;
 	margin-top: 0;
 	width: 100%;
 	display: flex;
@@ -343,7 +342,7 @@ Navigation
 }
 
 .span{
-	background-color: white;
+	background-color: #f7f7f6;
 	display: block;
 	letter-spacing: 0.01em;
 	transition: 0.5s cubic-bezier(0.77, 0, 0.175, 1);
@@ -399,7 +398,7 @@ Navigation
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: #E9F2F2;
+	background-color: #F0F0EF;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -407,21 +406,20 @@ Navigation
 }
 
 .full-banner-wrapper-second{
-	height: 800px;
+	height: 338px;
 	width: 100%;
 	margin-top: 96px;
-	padding-top: 150px;
-	padding-bottom: 150px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	padding-right: 7.5%;
 	padding-left: 7.5%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: #bdbdbd;
+	background-color: #ffffff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url("../assets/hero/banner-second.png");
 }
 
 .full-banner-content-wrapper{
@@ -454,7 +452,7 @@ Navigation
 		top:0;
 	}
 .sm-menu-dark i{
-	color:white;
+	color:#323232;
 }
 	.sm-menu-content-wrapper{
 		width: 100%;
@@ -850,7 +848,7 @@ footer{
 	max-width: 1300px;
 }
 #index-footer{
-	background-color: #fafafa;
+	background-color: #424242;
 }
 .footer-div{
 	padding-bottom: 56px;
@@ -876,7 +874,7 @@ footer{
 	align-items: flex-end;
 }
 #footer-text{
-	color: #616161;
+	color: #d5d5d5;
 	font-size: 12px;
 }
 .hyperlink{
@@ -924,6 +922,7 @@ footer{
 }
 
 .grid-container {
+	border-top: 1px solid #d5d5d5;
   display: grid;
   grid-template-columns: 32% auto 32%;
 	overflow: hidden;
