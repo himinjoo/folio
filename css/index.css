@@ -449,6 +449,12 @@ Navigation
 		display: none;
 		position: -webkit-fixed;
 		top:0;
+
+		-webkit-animation: fadein 0.3s; /* Safari, Chrome and Opera > 12.1 */
+		 -moz-animation: fadein 0.3s; /* Firefox < 16 */
+			-ms-animation: fadein 0.3s; /* Internet Explorer */
+			 -o-animation: fadein 0.3s; /* Opera < 12.1 */
+					animation: fadein 0.3s;
 	}
 .sm-menu-dark i{
 	color:#323232;
@@ -460,10 +466,18 @@ Navigation
 	}
 	.sm-menu-content-wrapper ul{
 		display: block;
+		margin-top: 30%;
 		padding-left: 7.5%;
 		padding-right: 7.5%;
 		padding-top: 10%;
 		list-style-type: none;
+		text-align: center;
+
+		-webkit-animation: fadein 0.8s; /* Safari, Chrome and Opera > 12.1 */
+		 -moz-animation: fadein 0.8s; /* Firefox < 16 */
+			-ms-animation: fadein 0.8s; /* Internet Explorer */
+			 -o-animation: fadein 0.8s; /* Opera < 12.1 */
+					animation: fadein 0.8s;
 	}
 	.sm-menu-content-wrapper ul li{
 		margin-bottom: 12%;
@@ -471,8 +485,8 @@ Navigation
 	}
 	.sm-menu-content-wrapper ul li a{
 		text-decoration-line: none;
-		font-size: 2.8em;
-		color: #424242;
+		font-size: 2.4em;
+		color: #323232;
 		font-weight: 200;
 		font-family: 'Roboto', sans-serif;
 	}
