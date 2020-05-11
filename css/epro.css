@@ -271,11 +271,10 @@ h1{
 }
 h2{
 	padding-bottom: 16px;
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 32px;
+  font-weight: 500;
 	color: #424242;
-	font-family: 'DM Sans', sans-serif;
-
+	font-family: 'Karma', serif;
 }
 
 h3{
