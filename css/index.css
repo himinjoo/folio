@@ -461,7 +461,7 @@ Navigation
 }
 	.sm-menu-content-wrapper{
 		width: 100%;
-		height: 100%;
+		height: 100%;3
 		display: block;
 	}
 	.sm-menu-content-wrapper ul{
@@ -984,7 +984,7 @@ footer{
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
 
 	.full-banner-wrapper-second {
 		height: 600px;
