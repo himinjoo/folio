@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/epro.css">
+    <link rel="stylesheet" href="css/nav.css">
     <link href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
@@ -26,8 +27,9 @@
 
 
   <!-- Nagigation begins from here -->
+  <!-- Nagigation begins from here -->
   <div id="secondNavbar">
-    <div class="nav large li"  id="navbar">
+    <div class="nav large li navText"  id="navText">
       <div class="logo">
         <a class="logo" href="index.html">
           MINJOO
@@ -45,51 +47,48 @@
         <span id="ic-sm-menu" class="sm-menu-dark" onclick="openNav()"><i class="material-icons">menu</i></span>
       </div>
     </div>
-    <progress value="0" max="1">
-          <div class="progress-container">
-            <span id="progress-bar"></span>
-          </div>
-        </progress>
-      <div class="project-hero" id="verily-hero">
+  </div>
+  <div class="overlay" id="smallMenu">
+    <div class="sm-menu-content-wrapper" id="menu">
+      <ul>
+        <li>
+          <a href="index.html">PROJECTS</a>
+        </li>
+        <!-- <li>
+          <a href="about.html">ABOUT</a>
+        </li> -->
+
+        <li>
+          <a class="nav-link nav-info" href="https://www.linkedin.com/in/mjmjyun/" target="_blank">LINKEDIN<i class="material-icons md-24">open_in_new</i></a>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="sm-menu-close-btn" id="btn-menu-close" onclick="closeNav()">CLOSE &times;</a>
+        </li>
+      </ul>
     </div>
   </div>
-      <div class="overlay" id="smallMenu">
-              <div class="sm-menu-content-wrapper" id="menu">
-                <ul>
-                  <li>
-                    <a href="index.html">PROJECTS</a>
-                  </li>
-                  <li>
-                    <a class="nav-link nav-info" href="https://www.linkedin.com/in/mjmjyun/" target="_blank">LINKEDIN<i class="material-icons md-24">open_in_new</i></a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)" class="sm-menu-close-btn" id="btn-menu-close" onclick="closeNav()">CLOSE &times;</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
 
-            <div id="nav-wrapper">
-              <div class="nav large li"  id="navbar">
-                <div class="logo">
-                  <a class="logo" href="index.html">
-                    <span class="span" id="span-name">MINJOO</span>
-                    <span class="span span-title" id="spantitle">DESIGNER</span>
-                  </a>
-                </div>
-                <div class="nav-li">
-                  <li class="nav-btn-left li">
-                    <a class="nav-work" href="index.html">PROJECTS</a>
-                  </li>
-                  <li>
-                    <a class="nav-link nav-info" href="https://www.linkedin.com/in/mjmjyun/" target="_blank">LINKEDIN</a>
-                  </li>
-                </div>
-                <div class="sm-menu" id="openMenu">
-                  <span id="ic-sm-menu" onclick="openNav()"><i class="material-icons">menu</i></span>
-                </div>
-              </div>
-            </div>
+  <div id="nav-wrapper">
+    <div class="nav large li"  id="navbar">
+      <div class="logo">
+        <a class="logo" href="index.html">
+          <span class="span" id="span-name">THINK &</span>
+          <span class="span span-title" id="spantitle">DESIGN</span>
+        </a>
+      </div>
+      <div class="nav-li">
+        <li class="nav-btn-left li">
+          <a class="nav-work" href="index.html">PROJECTS</a>
+        </li>
+        <li>
+          <a class="nav-link nav-info" href="https://www.linkedin.com/in/mjmjyun/" target="_blank">LINKEDIN</a>
+        </li>
+      </div>
+      <div class="sm-menu" id="openMenu">
+        <span id="ic-sm-menu" onclick="openNav()"><i class="material-icons">menu</i></span>
+      </div>
+    </div>
+  </div>
   <!-- Top navigation ends here -->
 
   <div class="project-story">
@@ -407,7 +406,7 @@
               -->
       <div id="footer-wrapper">
         <div>
-          <p id="footer-text"> © 2020 Minjoo Yun.<br> Designed & coded with love ♥️
+          <p id="footer-text"> © 2020 Minjoo Yun.<br> Designed & coded with love
           </p>
         </div>
         <div>
