@@ -159,44 +159,61 @@ padding-top: 0;
 }
 
 .material-icons{
-	color: #5f6368;
+	color: #323232;
 }
 
 /*
 Buttons
 */
 
-.primary-btn{
-	padding: 6px 16px;
-	margin-top: 24px;
-	margin-bottom: 24px;
-	background-color: #fff;
-  	color: #323232;
-  	font-size: 14px;
-  	font-weight: 500;
-	text-decoration: none;
-	font-family: "Roboto", sans-serif;
-  	border-radius: 4px;
-	border: 1px solid #323232;
-  	cursor: pointer;
-	display: inline-block;
-	letter-spacing: 0.2px;
+a.btn{
+	margin-top: 32px;
+	color: #323232;
+	font-weight: 500;
+	border: solid 1px #e0e0e0;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	width: 144px;
+	text-align: center;
+	border-radius: 0;
 
 	transition: ease 0.2s;
 	transition-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
-
 }
-.primary-btn:hover{
+
+a.btn:hover{
 	background-color: #424242;
 	color: #fff;
 }
+
+a.btn:focus, a.btn:active{
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+a.btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 .link-btn{
 	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-	color: #5f6368;
+	font-size: 16px;
+	color: #323232;
 	display: flex;
 	align-items: center;
+	font-weight: 500;
 }
+
+.link-btn:hover{
+}
+
 
 .list-img{
 	margin-top: 32px;
@@ -631,40 +648,6 @@ Info.css
 .info div:nth-of-type(1) {flex-grow: 1.5;}
 .info div:nth-of-type(2) {flex-grow: 2.5;}
 
-a.btn{
-	margin-top: 32px;
-	color: #323232;
-	border: solid 1px #e0e0e0;
-	padding-left: 24px;
-	padding-right: 24px;
-	padding-top: 12px;
-	padding-bottom: 12px;
-	width: 144px;
-	text-align: center;
-	border-radius: 0;
-
-	transition: ease 0.2s;
-	transition-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
-}
-
-a.btn:hover{
-	background-color: #424242;
-	color: #fff;
-}
-
-a.btn:focus, a.btn:active{
-	outline: none !important;
-	box-shadow: none !important;
-}
-
-button:focus, button:active {
-  outline: none !important;
-  box-shadow: none !important;
-}
-a.btn:active {
-  outline: none !important;
-  box-shadow: none !important;
-}
 .work-title{
 	font-size: 20px;
 	font-weight: 600;
