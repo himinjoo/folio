@@ -71,9 +71,6 @@ Navigation
 				animation: fadein 0.5s ease;
 }
 
-#secondNavbar a:hover {
-  color: #bdbdbd;
-}
 .nav{
 	position: -webkit-fixed;
 	margin-bottom: 0;
