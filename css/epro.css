@@ -350,7 +350,7 @@ progress::-moz-progress-bar {
 }
 .project-wrapper{
 	width: 100%;
-  max-width: 1264px;
+  max-width: 1300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -426,6 +426,7 @@ progress::-moz-progress-bar {
 ol{
 	padding-left: 16px;
 	line-height: 1.7;
+	font-size: 18px;
 }
 ul{
 	padding-left: 16px;
@@ -806,7 +807,7 @@ border-radius: 8px;
 
 footer{
 	width: 100%;
-	max-width: 1264px;
+	max-width: 1300px;
 }
 
 .footer-div{
