@@ -402,6 +402,23 @@ Navigation
 	font-size: 14px;
 }
 
+.full-banner-wrapper-intro{
+	width: 100%;
+	margin-top: 179px;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	padding-right: 7.5%;
+	padding-left: 7.5%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #F0F0EF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("../assets/illy/illy-talk.png");
+}
+
 .full-banner-wrapper-first{
 	width: 100%;
 	margin-top: 96px;
@@ -439,6 +456,12 @@ Navigation
 .full-banner-content-wrapper{
 	max-width: 1300px;
 	width: 100%;
+}
+.full-banner-content-intro{
+	background-color: white;
+	width: 50%;
+	float: left;
+	padding: 24px;
 }
 .full-banner-content{
 	background-color: white;
@@ -501,7 +524,7 @@ Navigation
 	}
 	.sm-menu-content-wrapper ul li a{
 		text-decoration-line: none;
-		font-size: 2.4em;
+		font-size: 2em;
 		color: #323232;
 		font-weight: 200;
 		font-family: 'Roboto', sans-serif;
@@ -513,6 +536,7 @@ Navigation
 	width: 100%;
 	padding-left: 7.5%;
 	padding-right: 7.5%;
+	margin-top: 96px;
 	display: block;
 	justify-content: center;
 
@@ -857,6 +881,7 @@ footer{
 	padding-bottom: 56px;
 	padding-left: 7.5%;
 	padding-right: 7.5%;
+	margin-top: 0;
 	margin-bottom: 0;
 	font-size: 14px;
 	display: inline-block;
@@ -925,7 +950,7 @@ footer{
 }
 
 .grid-container {
-	border-top: 1px solid #d5d5d5;
+	/* border-top: 1px solid #d5d5d5; */
   display: grid;
   grid-template-columns: 32% auto 32%;
 	overflow: hidden;
@@ -1058,11 +1083,21 @@ footer{
     padding: 0px;
     padding-bottom: 56px;
 	}
+	.full-banner-content-intro {
+		width: 100%;
+	}
 	.full-banner-content {
     width: 100%;
 	}
 	.full-banner-content-left {
     width: 100%;
+	}
+	.full-banner-wrapper-intro {
+		padding-top: 7.5%;
+		padding-bottom: 7.5%;
+		padding-right: 7.5%;
+		padding-left: 7.5%;
+		margin-top: 179px;
 	}
 	.full-banner-wrapper-first {
     padding-top: 7.5%;
@@ -1141,7 +1176,6 @@ footer{
     font-size: 32px;
     text-align: left;
 		width: 100%;
-		margin-bottom: 12px;
 		}
 	#hero-sub {
     font-size: 16px;
