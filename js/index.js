@@ -42,6 +42,15 @@ function scrollFunction() {
 };
 
 
+function changeColor(obj) {
+  if (obj.style.color == 'red'){
+    obj.style.color = 'black';
+  } else {
+    obj.style.color = "red";
+  }
+};
+
+
 $(window).scroll(function() {
   var scroll = $(window).scrollTop();
   if (scroll > 0) {

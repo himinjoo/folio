@@ -15,7 +15,7 @@ html {
   scroll-behavior: smooth;
 }
 .headline{
-	height: 60vh;
+	height: 50vh;
 	width: 800px;
 	display: flex;
 	flex-direction: column;
@@ -47,7 +47,7 @@ Typography
 #hero-headline{
 	color: #323232;
 	font-weight: 400;
-	font-size: 48px;
+	font-size: 40px;
 	font-family: 'Karma', serif;
 ;
 
@@ -1082,7 +1082,7 @@ footer{
 		margin-top: 32px;
 	}
 	#hero-headline {
-		font-size: 44px;
+		font-size: 40px;
 		}
 }
 @media (max-width: 560px) {
