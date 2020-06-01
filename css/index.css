@@ -905,14 +905,20 @@ footer{
 	color: #d5d5d5;
 	font-size: 12px;
 }
-.hyperlink{
-	color: #4433ff;
-	font-weight: bold;
-}
 
+.hyperlink{
+  color: #4433ff;
+  font-weight: 400;
+	text-decoration: none;
+	font-size: 18px;
+
+	transition: ease 0.2s;
+}
 .hyperlink:hover{
-	color: #4433ff;
-	font-weight: bold;
+  font-size: 18px;
+  color: #4433ff;
+  font-weight: 400;
+	text-decoration: underline;
 }
 #top-arrow{
 	font-size: 32px;
@@ -1083,6 +1089,8 @@ footer{
     padding: 0px;
     padding-bottom: 56px;
 	}
+
+
 	.full-banner-content-intro {
 		width: 100%;
 	}
