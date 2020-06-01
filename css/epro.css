@@ -927,12 +927,19 @@ border-radius: 8px;
 		}
 
 	#about-headline{
-		font-size: 28px;
+		font-size: 32px;
 		width: 100%;
 	}
-	.sns-wrapper{
+
+	.sns-link{
+		font-size: 16px;
+	}
+	/* .sns-wrapper{
 		display: block
 	}
+	.sns-wrapper li{
+		line-height: 2.5;
+	} */
 
 	#next-project-wrapper{
 		padding-left: 0px;
