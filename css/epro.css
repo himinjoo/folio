@@ -432,7 +432,7 @@ progress::-moz-progress-bar {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: #F0F0EF;
+	background-color: #f3f8fa;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -954,6 +954,7 @@ border-radius: 8px;
 	#about-headline{
 		font-size: 32px;
 		width: 100%;
+		font-weight: 500;
 	}
 
 	.sns-link{
