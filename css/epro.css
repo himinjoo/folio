@@ -931,6 +931,22 @@ border-radius: 8px;
 }
 
 @media (max-width: 528px) {
+	.full-banner-wrapper-about{
+		width: 100%;
+		height: 60vh;
+		padding-right: 7.5%;
+		padding-left: 7.5%;
+		background-size: auto 100%;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-color: #F0F0EF;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-image: url("../assets/illy/illy-talk.png");
+	}
 	/* .list-img{
 		display: block;
 		margin-bottom: 32px;
