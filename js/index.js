@@ -1,4 +1,6 @@
-
+$(document).ready(function() {
+  $("#fadein").fadeIn("slow");
+});
 
 function openNav() {
   document.getElementById("smallMenu").style.display = "block";
@@ -61,6 +63,8 @@ $(window).scroll(function() {
   }
 });
 
+
+
 /*Scroll to top when arrow up clicked BEGIN*/
 $(window).scroll(function() {
     var height = $(window).scrollTop();
@@ -70,6 +74,7 @@ $(window).scroll(function() {
         $('#back2Top').fadeOut();
     }
 });
+
 $(document).ready(function() {
     $("#back2Top").click(function(event) {
         event.preventDefault();

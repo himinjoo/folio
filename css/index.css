@@ -907,7 +907,7 @@ footer{
 }
 
 .hyperlink{
-  color: #4433ff;
+  color: #336fe0;
   font-weight: 400;
 	text-decoration: none;
 	font-size: 18px;
@@ -915,10 +915,8 @@ footer{
 	transition: ease 0.2s;
 }
 .hyperlink:hover{
-  font-size: 18px;
-  color: #4433ff;
-  font-weight: 400;
 	text-decoration: underline;
+	color: #2157bd;
 }
 #top-arrow{
 	font-size: 32px;
@@ -964,7 +962,6 @@ footer{
 	width: 100%;
 }
 .grid-container-col-2 {
-	margin-top: 96px;
   display: grid;
   grid-template-columns: auto 32%;
 	overflow: hidden;
