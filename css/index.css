@@ -873,6 +873,12 @@ Info.css
 #about-cta{
 	margin-top: 56px;
 }
+.about-now{
+	padding-top: 24px;
+	padding-bottom: 24px;
+	border-radius: 0px;
+	background-color: #F7F8F9;
+}
 
 footer{
 	width: 100%;
