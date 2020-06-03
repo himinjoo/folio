@@ -950,7 +950,9 @@ border-radius: 8px;
 	.full-banner-wrapper-about{
 		background-size: auto 100%;
 		background-attachment: scroll;
+		height: 40vh;
 	}
+
 	/* .list-img{
 		display: block;
 		margin-bottom: 32px;
