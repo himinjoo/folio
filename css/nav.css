@@ -179,7 +179,18 @@ Navigation
 .span-title{
 	font-weight: 400;
 }
+.nav-active{
+	color:#424242;
+	text-decoration: underline;
+	font-weight: 400;
+	}
 
+.nav-link{
+	color: #424242;
+}
+.nav li:hover{
+	text-decoration: underline;
+}
 .nav-work{
 	color:#424242;
 	text-decoration-line: none;

@@ -94,6 +94,15 @@ h3{
 	color: #424242;
 	font-family: 'roboto', sans-serif;
 }
+h4{
+	padding-top: 12px;
+	padding-bottom: 12px;
+
+  font-size: 14px;
+  font-weight: 500;
+	color: #424242;
+	letter-spacing: 1px;
+}
 .h4{
   font-size: 20px;
   font-weight: 400;
@@ -347,7 +356,7 @@ progress::-moz-progress-bar {
 
 .full-banner-wrapper-about{
 	width: 100%;
-	height: 100vh;
+	height: 80vh;
 	padding-right: 7.5%;
 	padding-left: 7.5%;
 	background-size: auto 100%;
@@ -659,7 +668,6 @@ ul{
 }
 .grid-container-2-col .grid-item{
 	height: auto;
-	border-radius: 16px;
 	padding: 16px;
 	padding-top: 8px;
 	margin: 8px;
@@ -795,7 +803,12 @@ border-radius: 8px;
 }
 /*other project section ends here*/
 
-
+.about-now{
+	padding-top: 24px;
+	padding-bottom: 24px;
+	border-radius: 0px;
+	background-color: #F7F8F9;
+}
 
 
 /*footer begins here*/
@@ -905,6 +918,8 @@ border-radius: 8px;
 		display: none;
 	}
 
+
+
 	#openMenu{
 		cursor: pointer;
 	}
@@ -932,20 +947,8 @@ border-radius: 8px;
 
 @media (max-width: 528px) {
 	.full-banner-wrapper-about{
-		width: 100%;
-		height: 60vh;
-		padding-right: 7.5%;
-		padding-left: 7.5%;
 		background-size: auto 100%;
 		background-attachment: scroll;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-color: #F0F0EF;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		background-image: url("../assets/illy/illy-talk.png");
 	}
 	/* .list-img{
 		display: block;
