@@ -369,7 +369,7 @@ progress::-moz-progress-bar {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url("../assets/illy/illy-talk.png");
+	background-image: url("../assets/about/connect-dot-series.png");
 }
 .full-about-content-wrapper{
 	max-width: 1300px;
@@ -808,7 +808,7 @@ border-radius: 8px;
 	padding-top: 24px;
 	padding-bottom: 24px;
 	border-radius: 0px;
-	background-color: #F7F8F9;
+	background-color: #F9FAFB;
 }
 
 
