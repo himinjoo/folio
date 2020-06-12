@@ -420,7 +420,7 @@ Navigation
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url("../assets/illy/illy-talk.png");
+	/* background-image: url("../assets/about/main.png"); */
 }
 
 .full-banner-wrapper-first{
@@ -437,7 +437,7 @@ Navigation
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url("../assets/illy/illy-talk.png");
+	/* background-image: url("../assets/illy/illy-talk.png"); */
 }
 
 .full-banner-wrapper-second{
@@ -885,7 +885,7 @@ footer{
 	max-width: 1300px;
 }
 #index-footer{
-	background-color: #424242;
+	background-color: #242424;
 }
 .footer-div{
 	padding-bottom: 56px;

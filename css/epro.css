@@ -369,7 +369,7 @@ progress::-moz-progress-bar {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url("../assets/about/connect-dot-series.png");
+	background-image: url("../assets/about/hero.png");
 }
 .full-about-content-wrapper{
 	max-width: 1300px;
@@ -1028,7 +1028,7 @@ footer{
 }
 
 .footer-div{
-	background-color: #3b3d40;
+	background-color: #242424;
 	padding-bottom: 56px;
 	padding-left: 7.5%;
 	padding-right: 7.5%;
