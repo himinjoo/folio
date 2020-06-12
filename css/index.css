@@ -8,9 +8,7 @@
 	-webkit-box-sizing: border-box;
 	font-family: 'roboto', sans-serif;
 }
-body{
-	background-color: #f7f7f6;
-}
+
 html {
   scroll-behavior: smooth;
 }
@@ -230,7 +228,7 @@ a{
 Navigation
 */
 #secondNavbar {
-  background-color: #F0F0EF;
+  background-color: #f7f7f6;
   position: fixed;
   top: -60px;
 	height: 39px;
@@ -290,8 +288,8 @@ Navigation
 	display:none;
 }
 #nav-wrapper{
+	background-color: #fff;
 	border-bottom: 1px solid #d5d5d5;
-	background-color: #f7f7f6;
 	margin-top: 0;
 	width: 100%;
 	display: flex;
@@ -360,7 +358,7 @@ Navigation
 }
 
 .span{
-	background-color: #f7f7f6;
+	background-color: #fff;
 	display: block;
 	letter-spacing: 0.01em;
 	transition: 0.5s cubic-bezier(0.77, 0, 0.175, 1);
@@ -795,7 +793,7 @@ Info.css
 	background-position: center;
 }
 #work-pinterest{
-	background-image: url("../assets/pinterest/pinterest-logo.png");
+	background-image: url("../assets/hero/pinterest-logo.png");
 	transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 }
 
