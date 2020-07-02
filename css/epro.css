@@ -451,7 +451,7 @@ progress::-moz-progress-bar {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: #d4f0eb;
+	background-color: #ebf6f7;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -981,6 +981,10 @@ border-radius: 8px;
 	.full-greet-content-about{
 			width: 100%;
 		}
+
+	.full-greet-wrapper-about {
+		height: 50vh
+	}
 
 	#about-headline{
 		font-size: 32px;
