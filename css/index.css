@@ -413,11 +413,11 @@ Navigation
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: #edf3f2;
+	background-color: #fafafa;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* background-image: url("../assets/hero/full-banner-about.png"); */
+	background-image: url("../assets/illy/pattern.png");
 }
 
 .full-banner-wrapper-first{

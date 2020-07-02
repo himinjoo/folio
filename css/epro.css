@@ -370,7 +370,7 @@ progress::-moz-progress-bar {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url("../assets/about/hero.png");
+	background-image: url("../assets/about/about-hero.png");
 }
 .full-about-content-wrapper{
 	max-width: 1300px;
@@ -447,14 +447,15 @@ progress::-moz-progress-bar {
 	padding-bottom: 250px;
 	padding-right: 7.5%;
 	padding-left: 7.5%;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #ebf6f7;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	justify-content: center;
+align-items: center;
+background-image: url(../assets/illy/pattern2.png);
 }
 
 .full-quote-content-wrapper{
