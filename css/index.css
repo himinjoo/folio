@@ -32,6 +32,7 @@ html {
 	align-items: center;
 	padding-right: 40%;
 	margin-top: 150px;
+	height: 70vh;
 
 	-webkit-animation: fadein 0.3s ease; /* Safari, Chrome and Opera > 12.1 */
 	 -moz-animation: fadein 0.3s ease; /* Firefox < 16 */
@@ -45,7 +46,7 @@ Typography
 #hero-headline{
 	color: #323232;
 	font-weight: 400;
-	font-size: 72px;
+	font-size: 48px;
 	font-family: 'Karma', serif;
 ;
 
@@ -87,13 +88,12 @@ h4{
   font-size: 14px;
   font-weight: 500;
 	color: #767676;
-	letter-spacing: 1.7px;
+	letter-spacing: 0.4px;
 }
 .h4{
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
 	color: #323232;
-	letter-spacing: 1.7px;
 }
 .h4 p{
 padding-top: 0;
@@ -108,7 +108,7 @@ padding-top: 0;
 
 .bodycopy2{
 	font-size: 16px;
-	color: #767676;
+	color: #323232;
 	font-weight: 400;
 	line-height: 1.7;
 }
@@ -168,14 +168,13 @@ a.btn{
 	margin-top: 32px;
 	color: #323232;
 	font-weight: 500;
-	border: solid 1px #e0e0e0;
+	border: solid 2px #e0e0e0;
 	padding-left: 24px;
 	padding-right: 24px;
 	padding-top: 12px;
 	padding-bottom: 12px;
-	width: 144px;
 	text-align: center;
-	border-radius: 0;
+	border-radius: 16px;
 
 	transition: ease 0.2s;
 	transition-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
@@ -184,6 +183,7 @@ a.btn{
 a.btn:hover{
 	background-color: #424242;
 	color: #fff;
+	border: solid 2px #ffffff;
 }
 
 a.btn:focus, a.btn:active{
@@ -235,7 +235,7 @@ Navigation
   width: 100%;
   display: block;
   transition: top 0.3s;
-	z-index: 20002;
+	z-index: 22;
 	display: flex;
 	justify-content: center;
 	margin-top:none;
@@ -289,7 +289,6 @@ Navigation
 }
 #nav-wrapper{
 	background-color: #fff;
-	border-bottom: 1px solid #d5d5d5;
 	margin-top: 0;
 	width: 100%;
 	display: flex;
@@ -301,7 +300,7 @@ Navigation
 	padding-left: 7.5%;
 	padding-right: 7.5%;
 	transition: ease 0.3s;
-	z-index: 20000;
+	z-index: 20;
 	box-shadow: none;
 }
 
@@ -381,9 +380,8 @@ Navigation
 }
 
 .nav-active{
-	text-decoration: underline;
 	color:#323232;
-	font-weight: 400;
+	font-weight: 600;
 }
 
 .nav-link{
@@ -406,7 +404,7 @@ Navigation
 
 .full-banner-wrapper-intro{
 	width: 100%;
-	/* margin-top: 179px; */
+	margin-top: 150px;
 	padding-top: 150px;
 	padding-bottom: 150px;
 	padding-right: 7.5%;
@@ -414,7 +412,7 @@ Navigation
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: #F0F0EF;
+	background-color: #edf3f2;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -775,16 +773,13 @@ Info.css
 }
 .work-thumbnail{
 	width: 100%;
-	height: 328px;
+	height: 450px;
 	background-repeat: no-repeat;
 	background-size: auto 100%;
 	background-position: center;
 
 	transition: 0.3s;
 }
-.work-thumbnail:hover {
-    background-size: auto 110%;
-	}
 .work-thumbnail-sm{
 	width: 100%;
 	margin: 8px;
@@ -793,7 +788,7 @@ Info.css
 	background-position: center;
 }
 #work-pinterest{
-	background-image: url("../assets/hero/pinterest-logo.png");
+	background-image: url("../assets/pinterest/pinterest-thumbnail.jpg");
 	transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 }
 
@@ -822,7 +817,7 @@ Info.css
 	background-image: url("../assets/onduoapp/onduo-system.png");
 }
 #work-paired-check{
-	background-image: url("../assets/onduoapp/bag-bgm-phone.png");
+	background-image: url("../assets/onduoapp/onduo-hero.png");
 }
 #work-illy{
 	background-image: url("../assets/illustrations/modular-illy2.png");
@@ -885,6 +880,13 @@ footer{
 #index-footer{
 	background-color: #242424;
 }
+
+.divline{
+	width: 100%;
+	height: 1px;
+	background-color: #e0e0e0;
+}
+
 .footer-div{
 	padding-bottom: 56px;
 	padding-left: 7.5%;
@@ -928,16 +930,19 @@ footer{
 }
 #top-arrow{
 	font-size: 32px;
-	color: #000;
-	background-color: #e7e9ef;
+	color: #fff;
+	background-color: #323232;
+	border-radius: 100px;
+	padding: 4px;
 
+	transition: 0.2s ease;
 }
 #top-arrow:hover{
-	color: #4433ff;
-	background-color: #ebe9fd;
+	color: #fff;
+	background-color: #000000;
 }
 #back2Top {
-    width: 36px;
+    /* width: 36px; */
     overflow: hidden;
     z-index: 999;
     display: none;
@@ -949,7 +954,7 @@ footer{
     transform: rotate(270deg);
     position: fixed;
     bottom: 56px;
-    right: 5%;
+		right: 5%;
     background-color: transparent;
     color: #555;
     text-align: center;
@@ -971,14 +976,39 @@ footer{
 }
 .grid-container-col-2 {
   display: grid;
-  grid-template-columns: auto 32%;
+  grid-template-columns: 40% auto;
 	overflow: hidden;
 	max-width:1300px;
 	width: 100%;
+	margin-bottom: 56px;
+}
+.grid-container-col-4 {
+	margin-top: 16px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+	overflow: hidden;
+	max-width:1300px;
+	width: 100%;
+	margin-bottom: 56px;
+}
+.grid-container-col-4 .grid-item{
+	padding: 8px;
+  font-size: 30px;
+	height: 280px;
+	display: flex;
+	flex-direction: column;
+}
+.grid-container-col-4 .grid-item-left{
+	padding-left: 0px;
+	padding-right: 24px;
 }
 
+.grid-container-col-4 .grid-item-right{
+	padding-left: 0px;
+	padding-right: 0px;
+}
 .grid-item {
-  padding: 24px;
+  padding: 32px;
 	padding-bottom: 32px;
   font-size: 30px;
 	display: flex;
@@ -991,9 +1021,9 @@ footer{
 }
 .grid-item-text{
 	text-align: left;
-	padding: 16px;
+	padding: 32px;
 	padding-left: 0px;
-	padding-top: 24px;
+	padding-top: 32px;
 }
 .grid-item-text p{
 	padding-top: 8px;
@@ -1006,7 +1036,92 @@ footer{
 }
 
 
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 200003; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
 @media (max-width: 1025px) {
+	.grid-container-col-4 {
+		margin-top: 16px;
+	  display: grid;
+	  grid-template-columns: 50% auto;
+		overflow: hidden;
+	}
 
 	.flexbox{
 		display: block;
@@ -1090,6 +1205,13 @@ footer{
 		overflow: hidden;
 		width: 100%;
 	}
+	.grid-container-col-4 {
+		margin-top: 16px;
+		display: grid;
+		grid-template-columns: 50% auto;
+		overflow: hidden;
+	}
+
 	.grid-item {
     padding: 0px;
     padding-bottom: 56px;
@@ -1106,6 +1228,7 @@ footer{
     width: 100%;
 	}
 	.full-banner-wrapper-intro {
+		margin-top: 0;
 		padding-top: 7.5%;
 		padding-bottom: 7.5%;
 		padding-right: 7.5%;
@@ -1129,7 +1252,7 @@ footer{
 		margin-top: 32px;
 	}
 	#hero-headline {
-		font-size: 72px;
+		font-size: 48px;
 		}
 }
 @media (max-width: 560px) {
@@ -1167,11 +1290,18 @@ footer{
 		overflow: hidden;
 		width: 100%;
 	}
+
 	.grid-container-col-2{
 		display: inline-block;
 		grid-template-columns: 100% auto;
 		overflow: hidden;
 		width: 100%;
+	}
+	.grid-container-col-4 {
+		margin-top: 16px;
+		display: inline-block;
+		grid-template-columns: 100% auto;
+		overflow: hidden;
 	}
 	.project-container {
 	    padding-left: 7.5%;

@@ -376,10 +376,17 @@ progress::-moz-progress-bar {
 	width: 100%;
 }
 
+.divline{
+	width: 100%;
+	height: 1px;
+	background-color: #e0e0e0;
+	margin-top: 56px;
+}
+
 .full-greet-wrapper-about{
 	width: 100%;
 	margin-top: 179px;
-	height: 60vh;
+	height: 70vh;
 	padding-right: 7.5%;
 	padding-left: 7.5%;
 	background-attachment: fixed;
@@ -443,7 +450,7 @@ progress::-moz-progress-bar {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: #f3f8fa;
+	background-color: #edf3f2;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -624,7 +631,7 @@ ul{
 }
 #reflect{
 	width: 100%;
-  background-color: #F0F0EF;
+  background-color: #edf3f2;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -766,7 +773,7 @@ background-position: center;
 border-radius: 8px;
 }
 #other-project-verily{
-background-image: url("../assets/hero/verily-logo.png");
+background-image: url("../assets/verily/verily-logo-white.png");
 transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 width: 100%;
 height:100%;
@@ -830,7 +837,7 @@ border-radius: 8px;
 	align-items: flex-end;
 }
 #footer-text{
-	color: #d5d5d5;
+	color: #767676;
 	font-size: 12px;
 }
 #top-arrow{
@@ -841,8 +848,8 @@ border-radius: 8px;
 	padding: 4px;
 
 	transition: 0.2s ease;
-
 }
+
 #top-arrow:hover{
 	color: #fff;
 	background-color: #000000;
@@ -1028,7 +1035,7 @@ footer{
 }
 
 .footer-div{
-	background-color: #242424;
+	background-color: #fafafa;
 	padding-bottom: 56px;
 	padding-left: 7.5%;
 	padding-right: 7.5%;

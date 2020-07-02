@@ -32,7 +32,7 @@
 Navigation
 */
 #secondNavbar {
-  background-color: #fff;
+  background-color: #f7f7f6;
   position: fixed;
   top: -60px;
 	height: 39px;
@@ -92,7 +92,6 @@ Navigation
 	display:none;
 }
 #nav-wrapper{
-	border-bottom: 1px solid #d5d5d5;
 	background-color: #fff;
 	margin-top: 0;
 	width: 100%;
@@ -181,8 +180,7 @@ Navigation
 }
 .nav-active{
 	color:#424242;
-	text-decoration: underline;
-	font-weight: 400;
+	font-weight: 600;
 	}
 
 .nav-link{

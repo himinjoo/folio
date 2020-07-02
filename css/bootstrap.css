@@ -5540,7 +5540,7 @@ a.badge-dark:hover, a.badge-dark:focus {
   background-color: #1b1e21;
   border-color: #1b1e21;
 }
-
+/* 
 .close {
   float: right;
   font-size: 1.5rem;
@@ -5549,7 +5549,7 @@ a.badge-dark:hover, a.badge-dark:focus {
   color: #000;
   text-shadow: 0 1px 0 #fff;
   opacity: .5;
-}
+} */
 
 .close:hover {
   color: #000;
