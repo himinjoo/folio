@@ -781,6 +781,15 @@ Info.css
 
 	transition: 0.3s;
 }
+
+.work-thumbnail-other{
+	width: 100%;
+	height: 226px;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+}
+
 .work-thumbnail-sm{
 	width: 100%;
 	margin: 8px;
@@ -831,6 +840,14 @@ Info.css
 	height: 495px;
 }
 
+#work-thumbnail-ar{
+	background-image: url("../assets/others/ar-proto.mp4");
+}
+
+#work-thumbnail-illy{
+	background-image: url("../assets/others/light-night.gif");
+}
+
 #contact{
 	background-image: url("../assets/hero/illy9.png");
 	transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
@@ -878,9 +895,7 @@ footer{
 	width: 100%;
 	max-width: 1300px;
 }
-#index-footer{
-	background-color: #242424;
-}
+
 
 .divline{
 	width: 100%;
@@ -913,7 +928,7 @@ footer{
 	align-items: flex-end;
 }
 #footer-text{
-	color: #d5d5d5;
+	color: #424242;
 	font-size: 12px;
 }
 
@@ -995,7 +1010,6 @@ footer{
 .grid-container-col-4 .grid-item{
 	padding: 8px;
   font-size: 30px;
-	height: 280px;
 	display: flex;
 	flex-direction: column;
 }
@@ -1029,8 +1043,9 @@ footer{
 .grid-item-text p{
 	padding-top: 8px;
 }
-.grid-item-left{
-	padding-left: 0;
+.grid-container-col-4 .grid-item-left{
+	padding-left: 0px;
+	padding-right: 24px;
 }
 .grid-item-right{
 	padding-right: 0;
@@ -1169,6 +1184,11 @@ footer{
 		width: 100%;
 		height: 240px;
 	}
+
+	.work-thumbnail-other{
+		width: 100%;
+		height: 328px;
+	}
 	#flexbox1{
 		margin-bottom:120px;
 		/* display: flex;
@@ -1217,7 +1237,15 @@ footer{
     padding: 0px;
     padding-bottom: 56px;
 	}
-
+	.grid-container-col-4 {
+		margin-top: 16px;
+		display: inline-block;
+		grid-template-columns: 100% auto;
+		overflow: hidden;
+	}
+	.grid-container-col-4 .grid-item-left{
+		padding:0px;
+	}
 
 	.full-banner-content-intro {
 		width: 100%;
@@ -1269,6 +1297,8 @@ footer{
 		margin: 0px;
 		margin-bottom: 32px;
 	  }
+
+
 	.banner-grid-item{
 			margin-bottom: 0;
 		}
@@ -1298,12 +1328,7 @@ footer{
 		overflow: hidden;
 		width: 100%;
 	}
-	.grid-container-col-4 {
-		margin-top: 16px;
-		display: inline-block;
-		grid-template-columns: 100% auto;
-		overflow: hidden;
-	}
+
 	.project-container {
 	    padding-left: 7.5%;
 	    padding-right: 7.5%;
