@@ -447,7 +447,7 @@ progress::-moz-progress-bar {
 	padding-right: 7.5%;
 	padding-left: 7.5%;
 	background-size: cover;
-	background-color: #ebf6f7;
+	background-color: #f4f9f9;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -1048,7 +1048,7 @@ footer{
 }
 
 .footer-div{
-	background-color: #e0efef;
+	background-color: #e8f3f3;
 	padding-bottom: 56px;
 	padding-left: 7.5%;
 	padding-right: 7.5%;
