@@ -387,8 +387,7 @@ progress::-moz-progress-bar {
 
 .full-greet-wrapper-about{
 	width: 100%;
-	margin-top: 279px;
-	height: 70vh;
+	margin-top: 200px;
 	padding-right: 7.5%;
 	padding-left: 7.5%;
 	background-attachment: fixed;
@@ -398,7 +397,6 @@ progress::-moz-progress-bar {
 	background-color: #fff;
 	display: flex;
 	justify-content: center;
-	align-items: center;
 
 	-webkit-animation: fadein 0.5s ease; /* Safari, Chrome and Opera > 12.1 */
 	 -moz-animation: fadein 0.5s ease; /* Firefox < 16 */
@@ -408,7 +406,7 @@ progress::-moz-progress-bar {
 }
 
 .full-greet-content-about{
-	width: 70%;
+	width: 85%;
 	float: left;
 
 }
@@ -442,7 +440,7 @@ progress::-moz-progress-bar {
 
 .full-quote-wrapper-about{
 	width: 100%;
-	margin-top: 179px;
+	margin-top: 56px;
 	height: 70vh;
 	padding-top: 250px;
 	padding-bottom: 250px;
@@ -881,6 +879,12 @@ border-radius: 8px;
 
 
 @media (max-width: 890px) {
+	.grid-container-2-col{
+	  display: block;
+	}
+	.full-greet-item{
+		margin-bottom: 32px;
+	}
 	.material-icons.md-18 {
 		font-size: 18px;
 	}
@@ -987,10 +991,6 @@ border-radius: 8px;
 	.full-greet-content-about{
 			width: 100%;
 		}
-
-	.full-greet-wrapper-about {
-		height: 50vh
-	}
 
 	#about-headline{
 		font-size: 32px;
