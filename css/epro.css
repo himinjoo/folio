@@ -880,10 +880,11 @@ border-radius: 8px;
 
 @media (max-width: 890px) {
 	.grid-container-2-col{
-	  display: block;
+	  display: flex;
+		flex-direction: column-reverse;
 	}
 	.full-greet-item{
-		margin-bottom: 32px;
+		margin-top: 32px;
 	}
 	.material-icons.md-18 {
 		font-size: 18px;
@@ -1019,7 +1020,8 @@ border-radius: 8px;
 		padding: 0px;
 	}
 	.grid-container-2-col{
-		display: inline-block;
+		display: flex;
+		flex-direction: column-reverse;
 		grid-template-columns: 100% auto;
 		overflow: hidden;
 		width: 100%;
