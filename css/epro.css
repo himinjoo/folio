@@ -447,7 +447,7 @@ progress::-moz-progress-bar {
 	padding-right: 7.5%;
 	padding-left: 7.5%;
 	background-size: cover;
-	background-color: #f4f9f9;
+	background-color: #f0f7ff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -468,7 +468,7 @@ align-items: center;
 	padding: 24px;
 }
 .full-quote-item-text{
-	border-left: 4px solid;
+	border-left: 4px solid #007bff;
 	padding-left: 24px;
 	text-align: left;
 }
@@ -1048,7 +1048,7 @@ footer{
 }
 
 .footer-div{
-	background-color: #e8f3f3;
+	background-color: #dcecec;
 	padding-bottom: 56px;
 	padding-left: 7.5%;
 	padding-right: 7.5%;
