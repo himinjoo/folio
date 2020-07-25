@@ -333,7 +333,7 @@ progress::-moz-progress-bar {
 .quotes-line{
 	height: 4px;
 	width: 100px;
-	background-color: #0c9dad;
+	background-color: #007bff;
 	margin: 56px 0;
 }
 
@@ -541,7 +541,7 @@ align-items: center;
   align-items: center;
 }
 .call-out{
-    border-left: 4px solid #0c9dad;
+    border-left: 4px solid #007bff;
 		padding-left: 24px;
 }
 
@@ -633,7 +633,7 @@ ul{
 }
 #reflect{
 	width: 100%;
-  background-color: #edf3f2;
+  background-color: #f4f9ff;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1048,7 +1048,7 @@ footer{
 }
 
 .footer-div{
-	background-color: #dcecec;
+	background-color: #eaf2fb;
 	padding-bottom: 56px;
 	padding-left: 7.5%;
 	padding-right: 7.5%;
