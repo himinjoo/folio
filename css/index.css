@@ -33,7 +33,7 @@ html {
 	align-items: center;
 	padding-left: 40%;
 	margin-top: 150px;
-	
+
 	-webkit-animation: fadein 0.3s ease; /* Safari, Chrome and Opera > 12.1 */
 	 -moz-animation: fadein 0.3s ease; /* Firefox < 16 */
 		-ms-animation: fadein 0.3s ease; /* Internet Explorer */
@@ -1343,7 +1343,7 @@ footer{
 		padding-left: 0px;
 	}
 	#hero-headline {
-    font-weight: 100;
+    font-weight: 300;
     font-size: 24px;
     text-align: left;
 		width: 100%;
@@ -1358,6 +1358,9 @@ footer{
     padding-left: 0%;
 		padding-right: 0%;
 		margin-top: 200px;
+	}
+	.headline{
+		padding-left: 0;
 	}
 }
 
