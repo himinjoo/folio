@@ -1040,6 +1040,8 @@ footer{
 .grid-item-text{
 	text-align: left;
 	padding-bottom: 56px;
+	padding-right: 32px;
+	padding-top: 32px;
 }
 .grid-item-text p{
 	padding-top: 8px;
@@ -1227,6 +1229,12 @@ footer{
 		grid-template-columns: 100% auto;
 		overflow: hidden;
 		width: 100%;
+	}
+	.grid-item-text{
+		text-align: left;
+		padding-bottom: 56px;
+		padding-right: 0px;
+		padding-top: 0px;
 	}
 	.grid-container-col-4 {
 		margin-top: 16px;
