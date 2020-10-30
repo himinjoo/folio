@@ -33,8 +33,7 @@ html {
 	align-items: center;
 	padding-left: 40%;
 	margin-top: 150px;
-	height: 40vh;
-
+	
 	-webkit-animation: fadein 0.3s ease; /* Safari, Chrome and Opera > 12.1 */
 	 -moz-animation: fadein 0.3s ease; /* Firefox < 16 */
 		-ms-animation: fadein 0.3s ease; /* Internet Explorer */
