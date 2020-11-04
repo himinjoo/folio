@@ -90,7 +90,7 @@ h2{
 h3{
   font-size: 24px;
   font-weight: lighter;
-	color: #424242;
+	color: #757575;
 	font-family: 'roboto', sans-serif;
 }
 
@@ -169,7 +169,6 @@ h3{
   color: #336fe0;
   font-weight: 400;
 	text-decoration: none;
-	font-size: 18px;
 
 	transition: ease 0.2s;
 }
@@ -343,6 +342,18 @@ progress::-moz-progress-bar {
   justify-content: center;
   align-items: center;
 
+}
+
+.img-project{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.img-project-text{
+	min-width: 700px;
+	max-width: 700px;
+	padding-top: 24px;
 }
 
 .project-story-about{

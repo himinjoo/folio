@@ -15,7 +15,6 @@ html {
 .headline{
 	height: 50vh;
 	width: 800px;
-	padding-left: 32px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -31,7 +30,6 @@ html {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-left: 40%;
 	margin-top: 176px;
 
 	-webkit-animation: fadein 0.3s ease; /* Safari, Chrome and Opera > 12.1 */
@@ -176,14 +174,14 @@ a.btn{
 	padding-top: 12px;
 	padding-bottom: 12px;
 	text-align: center;
-	border-radius: 8px;
+	border-radius: 16px;
 
 	transition: ease 0.2s;
 	transition-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
 }
 
 a.btn:hover{
-	background-color: #323232;
+	background-color: #424242;
 	color: #fff;
 	border: solid 2px #ffffff;
 }
@@ -411,6 +409,15 @@ Navigation
 	font-size: 14px;
 }
 
+.graphic-page-wrapper{
+	min-height: 100vh;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: flex-end;
+}
+
 .full-banner-wrapper-intro{
 	width: 100%;
 	margin-top: 150px;
@@ -545,7 +552,6 @@ Navigation
 	width: 100%;
 	padding-left: 7.5%;
 	padding-right: 7.5%;
-	margin-top: 96px;
 	display: block;
 	justify-content: center;
 
@@ -915,7 +921,6 @@ footer{
 	padding-bottom: 56px;
 	padding-left: 7.5%;
 	padding-right: 7.5%;
-	margin-top: 0;
 	margin-bottom: 0;
 	font-size: 14px;
 	display: inline-block;

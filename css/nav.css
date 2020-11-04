@@ -35,7 +35,7 @@ Navigation
   background-color: #111111;
   position: fixed;
   top: -60px;
-	height: 39px;
+	height: 40px;
   width: 100%;
   display: block;
   transition: top 0.3s;
@@ -48,6 +48,10 @@ Navigation
 
 	transition-delay: 0.2s;
 	transition-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+#secondNavbar .nav-btn-left {
+    margin-right: 24px;
 }
 
 #navText{
@@ -136,7 +140,7 @@ Navigation
   color: #242424 !important;
 } */
 .nav-btn-left{
-  margin-right: 56px;
+  margin-right: 80px;
 }
 .nav-bg{
   background-color: white;
