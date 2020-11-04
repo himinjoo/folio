@@ -348,8 +348,6 @@ progress::-moz-progress-bar {
 	width: 100%;
 	padding-top: 60px;
 	padding-bottom: 60px;
-	padding-left:40%;
-	padding-right: 40%;
 
 	display: inline-block;
 	justify-content: center;
