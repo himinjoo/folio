@@ -889,6 +889,13 @@ border-radius: 8px;
 
 
 @media (max-width: 890px) {
+
+	.img-project-text{
+		min-width: 100%;
+		max-width: 100%;
+		padding-top: 24px;
+	}
+
 	.grid-container-2-col{
 	  display: flex;
 		flex-direction: column-reverse;
