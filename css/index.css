@@ -806,7 +806,7 @@ Info.css
 	background-position: center;
 }
 #work-pinterest{
-	background-image: url("../assets/pinterest/story-pin-hero.png");
+	background-image: url("../assets/story-pin-hero.png");
 	transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
 }
 
