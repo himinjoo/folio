@@ -344,6 +344,20 @@ progress::-moz-progress-bar {
 
 }
 
+.img-project-wrapper{
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	padding-left:40%;
+	padding-right: 40%;
+
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	background-color: #D8D5FC;
+
+}
+
 .img-project{
 	display: flex;
 	flex-direction: column;
